@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"aTopicWish" : "jw 6/23/2013 20:00",
+		"aTopicWish:" : "jw 6/23/2013 20:00",
+		"aUser" : "KM 6/19/2013 22:57",
+		"aUser:" : "KM 6/19/2013 22:57",
+		"group" : "jw 6/23/2013 19:57",
+		"group:" : "jw 6/23/2013 19:57",
+		"setUp" : "fm 7/8/2013 18:41",
+		"testAddMember" : "jw 6/23/2013 20:10",
+		"testAddTopicWish" : "fm 7/8/2013 18:43",
+		"testRemoveAllMembers" : "jw 6/23/2013 19:58",
+		"testRemoveMember" : "jw 6/23/2013 20:13",
+		"testRemoveTopicWish" : "fm 7/15/2013 14:47" } }

@@ -1,0 +1,19 @@
+{
+	"category" : "NeuDeli-Interaction-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"assignment",
+		"course",
+		"parent",
+		"specificDeadlineText",
+		"assignmentPartEditors",
+		"assignmentEditorID" ],
+	"name" : "NDAssignmentEditorComponent",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }

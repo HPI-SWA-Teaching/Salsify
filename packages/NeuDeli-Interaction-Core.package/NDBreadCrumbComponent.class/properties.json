@@ -1,0 +1,15 @@
+{
+	"category" : "NeuDeli-Interaction-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"course",
+		"currentPageString" ],
+	"name" : "NDBreadCrumbComponent",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }

@@ -1,0 +1,19 @@
+{
+	"category" : "NeuDeli-Data",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"number",
+		"tutors",
+		"members",
+		"topic",
+		"topicdescription",
+		"topicWishes" ],
+	"name" : "NDGroup",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

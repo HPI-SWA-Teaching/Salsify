@@ -1,0 +1,19 @@
+{
+	"category" : "NeuDeli-Interaction-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"parent",
+		"group",
+		"nullTopic",
+		"topicList",
+		"selectedTopic",
+		"whichWish" ],
+	"name" : "NDPickerTopicSelectorComponent",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }

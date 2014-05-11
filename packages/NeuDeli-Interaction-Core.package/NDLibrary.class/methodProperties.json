@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"adminIdentifiers" : "fm 7/17/2013 17:22",
+		"applicationName" : "fm 7/8/2013 21:55",
+		"debug" : "fm 7/15/2013 14:27",
+		"domainString" : "fm 7/17/2013 16:29",
+		"pathString" : "fm 7/17/2013 16:31" },
+	"instance" : {
+		"controlElementsCss" : "fm 6/23/2013 12:10",
+		"courseCss" : "fm 7/16/2013 11:59",
+		"courseEditorCss" : "fm 6/27/2013 22:17",
+		"courseOverviewCss" : "fm 5/16/2013 09:48",
+		"disableAutocompleteJs" : "fm 7/15/2013 15:37",
+		"generalCss" : "fm 7/8/2013 23:48",
+		"inputFocusJs" : "fm 7/15/2013 15:40",
+		"loginCss" : "fm 7/8/2013 23:38",
+		"logoHPISvg" : "fm 7/9/2013 00:03",
+		"logoSalsifySvg" : "StephanHaarmann 5/11/2014 12:23",
+		"notificationCss" : "fm 5/16/2013 11:34",
+		"pageCss" : "fm 7/13/2013 13:10",
+		"saveNotificationJs" : "fm 7/15/2013 15:41",
+		"selectorsToInclude" : "fm 7/15/2013 15:36" } }

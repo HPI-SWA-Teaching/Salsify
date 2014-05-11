@@ -1,0 +1,14 @@
+{
+	"category" : "NeuDeli-Data",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"filesByAssignmentPart" ],
+	"name" : "NDSubmission",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

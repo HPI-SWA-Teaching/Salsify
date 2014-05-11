@@ -1,0 +1,3 @@
+running
+sessionClass
+	^NDTestSession 

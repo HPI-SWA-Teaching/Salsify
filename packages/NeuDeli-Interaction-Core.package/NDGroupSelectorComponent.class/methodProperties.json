@@ -1,0 +1,19 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"course" : "fm 5/26/2013 15:29:17.603",
+		"course:" : "fm 7/16/2013 20:17",
+		"initialize" : "fm 7/16/2013 20:21",
+		"mergeGroupOf:into:" : "fm 7/16/2013 20:25",
+		"nullUser" : "fm 5/26/2013 15:29:36.297",
+		"nullUser:" : "fm 5/26/2013 15:29:36.746",
+		"parent" : "fm 5/26/2013 15:29:46.677",
+		"parent:" : "fm 5/26/2013 15:29:46.742",
+		"renderContentOn:" : "fm 7/16/2013 20:55",
+		"resetStudentList" : "fm 7/16/2013 20:20",
+		"selectedUser" : "fm 5/26/2013 15:29:54.641",
+		"selectedUser:" : "fm 7/16/2013 20:18",
+		"userList" : "fm 5/26/2013 15:30:01.835",
+		"userList:" : "fm 5/26/2013 15:30:01.883",
+		"validateGroupChange:" : "fm 7/16/2013 20:26" } }

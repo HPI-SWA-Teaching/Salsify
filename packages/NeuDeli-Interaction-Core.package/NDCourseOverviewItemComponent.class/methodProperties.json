@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"findCssClass" : "fm 7/16/2013 11:13",
+		"renderContentOn:" : "fm 7/16/2013 11:24",
+		"renderDisEnrollLinkOn:" : "fm 7/16/2013 11:20",
+		"renderEnrollLinkOn:" : "fm 7/16/2013 11:20",
+		"renderEnrollOrDisenrollLinkOn:" : "fm 7/16/2013 11:21",
+		"renderHeadingOn:" : "fm 7/16/2013 11:09",
+		"renderNextDeadlineOn:" : "fm 7/16/2013 11:28",
+		"renderTutorIndicatorOn:" : "fm 7/16/2013 11:22",
+		"userIsEnrolled" : "fm 7/16/2013 11:07",
+		"userIsTutor" : "fm 7/16/2013 11:07" } }

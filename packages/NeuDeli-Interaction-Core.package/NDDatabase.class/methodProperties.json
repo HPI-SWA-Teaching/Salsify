@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"clearCourses" : "fm 5/15/2013 20:55",
+		"clearUsers" : "fm 7/8/2013 17:56",
+		"courses" : "fm 7/8/2013 17:53",
+		"courses:" : "fm 7/8/2013 17:53",
+		"ndUsers" : "fm 5/15/2013 17:08",
+		"ndUsers:" : "fm 5/15/2013 17:08",
+		"writeMutex" : "fm 5/15/2013 17:07" },
+	"instance" : {
+		"addCourse:" : "fm 5/15/2013 18:57",
+		"addUser:" : "fm 5/26/2013 13:32:09.756",
+		"allAdmins" : "fm 7/15/2013 17:14",
+		"allStudents" : "fm 7/16/2013 17:50",
+		"createEmptyCourse" : "fm 7/15/2013 17:14",
+		"createFakeCourses" : "jw 6/20/2013 23:14",
+		"createFakeUsers" : "fm 7/17/2013 17:25",
+		"findUserByIdentity:" : "MalteMues 6/23/2013 00:11",
+		"removeCourse:" : "fm 5/24/2013 16:37:03.096",
+		"resetDatabase" : "fm 7/15/2013 11:38",
+		"resetDatabaseWithTestObjects" : "fm 7/15/2013 11:37",
+		"saveImage" : "fm 5/15/2013 17:10",
+		"saveImageWithoutMonitor" : "fm 5/15/2013 17:10" } }

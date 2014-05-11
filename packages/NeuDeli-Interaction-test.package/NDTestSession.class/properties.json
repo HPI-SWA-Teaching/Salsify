@@ -1,0 +1,14 @@
+{
+	"category" : "NeuDeli-Interaction-test",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "NDTestSession",
+	"pools" : [
+		 ],
+	"super" : "NDSession",
+	"type" : "normal" }

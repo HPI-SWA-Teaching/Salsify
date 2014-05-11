@@ -1,0 +1,3 @@
+accessing
+selectedTopic
+	^ selectedTopic

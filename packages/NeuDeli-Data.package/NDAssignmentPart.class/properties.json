@@ -1,0 +1,15 @@
+{
+	"category" : "NeuDeli-Data",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"title",
+		"extensions" ],
+	"name" : "NDAssignmentPart",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

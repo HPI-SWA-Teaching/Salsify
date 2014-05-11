@@ -1,0 +1,21 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addFile:toSubmission:forAssignmentPart:" : "fm 7/15/2013 19:00",
+		"downloadFile:" : "fm 6/26/2013 14:31",
+		"file:hasAllowedExtensionFor:" : "fm 7/16/2013 19:33",
+		"getAlreadyUploadedFileForAssignmentPart:ofAssignment:" : "fm 7/16/2013 19:57",
+		"group" : "fm 6/24/2013 20:13",
+		"group:" : "fm 6/24/2013 20:13",
+		"parent" : "fm 6/11/2013 11:56",
+		"parent:" : "fm 6/11/2013 11:56",
+		"receiveFile:forAssignment:andAssignmentPart:" : "fm 7/16/2013 19:34",
+		"renderAssignmentsSubmitterOn:" : "fm 7/16/2013 19:57",
+		"renderContentOn:" : "fm 7/16/2013 11:44",
+		"renderGroupAndTopicStringOn:" : "fm 7/16/2013 10:26",
+		"renderHeadingOn:" : "fm 7/16/2013 11:44",
+		"renderSubmitPartFormWithID:forAssignmentPart:ofAssignment:andIsOverwriteAction:on:" : "fm 7/16/2013 20:13",
+		"renderSubmitterForAssignment:withAssignmentID:on:" : "fm 7/16/2013 19:58",
+		"renderTitleOfAssignmentPart:on:" : "fm 7/16/2013 20:02",
+		"renderUploaderForAssignment:andAssignmentPart:andIsOverwriteAction:on:" : "fm 7/16/2013 20:09" } }

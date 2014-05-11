@@ -1,0 +1,18 @@
+{
+	"category" : "NeuDeli-Gemstoneport",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"parent",
+		"assignmentPart",
+		"extensionEditors",
+		"assignmentPartEditorID",
+		"assignmentEditorID" ],
+	"name" : "NDAssignmentPartEditorComponentGEM",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }

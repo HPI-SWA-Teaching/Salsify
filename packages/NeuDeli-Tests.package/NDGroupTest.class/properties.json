@@ -1,0 +1,16 @@
+{
+	"category" : "NeuDeli-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"group",
+		"aUser",
+		"aTopicWish" ],
+	"name" : "NDGroupTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

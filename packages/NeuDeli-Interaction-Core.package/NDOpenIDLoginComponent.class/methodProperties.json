@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"loginAsRobert" : "fm 7/13/2013 14:37",
+		"openIDLogin:" : "fm 7/17/2013 16:32",
+		"password" : "fm 7/16/2013 17:25",
+		"password:" : "fm 7/16/2013 17:25",
+		"renderContentOn:" : "fm 7/16/2013 17:25",
+		"renderDatabaseResetButtonsOn:" : "fm 7/15/2013 14:25",
+		"renderDebugLoginFormOn:" : "fm 7/16/2013 17:26",
+		"renderDebugLoginShortcutsOn:" : "fm 7/16/2013 17:26",
+		"renderDebugToolsOn:" : "fm 7/15/2013 14:28",
+		"renderOpenIDLoginLinkOn:" : "fm 7/16/2013 17:25",
+		"username" : "fm 7/16/2013 17:26",
+		"username:" : "fm 7/16/2013 17:26",
+		"validateLogin" : "fm 7/13/2013 14:36" } }

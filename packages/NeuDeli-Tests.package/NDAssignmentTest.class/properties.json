@@ -1,0 +1,15 @@
+{
+	"category" : "NeuDeli-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"assignment",
+		"anAssignmentPart" ],
+	"name" : "NDAssignmentTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

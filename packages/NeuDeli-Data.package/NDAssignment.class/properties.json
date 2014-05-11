@@ -1,0 +1,19 @@
+{
+	"category" : "NeuDeli-Data",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"title",
+		"submissionsByGroup",
+		"assignmentParts",
+		"deadlinesByGroup",
+		"generalDeadline",
+		"groupDeadlines" ],
+	"name" : "NDAssignment",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

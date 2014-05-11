@@ -1,0 +1,19 @@
+{
+	"category" : "NeuDeli-Interaction-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"parent",
+		"course",
+		"group",
+		"selectedTutor",
+		"tutorList",
+		"nullTutor" ],
+	"name" : "NDGroupTutorEditComponent",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }

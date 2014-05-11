@@ -1,0 +1,18 @@
+{
+	"category" : "NeuDeli-Data",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "fm 5/26/2013 15:22:47.11",
+	"instvars" : [
+		"isAdmin",
+		"studentIn",
+		"username",
+		"email",
+		"identity" ],
+	"name" : "NDUser",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

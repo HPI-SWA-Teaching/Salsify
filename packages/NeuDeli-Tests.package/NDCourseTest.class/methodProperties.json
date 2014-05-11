@@ -1,0 +1,21 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"aAssignment" : "jw 6/23/2013 19:36",
+		"aAssignment:" : "jw 6/23/2013 19:36",
+		"aGroup" : "jw 6/19/2013 17:29",
+		"aGroup:" : "jw 6/19/2013 17:29",
+		"aTutor" : "jw 6/23/2013 19:13",
+		"aTutor:" : "jw 6/23/2013 19:13",
+		"course" : "jw 6/19/2013 17:35",
+		"course:" : "jw 6/19/2013 17:35",
+		"setUp" : "jw 6/23/2013 20:07",
+		"testAddAssignment" : "jw 6/23/2013 20:10",
+		"testAddGroup" : "jw 6/23/2013 20:10",
+		"testAddTutor" : "jw 6/23/2013 20:10",
+		"testRemoveAssignment" : "jw 6/23/2013 20:10",
+		"testRemoveEmptyAssignment" : "jw 6/23/2013 19:41",
+		"testRemoveGroup" : "jw 6/23/2013 20:10",
+		"testRemoveTopicFromPool" : "jw 6/23/2013 19:52",
+		"testRemoveTutor" : "jw 6/23/2013 20:10" } }

@@ -1,0 +1,27 @@
+{
+	"category" : "NeuDeli-Data",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"title",
+		"year",
+		"isInSummer",
+		"website",
+		"mailinglist",
+		"tutors",
+		"groups",
+		"topicPool",
+		"hasTopicpool",
+		"hasTopics",
+		"published",
+		"groupDeadline",
+		"maximumGroupSize",
+		"assignments" ],
+	"name" : "NDCourse",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
