@@ -74,6 +74,7 @@ input:focus, a.button:focus, textarea:focus {
 a.bigButton {
 	padding: 2mm 1.5cm;
 	font-size: 11pt;
+	margin: 0mm; 
 }
 
 input[type="radio"] {

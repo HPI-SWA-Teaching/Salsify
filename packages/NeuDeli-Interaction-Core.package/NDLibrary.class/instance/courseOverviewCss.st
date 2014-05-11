@@ -5,9 +5,10 @@ div.courseOverviewItem {
 	border: 1px solid #e5e5e5;
 	padding: 0.5cm 1cm;
 	background: #F3F3F3;
-	margin: 5mm;
+	margin: 0 mm;
 	padding: 4mm;
 	position: relative;
+	margin-top: 5mm; 
 }
 
 
