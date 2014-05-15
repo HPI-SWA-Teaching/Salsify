@@ -15,7 +15,7 @@ baseline: spec
 		spec
 			group: 'default' with: #('NeuDeli-Interaction-Core' 'NeuDeli-Data');
 			group: 'core' with: #('NeuDeli-Interaction-Core');
-			group: 'Tests' with: #('NeuDeli-Interaction-Tests' 'NeuDeli-Tests');
+			group: 'Tests' with: #('NeuDeli-Interaction-tests' 'NeuDeli-Tests');
 			group: 'TravisCI' with: #('Tests');
 			yourself.
 		"external projects"
