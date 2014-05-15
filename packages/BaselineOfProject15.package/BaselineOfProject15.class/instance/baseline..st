@@ -7,7 +7,7 @@ baseline: spec
 		"packages"
 		spec
 			package: 'NeuDeli-Interaction-Core' with: [ spec requires: #('Seaside3' 'Zodiac')];
-			package: 'NeuDeli-Interaction-tests' with: [ spec requires: #('default' 'Parasol') ];
+			package: 'NeuDeli-Interaction-test' with: [ spec requires: #('default' 'Parasol') ];
 			package: 'NeuDeli-Data' with: [spec requires: #('core')];
 			package: 'NeuDeli-Tests'  with: [spec requires: #('default' 'Parasol')].
 			"package: 'Zodiac-Core'  with: [spec requires: #('default')]."
@@ -15,7 +15,7 @@ baseline: spec
 		spec
 			group: 'default' with: #('NeuDeli-Interaction-Core' 'NeuDeli-Data');
 			group: 'core' with: #('NeuDeli-Interaction-Core');
-			group: 'Tests' with: #('NeuDeli-Interaction-tests' 'NeuDeli-Tests');
+			group: 'Tests' with: #('NeuDeli-Interaction-test' 'NeuDeli-Tests');
 			group: 'TravisCI' with: #('Tests');
 			yourself.
 		"external projects"
