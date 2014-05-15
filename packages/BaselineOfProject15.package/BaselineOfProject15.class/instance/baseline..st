@@ -7,7 +7,7 @@ baseline: spec
 		"packages"
 		spec
 			package: 'NeuDeli-Interaction-Core' with: [ spec requires: #('Seaside3' 'Zodiac')];
-			package: 'NeuDeli-Interaction-Tests' with: [ spec requires: #('default' 'Parasol') ];
+			package: 'NeuDeli-Interaction-tests' with: [ spec requires: #('default' 'Parasol') ];
 			package: 'NeuDeli-Data' with: [spec requires: #('core')];
 			package: 'NeuDeli-Tests'  with: [spec requires: #('default' 'Parasol')].
 			"package: 'Zodiac-Core'  with: [spec requires: #('default')]."
