@@ -14,6 +14,10 @@ input[type="checkbox"] {
 	margin-bottom: 5mm
 }
 
+input[type="file"] {  
+	font-weight: bold;
+}
+
 label {
 	display:block;
 	font-size:11pt;
