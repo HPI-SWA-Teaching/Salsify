@@ -22,17 +22,17 @@ courseCss
 .submitComponent .date {
 	display:block;
 	margin-top: -1.6em;
-	margin-right: 2cm;
+	margin-right: 26%;
 	text-align:center;
 	font-weight:normal;
 }
 
 div.submitComponent, div.submission {
-	padding: 0px 30px;
+	padding: 0px;
 }
 
 .submitComponent .title {
-	padding: 5px;
+	padding: 0px;
 	width: 6cm;
 }
 
@@ -66,9 +66,12 @@ div.submitComponent, div.submission {
 	padding: 5px 5px 0 5px;
 	word-wrap: break-word;
 	width: 390px;
+	padding: 2mm 3mm;
 }
 
-
+table {  
+	border-spacing: 0px;
+ }
 
  .tdText {
 	display:block;

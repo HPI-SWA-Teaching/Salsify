@@ -7,5 +7,6 @@ renderContentOn: html
 			html render: self breadCrumbComponent.
 			html render: self notificationComponent.
 			html render: self logoutComponent.
+			html render: self userProfileComponent.
 			html render: self contentComponent].
 	self hideNotifications

@@ -16,5 +16,5 @@ renderSubmitPartFormWithID: submitFormID forAssignmentPart: eachPart ofAssignmen
 											class: 'button';
 											onClick: (html scriptaculous updater
 															id: submitFormID;
-															callback: [:r | self renderSubmitPartFormWithID: submitFormID  forAssignmentPart: eachPart ofAssignment: anAssignment andIsOverwriteAction: true on: r]);
-											with: 'überschreiben']]]]
+															callback: [:r | self deleteFileFromSubmission: (anAssignment getSubmissionByGroup: self group) at: eachPart. self renderSubmitPartFormWithID: submitFormID  forAssignmentPart: eachPart ofAssignment: anAssignment andIsOverwriteAction: false on: r ]); 
+											with: 'löschen']]]]

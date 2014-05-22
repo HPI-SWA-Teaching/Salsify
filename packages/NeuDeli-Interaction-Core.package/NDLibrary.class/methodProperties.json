@@ -6,8 +6,8 @@
 		"domainString" : "fm 7/17/2013 16:29",
 		"pathString" : "fm 7/17/2013 16:31" },
 	"instance" : {
-		"controlElementsCss" : "jb 5/11/2014 14:21",
-		"courseCss" : "fm 7/16/2013 11:59",
+		"controlElementsCss" : "JB 5/18/2014 17:00",
+		"courseCss" : "JB 5/18/2014 16:54",
 		"courseEditorCss" : "fm 6/27/2013 22:17",
 		"courseOverviewCss" : "jb 5/11/2014 14:20",
 		"disableAutocompleteJs" : "fm 7/15/2013 15:37",
@@ -18,6 +18,6 @@
 		"logoHPISvg" : "sh 5/20/2014 12:13",
 		"logoSalsifySvg" : "sh 5/20/2014 12:23",
 		"notificationCss" : "fm 5/16/2013 11:34",
-		"pageCss" : "fm 7/13/2013 13:10",
+		"pageCss" : "JB 5/19/2014 11:34",
 		"saveNotificationJs" : "fm 7/15/2013 15:41",
 		"selectorsToInclude" : "fm 7/15/2013 15:36" } }

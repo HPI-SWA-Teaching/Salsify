@@ -33,5 +33,12 @@ h1 img {
 	width: 230px;
 }
 
+#userProfileLink {
+	position: absolute;
+	top: 2.8cm;
+	right: 2cm;
+}
+
+
 
 '
