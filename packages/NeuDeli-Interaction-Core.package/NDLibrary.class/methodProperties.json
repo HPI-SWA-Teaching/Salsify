@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"adminIdentifiers" : "fm 7/17/2013 17:22",
+		"adminIdentifiers" : "sh 5/20/2014 11:42",
 		"applicationName" : "fm 7/8/2013 21:55",
 		"debug" : "fm 7/15/2013 14:27",
 		"domainString" : "fm 7/17/2013 16:29",
@@ -12,10 +12,11 @@
 		"courseOverviewCss" : "jb 5/11/2014 14:20",
 		"disableAutocompleteJs" : "fm 7/15/2013 15:37",
 		"generalCss" : "fm 7/8/2013 23:48",
+		"handle:" : "sh 5/22/2014 07:24",
 		"inputFocusJs" : "fm 7/15/2013 15:40",
 		"loginCss" : "fm 7/8/2013 23:38",
-		"logoHPISvg" : "fm 7/9/2013 00:03",
-		"logoSalsifySvg" : "StephanHaarmann 5/11/2014 12:23",
+		"logoHPISvg" : "sh 5/20/2014 12:13",
+		"logoSalsifySvg" : "sh 5/20/2014 12:23",
 		"notificationCss" : "fm 5/16/2013 11:34",
 		"pageCss" : "fm 7/13/2013 13:10",
 		"saveNotificationJs" : "fm 7/15/2013 15:41",
