@@ -9,6 +9,7 @@ selectorsToInclude
 	#(courseOverviewCss),
 	#(courseCss),
 	#(courseEditorCss),
+	#(accountInfoCss),
 	
 	#(saveNotificationJs),
 	#(disableAutocompleteJs),

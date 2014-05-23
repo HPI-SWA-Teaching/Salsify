@@ -10,7 +10,8 @@
 		"studentIn",
 		"username",
 		"email",
-		"identity" ],
+		"identity",
+		"gitHubName" ],
 	"name" : "NDUser",
 	"pools" : [
 		 ],

@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"downloadFile:" : "MalteMues 7/7/2013 00:06",
-		"renderAllTutorsOfCourseOn:" : "fm 7/16/2013 18:06",
+		"renderAllTutorsOfCourseOn:" : "JB 5/22/2014 20:46",
 		"renderContentOn:" : "fm 7/16/2013 18:39",
 		"renderCourseInfoBoxOn:" : "fm 7/16/2013 18:20",
 		"renderDeadlineOfAssignment:forGroup:on:" : "fm 7/16/2013 18:55",
@@ -26,9 +26,9 @@
 		"renderSubmitComponentOn:" : "fm 7/16/2013 21:30",
 		"renderTopicPoolOn:" : "fm 7/16/2013 18:19",
 		"renderTopicSelectorOn:" : "fm 7/16/2013 18:36",
-		"renderTutorMailingListOn:" : "JB 5/19/2014 11:35",
+		"renderTutorMailingListOn:" : "JB 5/23/2014 16:59",
 		"renderTutorsOfGroup:on:" : "fm 7/16/2013 20:48",
-		"renderTutorsOn:" : "JB 5/19/2014 11:35",
+		"renderTutorsOn:" : "JB 5/22/2014 20:41",
 		"renderWebsiteLinkOn:" : "fm 7/16/2013 17:58",
 		"renderWishSelectorForWish:on:" : "fm 7/16/2013 19:19",
 		"renderZipLinkForSubmission:ofAssignment:forGroup:on:" : "MalteMues 7/17/2013 04:34" } }

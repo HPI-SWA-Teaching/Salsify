@@ -11,4 +11,6 @@ renderContentOn: html
 						with: [ 
 							self 
 								renderNameEditorOn: html;
-							      renderEmailEditorOn: html.]]
+							      renderEmailEditorOn: html;
+								renderGitHubEditorOn: html 
+							]] 

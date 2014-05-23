@@ -31,4 +31,10 @@ div.enrolled {
 	top: 4mm;
 	right: 4mm;
 }
+
+img#mailIcon {
+width: 30px;
+height: auto;
+position: absolute;
+}
 '
