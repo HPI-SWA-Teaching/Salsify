@@ -6,5 +6,6 @@ renderCourseInfoBoxOn: html
 				self renderMailinglistLinkOn: html.
 				self renderTutorsOn: html.
 				self renderTopicPoolOn: html.
-				self renderGroupInfosOn: html]
+				self renderGroupInfosOn: html.
+				self renderStudentInfosOn: html]
 		
