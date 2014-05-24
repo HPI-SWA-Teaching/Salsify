@@ -14,5 +14,5 @@ renderSubmitterForAssignment: anAssignment withAssignmentID: assignmentID on: ht
 											html form 
 													multipart;
 													id: (formID); 
-													with: [self renderSubmitPartFormWithID: formID forAssignmentPart: eachPart ofAssignment: anAssignment andIsOverwriteAction: false on: html].
+													with: [self renderSubmitPartFormWithID: formID forAssignmentPart: eachPart ofAssignment: anAssignment on: html].
 														assignmentPartID := assignmentPartID +1]

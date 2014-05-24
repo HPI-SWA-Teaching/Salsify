@@ -1,4 +1,3 @@
 fileHandling
 deleteFileFromSubmission: aSubmission at: anAssignmentPart
-
-aSubmission filesByAssignmentPart removeKey: anAssignmentPart ifAbsent: []
+	aSubmission filesByAssignmentPart removeKey: anAssignmentPart ifAbsent: []
