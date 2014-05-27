@@ -4,6 +4,10 @@ language: erlang
 env:
    - ST=Pharo-3.0
 
+# For SqueakSSL
+before_install:
+   - sudo apt-get -qq install libssl0.9.8:i386
+
 # Boilerplate ... should be no reason to edit the install section
 install:
    - export PROJECT_HOME="$(pwd)"
