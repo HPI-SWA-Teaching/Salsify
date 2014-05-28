@@ -16,7 +16,8 @@
 		"renderContentOn:" : "fm 7/16/2013 11:44",
 		"renderGroupAndTopicStringOn:" : "fm 7/16/2013 10:26",
 		"renderHeadingOn:" : "fm 7/16/2013 11:44",
-		"renderSubmitPartFormWithID:forAssignmentPart:ofAssignment:on:" : "sh 5/24/2014 15:01",
+		"renderRemoverForAssignment:andAssignmentPart:andFormWithID:on:" : "JB 5/24/2014 15:40",
+		"renderSubmitPartFormWithID:forAssignmentPart:ofAssignment:on:" : "JB 5/24/2014 15:38",
 		"renderSubmitterForAssignment:withAssignmentID:on:" : "sh 5/24/2014 12:28",
 		"renderTitleOfAssignmentPart:on:" : "fm 7/16/2013 20:02",
 		"renderUploaderForAssignment:andAssignmentPart:on:" : "sh 5/24/2014 12:27" } }
