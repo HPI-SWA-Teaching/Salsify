@@ -10,5 +10,5 @@
 	"name" : "NDRootComponentTest",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "BPWebDriverTestCase",
 	"type" : "normal" }
