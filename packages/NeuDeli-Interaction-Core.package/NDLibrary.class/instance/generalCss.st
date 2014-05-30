@@ -44,4 +44,17 @@ img {
 	border: none
 }
 
+td.grey {
+	background: #f3f3f3;
+	border: 1px solid #e5e5e5;
+	display: block;
+	width: 16cm;
+ }
+td.tableHeadingRow {  
+	font-size: 12pt; 
+	font-weight: bold;
+	display: block;  
+ }
+
+
 '

@@ -69,6 +69,14 @@ div.submitComponent, div.submission {
 	padding: 2mm 3mm;
 }
 
+.submissionInfoBox {
+	border: 1px solid #e5e5e5;
+	padding: 0.5cm 1cm;
+	background: #F3F3F3;
+	position: relative;
+	margin-bottom: 2mm;
+}
+
 table {  
 	border-spacing: 0px;
  }
@@ -101,5 +109,9 @@ table {
 #groupOverview thead td {
 	font-weight:bold;
 }
+
+.submissionHeading {  
+	margin-top: 0.5cm;
+ }
 
 '

@@ -1,8 +1,10 @@
 rendering
 renderContentOn: html
-	self renderHeadingOn: html.
-	self renderGroupAndTopicStringOn: html.
-	
-	html div 
-			class: 'submitComponent';
-			with: [self renderAssignmentsSubmitterOn: html]
+	html unorderedList
+		class:'courseInfoBox'; 
+		with: [ 
+			"self renderHeadingOn: html."
+			self renderGroupAndTopicStringOn: html.
+			html div 
+				class: 'submitComponent';
+				with: [self renderAssignmentsSubmitterOn: html]]

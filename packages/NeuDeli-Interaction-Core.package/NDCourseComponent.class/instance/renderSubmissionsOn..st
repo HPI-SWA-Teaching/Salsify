@@ -3,6 +3,11 @@ renderSubmissionsOn: html
 	(self session user isAdmin | (self session user isTutorIn: self course))
 		ifTrue: [self course removeEmptyAssignments.
 				self course assignments isEmpty
-					ifFalse: [html heading level: 3; with: 'Abgaben'.
+					ifFalse: [
+							
+						html div	
+								class:'submissionInfoBox';
+								with: [  
+						html heading level: 3; class: 'submissionHeading'; with: 'Abgaben'.
 							self course assignments
-											do: [:eachAssignment | self renderSubmissionsForAssignment: eachAssignment on: html]]]
+											do: [:eachAssignment | self renderSubmissionsForAssignment: eachAssignment on: html]]]].

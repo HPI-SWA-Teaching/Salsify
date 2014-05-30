@@ -1,7 +1,7 @@
 rendering
 renderGitHubEditorOn: html
 	html tableRow: [
-		html tableData: [html label: 'GitHub name:'].
+		html tableData: [html label: 'GitHub Name:'].
 		html tableData: [html form id: 'gitHubForm'; 
 									with: [html textInput
 														id: 'gitHubNameInput';

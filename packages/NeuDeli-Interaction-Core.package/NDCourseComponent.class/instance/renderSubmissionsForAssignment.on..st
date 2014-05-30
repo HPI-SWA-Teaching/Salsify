@@ -6,10 +6,11 @@ renderSubmissionsForAssignment: anAssignment on: html
 		ifFalse: [groups := groups select: [:each | each tutorsContain: (self session user)]].
 
 	anAssignment removeEmptyAssignmentParts.
-	html heading
-		level: 3;
-		with: [html label: anAssignment title].
 	html div
 		class: 'submission'; 
-		with: [groups
+		with: [
+			html heading
+			level: 3;
+			with: [html label: anAssignment title].
+			groups
 				do: [:eachGroup | self renderSubmissionOfGroup: eachGroup forAssignment: anAssignment on: html]]

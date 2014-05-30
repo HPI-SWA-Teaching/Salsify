@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "sh 5/24/2014 09:59",
 	"instvars" : [
-		"course" ],
+		"course",
+		"rows" ],
 	"name" : "NDStudentOverviewComponent",
 	"pools" : [
 		 ],

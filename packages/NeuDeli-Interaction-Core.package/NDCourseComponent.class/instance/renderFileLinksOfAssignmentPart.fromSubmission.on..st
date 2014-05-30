@@ -7,4 +7,4 @@ renderFileLinksOfAssignmentPart: eachPart fromSubmission: submission on: html
 	html listItem 
 		with: [files 
 				ifNotNil: [self renderFileLinksFor: files on: html]
-				ifNil: [html text: eachPart title, ' fehlt!']]
+				ifNil: [html text:  eachPart title, ' fehlt!']]

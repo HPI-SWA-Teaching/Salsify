@@ -32,6 +32,19 @@ div.enrolled {
 	right: 4mm;
 }
 
+div.submission h3 {  
+	margin-top: 0.5cm; 
+	margin: 0cm; 
+ }
+
+div.submission label {  
+	margin: 0cm;  
+}
+
+a.downloadAssignment {  
+	font-size: 11pt; 
+}
+
 img#mailIcon {
 width: 30px;
 height: auto;
