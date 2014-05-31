@@ -1,0 +1,14 @@
+{
+	"category" : "NeuDeli-Interaction-test",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "NDUserProfileComponentTest",
+	"pools" : [
+		 ],
+	"super" : "BPWebDriverTestCase",
+	"type" : "normal" }
