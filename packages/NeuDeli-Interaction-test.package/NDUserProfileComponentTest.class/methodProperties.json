@@ -2,14 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"componentClass" : "sh 5/31/2014 11:04",
-		"configureTestApp:" : "sh 5/31/2014 11:09",
 		"githubTextField" : "sh 5/31/2014 12:22",
-		"isTextPresent:" : "sh 5/31/2014 12:09",
-		"loginAsRobert" : "sh 5/31/2014 12:10",
-		"loginButton" : "sh 5/31/2014 12:10",
-		"passwordTextfield" : "sh 5/31/2014 12:10",
-		"sessionClass" : "sh 5/31/2014 12:35",
 		"setUp" : "sh 5/31/2014 11:40",
 		"test01TestHeading" : "sh 5/31/2014 12:08",
 		"test02UserNameEqualsLoginName" : "sh 5/31/2014 12:08",
@@ -18,6 +11,6 @@
 		"test05SetGithubName" : "sh 5/31/2014 12:46",
 		"test06SetUsername" : "sh 5/31/2014 12:47",
 		"test07SetEmail" : "sh 5/31/2014 12:46",
-		"textField" : "sh 5/31/2014 12:11",
+		"test08TestMenuPoint" : "sh 5/31/2014 15:52",
 		"userEmailTextField" : "sh 5/31/2014 12:10",
 		"userNameTextField" : "sh 5/31/2014 12:10" } }

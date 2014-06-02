@@ -1,4 +1,6 @@
 as yet unclassified
 resetDatabase
-	self createFakeCourses.
-	self createFakeUsers
+	| tutors |
+	tutors := self createFakeUsers.
+	self createFakeCourses: tutors.
+	
