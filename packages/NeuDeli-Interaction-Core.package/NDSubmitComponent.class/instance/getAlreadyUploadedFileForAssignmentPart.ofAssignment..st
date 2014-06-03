@@ -1,4 +1,4 @@
-rendering
+fileHandling
 getAlreadyUploadedFileForAssignmentPart: eachPart ofAssignment: anAssignment
 	| submission |
 	submission := anAssignment getSubmissionByGroup: self group.

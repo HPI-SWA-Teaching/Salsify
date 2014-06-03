@@ -108,4 +108,11 @@ input[type="radio"] {
 	display: inline;
 }
 
+.submissionDeleteButton {  
+	margin-top: 10px!important;
+	background-color: red!important;
+	background-image: linear-gradient(to bottom, #F7c0c0, #ECa0a0)!important;
+	border-color: red!important;
+ }
+
 '

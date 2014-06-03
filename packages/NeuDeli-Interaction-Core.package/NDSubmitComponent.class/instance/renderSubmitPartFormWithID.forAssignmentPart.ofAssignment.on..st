@@ -13,4 +13,4 @@ renderSubmitPartFormWithID: submitFormID forAssignmentPart: eachPart ofAssignmen
 					class: 'buttons';
 					with: [(alreadyUploadedfile isNil)
 							ifTrue: [html submitButton with: 'hochladen']
-							ifFalse: [self render: submitFormID for: anAssignment And: eachPart  on: html]]]]
+							ifFalse: [self render: submitFormID for: anAssignment And: eachPart on: html]]]]

@@ -4,9 +4,9 @@ render: submitFormID for: anAssignment And: anAssignmentPart on: html
 		class: 'button';
 		onClick: (html scriptaculous updater
 		id: submitFormID;
-		callback: [	:r | self renderDelete: anAssignment and: anAssignmentPart  SeriouslyButtonOn: html.
-						self
+		callback: [	:r | self renderDelete: anAssignment and: anAssignmentPart SeriouslyButtonOn: r withFormID: submitFormID.
+						"self
 							renderSubmitPartFormWithID: submitFormID 
 							forAssignmentPart: anAssignmentPart
-							ofAssignment: anAssignment on: r]);
+							ofAssignment: anAssignment on: r"]);
 		with: 'Löschen'
