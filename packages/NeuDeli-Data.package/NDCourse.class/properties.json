@@ -19,7 +19,8 @@
 		"published",
 		"groupDeadline",
 		"maximumGroupSize",
-		"assignments" ],
+		"assignments",
+		"privilegedTutors" ],
 	"name" : "NDCourse",
 	"pools" : [
 		 ],

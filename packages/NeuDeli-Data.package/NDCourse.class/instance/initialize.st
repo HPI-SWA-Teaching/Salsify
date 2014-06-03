@@ -8,6 +8,7 @@ initialize
 		website: '';
 		mailinglist: '';
 		tutors: OrderedCollection new;
+		privilegedTutors: OrderedCollection new;
 		groups: OrderedCollection new;
 		maximumGroupSize: 4;
 		groupDeadline: Date tomorrow;
