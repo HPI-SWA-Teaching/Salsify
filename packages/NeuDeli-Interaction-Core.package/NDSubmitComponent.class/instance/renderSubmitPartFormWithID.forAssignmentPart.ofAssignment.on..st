@@ -13,17 +13,4 @@ renderSubmitPartFormWithID: submitFormID forAssignmentPart: eachPart ofAssignmen
 					class: 'buttons';
 					with: [(alreadyUploadedfile isNil)
 							ifTrue: [html submitButton with: 'hochladen']
-							ifFalse: [html anchor
-									class: 'button';
-											onClick: (html scriptaculous updater
-														id: submitFormID;
-														callback: [:r | deletionAllowed ifTrue:
-																	[self deleteFileFromSubmission: (anAssignment getSubmissionByGroup: self group) at: eachPart].
-																	self renderSubmitPartFormWithID: submitFormID  forAssignmentPart: eachPart ofAssignment: anAssignment on: r]); 
-											with: 'Löschen'.
-									html text: 'Löschen erlauben'.
-									html checkbox
-										onChange: (html scriptaculous request
-														triggerForm: (html scriptaculous element up: 'form'));
-														value: deletionAllowed;
-														callback: [:value | deletionAllowed := value]]]]]
+							ifFalse: [self render: submitFormID for: anAssignment And: eachPart  on: html]]]]
