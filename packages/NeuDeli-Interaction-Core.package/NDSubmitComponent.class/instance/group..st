@@ -1,3 +1,3 @@
 accessing
-group: anObject
-	group := anObject
+group: aNDGroup 
+	group := aNDGroup 

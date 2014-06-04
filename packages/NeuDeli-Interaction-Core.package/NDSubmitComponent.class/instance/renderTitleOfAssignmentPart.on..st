@@ -1,6 +1,6 @@
 rendering
-renderTitleOfAssignmentPart: eachPart on: html
+renderTitleOfAssignmentPart: anAssignmentPart on: html
 	html tableData
 			class: 'title';
-			with: [	html text: eachPart title.
-					html emphasis: eachPart extensionString]
+			with: [	html text: anAssignmentPart title.
+					html emphasis: anAssignmentPart extensionString]

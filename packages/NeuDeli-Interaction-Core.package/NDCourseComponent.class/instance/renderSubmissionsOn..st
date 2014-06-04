@@ -6,7 +6,7 @@ renderSubmissionsOn: html
 					ifFalse: [
 							
 						html div	
-								class:'submissionInfoBox';
+								class:'submitInfoBox';
 								with: [  
 						html heading level: 3; class: 'submissionHeading'; with: 'Abgaben'.
 							self course assignments

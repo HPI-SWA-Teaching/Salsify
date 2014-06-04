@@ -1,7 +1,10 @@
 css
 accountInfoCss
-	^ 'img#gitHubLink {
-position: relative;
-margin-top: 27%;
+^ 
+'img#gitHubLink {
+	position: relative;
+	margin-top: 27%;
 } 
+
+
 '

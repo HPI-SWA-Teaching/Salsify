@@ -6,5 +6,5 @@ getAllAsZipArchive
 	self filesByAssignmentPart keys asSet
 			do: [:each | | aFile |
 						aFile := (self getFilesByAssignmentPart: each) last.
-						aFile ifNotNil: [zip addString: (aFile contents ) as: aFile fileName]].
+						aFile ifNotNil: [zip addString: (aFile rawContents ) as: aFile fileName]].
 	^zip

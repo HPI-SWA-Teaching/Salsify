@@ -1,7 +1,7 @@
 fileHandling
-getAlreadyUploadedFileForAssignmentPart: eachPart ofAssignment: anAssignment
+getAlreadyUploadedFileForAssignmentPart: anAssignmentPart ofAssignment: anAssignment
 	| submission |
 	submission := anAssignment getSubmissionByGroup: self group.
 	submission ifNil: [^nil].
-	^submission getMostRecentFileByAssignmentPart: eachPart
+	^submission getMostRecentFileByAssignmentPart: anAssignmentPart "METHOD NOT IMPLEMENTED"
 	
