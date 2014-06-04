@@ -12,5 +12,6 @@ renderSubmitPartFormWithID: submitFormID forAssignmentPart: eachPart ofAssignmen
 			html tableData
 					class: 'buttons';
 					with: [(alreadyUploadedfile isNil)
-							ifTrue: [html submitButton with: 'hochladen']
+							ifTrue: [((anAssignment getDeadlineFor: self group) >= Date current)
+								ifTrue:[html submitButton with: 'hochladen']]
 							ifFalse: [self render: submitFormID for: anAssignment And: eachPart on: html]]]]

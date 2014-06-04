@@ -7,7 +7,8 @@ renderRemoverForAssignment: anAssignment andAssignmentPart: eachPart andFormWith
 			html tableData
 					class: 'buttons';
 					with: [(alreadyUploadedFile isNil)
-							ifTrue: [html submitButton with: 'hochladen']
+							ifTrue: [((anAssignment getDeadlineFor: self group) >= Date current)
+								ifTrue:[html submitButton with: 'hochladen']]
 							ifFalse: [html anchor
 									class: 'button';
 									onClick: (html scriptaculous updater
