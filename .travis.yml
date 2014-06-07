@@ -19,7 +19,7 @@ before_install:
 install:
    - export PROJECT_HOME="$(pwd)"
    - cd $HOME
-   - wget http://selenium-release.storage.googleapis.com/2.42/selenium-server-standalone-2.42.2.jar
+   - wget http://selenium.googlecode.com/files/selenium-server-standalone-2.32.0.jar
    - wget -q -O builderCI.zip https://github.com/SWTI2014/builderCI/zipball/master
    - unzip -q builderCI.zip
    - cd SWTI2014-builderCI*
@@ -29,7 +29,7 @@ install:
    - ./build_image.sh
    
 before_script:
-   - java -jar $HOME/selenium-server-standalone-2.42.2.jar &
+   - java -jar $HOME/selenium-server-standalone-2.32.0.jar &
    - sleep 5
 
 # use a different script if you want to customize how travis tests are run
