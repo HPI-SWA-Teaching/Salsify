@@ -1,4 +1,4 @@
 as yet unclassified
-testRemoveTopicFromPool
+test07RemoveTopicFromPool
 	self course removeTopicFromPool: 'ein Thema'.
 	self assert: (self course topicPool includes: 'ein Thema') not

@@ -1,4 +1,4 @@
 as yet unclassified
-testAddAssignment
+test01AddAssignment
 	self course addAssignment: self aAssignment.
 	self assert: (self course assignments includes: self aAssignment)

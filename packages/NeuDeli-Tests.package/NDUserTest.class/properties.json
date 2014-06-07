@@ -6,12 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"aGroup",
 		"course",
-		"aTutor",
-		"aAssignment",
-		"aPrivilegedTutor" ],
-	"name" : "NDCourseTest",
+		"aUser" ],
+	"name" : "NDUserTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",
