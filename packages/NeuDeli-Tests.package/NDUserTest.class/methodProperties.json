@@ -4,6 +4,11 @@
 	"instance" : {
 		"course" : "JasparMang 6/7/2014 09:57",
 		"course:" : "JasparMang 6/7/2014 09:57",
-		"setUp" : "JasparMang 6/7/2014 10:38",
+		"setUp" : "lf 6/7/2014 11:01",
 		"test01UserIsPrivilegedTutor" : "JasparMang 6/7/2014 10:40",
-		"test02UserIsTutor" : "JasparMang 6/7/2014 10:40" } }
+		"test02UserIsTutor" : "JasparMang 6/7/2014 10:40",
+		"test03userEnrollsInCourse" : "lf 6/7/2014 11:54",
+		"test04userDisenrollsinCourse" : "lf 6/7/2014 11:21",
+		"test05isInGroupOfInCourse" : "lf 6/7/2014 11:41",
+		"test06isTutor" : "lf 6/7/2014 11:55",
+		"test07isTutorForGroup" : "lf 6/7/2014 11:58" } }

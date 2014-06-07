@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"asString" : "fm 5/26/2013 15:53:46.355",
+		"asString" : "lf 6/7/2014 11:45",
 		"disEnrollIn:" : "fm 7/16/2013 14:32",
 		"email" : "MM 5/2/2013 09:22:14.326",
 		"email:" : "MM 5/2/2013 09:22:14.359",
@@ -16,7 +16,7 @@
 		"isAdmin" : "fm 7/17/2013 17:17",
 		"isAdmin:" : "MM 5/2/2013 09:22:23.103",
 		"isEnrolledIn:" : "fm 5/16/2013 09:31",
-		"isNotInGroupOf:inCourse:" : "fm 5/26/2013 17:25:14.045",
+		"isInGroupOf:inCourse:" : "lf 6/7/2014 11:24",
 		"isPrivilegedTutorIn:" : "JasparMang 6/3/2014 09:51",
 		"isTutorForGroup:" : "fm 7/3/2013 14:26",
 		"isTutorIn:" : "fm 5/24/2013 17:07:30.617",

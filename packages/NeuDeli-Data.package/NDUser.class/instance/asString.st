@@ -1,3 +1,3 @@
-as yet unclassified
-asString
+accessing
+asString 
 	^self username
