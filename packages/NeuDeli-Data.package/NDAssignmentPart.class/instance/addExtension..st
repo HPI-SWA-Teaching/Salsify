@@ -1,3 +1,3 @@
-as yet unclassified
+extensionManaging
 addExtension: anExtension
 	self extensions add: anExtension

@@ -1,6 +1,3 @@
 assignmentPartManaging
 removeEmptyAssignmentParts 
-	| toDelete |
-	toDelete := OrderedCollection new.	
-	self assignmentParts do: [:each | each title = '' ifTrue: [toDelete add: each]].
-	toDelete do: [:each | self assignmentParts remove: each]
+	self assignmentParts: (self assignmentParts reject: [:each | each title = ''])

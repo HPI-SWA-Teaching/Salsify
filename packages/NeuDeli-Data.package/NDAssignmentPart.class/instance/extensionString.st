@@ -1,4 +1,4 @@
-as yet unclassified
+extensionManaging
 extensionString
 	| nonEmptyExtensions extensionString |
 	
