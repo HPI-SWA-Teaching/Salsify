@@ -4,7 +4,6 @@ renderFileLinksOfAssignmentPart: aNDAssignmentPart fromSubmission: aNDSubmission
 	aNDSubmission 
 		ifNotNil: [files := (aNDSubmission getFilesByAssignmentPart: aNDAssignmentPart)]
 		ifNil: [files := nil].
-	html listItem 
-		with: [files 
+		files 
 				ifNotNil: [self renderFileLinksFor: files on: html]
-				ifNil: [html text: aNDAssignmentPart title, ' fehlt!']]
+				ifNil: [html text: aNDAssignmentPart title, ' fehlt!']

@@ -8,7 +8,7 @@ div.submission h3 {
  }
 
 div.submission label {  
-	margin: 0cm;  
+	margin: 2mm 2mm;
 }
 
 .submitInfoBox {
@@ -72,6 +72,16 @@ div.submitComponent, div.submission {
 	margin-top: 0.5cm;
 }
 
+.points {  
+	margin: 3mm 2mm;
+ }
 
+#pointInput {  
+	width: 50px;
+	padding-top: 1mm;
+	font-size: 10pt; 
+
+
+ }
 '
 
