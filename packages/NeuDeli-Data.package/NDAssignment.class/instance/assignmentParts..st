@@ -1,3 +1,3 @@
-accessing
+assignmentPartManaging
 assignmentParts: anObject
 	assignmentParts := anObject

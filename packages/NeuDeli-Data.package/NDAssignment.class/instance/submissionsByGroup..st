@@ -1,3 +1,3 @@
-accessing
+assignmentPartManaging
 submissionsByGroup: anObject
 	submissionsByGroup := anObject

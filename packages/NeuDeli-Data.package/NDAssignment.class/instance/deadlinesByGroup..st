@@ -1,3 +1,3 @@
-accessing
+assignmentPartManaging
 deadlinesByGroup: anObject
 	deadlinesByGroup := anObject

@@ -1,3 +1,3 @@
-accessing
+assignmentPartManaging
 title: anObject
 	title := anObject

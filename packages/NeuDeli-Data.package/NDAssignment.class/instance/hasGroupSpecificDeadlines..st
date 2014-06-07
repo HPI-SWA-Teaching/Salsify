@@ -1,3 +1,3 @@
-accessing
+assignmentPartManaging
 hasGroupSpecificDeadlines: anObject
 	groupDeadlines := anObject

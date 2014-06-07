@@ -1,4 +1,4 @@
-as yet unclassified
+assignmentPartManaging
 removeEmptyAssignmentParts 
 	| toDelete |
 	toDelete := OrderedCollection new.	
