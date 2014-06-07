@@ -7,13 +7,11 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"course",
-		"tutorSelectors",
-		"seasonText",
-		"topicTypeText",
-		"topicPoolEditors",
-		"assignmentEditors",
-		"privilegedTutorSelectors" ],
-	"name" : "NDEditCourseComponent",
+		"nullUser",
+		"parent",
+		"selectedUser",
+		"userList" ],
+	"name" : "NDPrivilegedTutorSelectorComponent",
 	"pools" : [
 		 ],
 	"super" : "WAComponent",
