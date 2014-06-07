@@ -2,9 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"aUser" : "JasparMang 6/7/2014 09:57",
-		"aUser:" : "JasparMang 6/7/2014 09:57",
 		"course" : "JasparMang 6/7/2014 09:57",
 		"course:" : "JasparMang 6/7/2014 09:57",
-		"setUp" : "JasparMang 6/7/2014 10:02",
-		"test01UserIsPrivilegedTutor" : "JasparMang 6/7/2014 10:05" } }
+		"setUp" : "JasparMang 6/7/2014 10:38",
+		"test01UserIsPrivilegedTutor" : "JasparMang 6/7/2014 10:40",
+		"test02UserIsTutor" : "JasparMang 6/7/2014 10:40" } }
