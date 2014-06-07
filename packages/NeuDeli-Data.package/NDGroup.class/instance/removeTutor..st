@@ -1,3 +1,3 @@
-as yet unclassified
+removing
 removeTutor: aTutor
 	self tutors remove: aTutor ifAbsent: []

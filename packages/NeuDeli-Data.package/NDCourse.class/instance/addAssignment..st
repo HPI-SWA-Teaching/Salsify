@@ -1,3 +1,3 @@
-as yet unclassified
+adding
 addAssignment: anAssignment
 	self assignments add: anAssignment

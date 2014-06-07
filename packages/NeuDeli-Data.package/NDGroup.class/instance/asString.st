@@ -1,6 +1,3 @@
-as yet unclassified
+converting
 asString 
-	| groupString |
-	groupString := ''.
-	self members do: [:each | groupString := groupString, each username] separatedBy: [groupString := groupString, ', '].
-	^groupString
+	^ self members inject: '' into: [:groupname :member | groupname , member username , ' ']

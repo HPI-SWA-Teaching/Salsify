@@ -1,4 +1,4 @@
-as yet unclassified
+removing
 removeStudent: aStudent
 	| group| 
 	group := self findGroupByUser: aStudent.

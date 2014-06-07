@@ -1,3 +1,3 @@
-assignmentPartManaging
+accessing
 title
 	^ title

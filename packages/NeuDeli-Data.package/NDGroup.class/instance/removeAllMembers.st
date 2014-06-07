@@ -1,3 +1,3 @@
-as yet unclassified
+removing
 removeAllMembers
 	self members: OrderedCollection new

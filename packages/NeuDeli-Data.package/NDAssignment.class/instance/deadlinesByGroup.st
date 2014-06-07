@@ -1,3 +1,3 @@
-assignmentPartManaging
+accessing
 deadlinesByGroup
 	^ deadlinesByGroup

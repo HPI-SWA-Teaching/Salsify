@@ -1,3 +1,3 @@
-assignmentPartManaging
+accessing
 generalDeadline
 	^ generalDeadline

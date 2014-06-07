@@ -3,7 +3,7 @@ renderSubmissionsForAssignment: anAssignment ofCourse: aNDCourse on: html
 	| groups |
 	groups := aNDCourse groups.
 	self session user isAdmin 
-		ifFalse: [groups := groups select: [:each | each tutorsContain: (self session user)]].
+		ifFalse: [groups := groups select: [:each | each tutors includes: (self session user)]].
 
 	anAssignment removeEmptyAssignmentParts.
 	html div

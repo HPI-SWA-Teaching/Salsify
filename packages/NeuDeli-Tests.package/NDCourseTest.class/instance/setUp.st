@@ -1,4 +1,4 @@
-as yet unclassified
+running
 setUp
 	self course: NDCourse new.
 	self aGroup: NDGroup new.

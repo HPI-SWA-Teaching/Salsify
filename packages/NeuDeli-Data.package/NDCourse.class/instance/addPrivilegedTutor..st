@@ -1,4 +1,4 @@
-as yet unclassified
+adding
 addPrivilegedTutor: aUser
 	(aUser isTutorIn: self)
 		ifFalse: [self tutors add: aUser].

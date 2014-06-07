@@ -1,3 +1,3 @@
-as yet unclassified
+removing
 removeAssignment: anAssignment
 	self assignments remove: anAssignment ifAbsent: []

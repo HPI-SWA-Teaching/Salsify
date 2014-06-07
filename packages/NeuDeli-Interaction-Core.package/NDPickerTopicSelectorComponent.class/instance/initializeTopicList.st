@@ -5,4 +5,4 @@ initializeTopicList
 	self topicList add: self nullTopic.
 
 	self initializeSelectedTopic.
-	self topicList addAll: (self parent course topicPool select: [:each | (self group topicWishesContain: each) = false])
+	self topicList addAll: (self parent course topicPool select: [:each | (self group topicWishes includes: each) = false])

@@ -1,4 +1,4 @@
-as yet unclassified
+adding
 addGroup: aGroup
 	self groups add: aGroup.
 	self setGroupNumbers
