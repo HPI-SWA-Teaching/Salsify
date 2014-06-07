@@ -25,8 +25,8 @@ install:
    - ./build_image.sh
    
 before_script:
-   - java -jar $HOME/selenium-server-standalone-2.42.2.jar 
-   - sleep 30
+   - java -jar $HOME/selenium-server-standalone-2.42.2.jar &
+   - sleep 5
 
 # use a different script if you want to customize how travis tests are run
 # use verbose flag to dump transcript unconditionally
