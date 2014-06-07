@@ -10,4 +10,6 @@ renderSubmissionForAssignmentPart: anAssignmentPart withFormID: aFormID ofAssign
 							self renderUploaderForAssignmentPart: anAssignmentPart ofAssignment: anAssignment on: html.
 							(alreadyUploadedfile isNil)
 							ifTrue: [ self renderUploadButtonForAssignmentPart: anAssignment withFormID: aFormID ofAssignment: anAssignment on: html.]
-							ifFalse: [self renderDeletionButtonForAssignmentPart: anAssignmentPart withFormID: aFormID ofAssignment:  anAssignment on: html]]]]
+							ifFalse: [ ((anAssignment getDeadlineFor: self group) >= Date current)
+										ifTrue: [ 
+ 								self renderDeletionButtonForAssignmentPart: anAssignmentPart withFormID: aFormID ofAssignment:  anAssignment on: html]]]]]
