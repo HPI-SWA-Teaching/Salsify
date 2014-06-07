@@ -1,4 +1,4 @@
-as yet unclassified
+checking
 isTutorIn: aCourse
 	aCourse tutors
 		detect: [:each | each = self]

@@ -1,4 +1,4 @@
-as yet unclassified
+checking
 isEnrolledIn: aCourse
 	self studentIn
 		detect: [:each | each = aCourse]

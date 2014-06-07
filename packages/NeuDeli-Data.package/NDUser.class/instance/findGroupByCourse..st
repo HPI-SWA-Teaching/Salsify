@@ -1,3 +1,3 @@
-as yet unclassified
+enrolling
 findGroupByCourse: aCourse
 	^aCourse findGroupByUser: self
