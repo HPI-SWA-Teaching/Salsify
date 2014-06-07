@@ -10,7 +10,7 @@ before_install:
    - export DISPLAY=:99.0
    - sh -e /etc/init.d/xvfb start
    - sudo apt-get -qq update
-   - sudo apt-get install firefox=23.0.1
+   - sudo apt-get -t=23.0.1 install firefox
 
 # Boilerplate ... should be no reason to edit the install section
 install:
