@@ -1,0 +1,4 @@
+accessing
+nullUser
+
+	^ nullUser

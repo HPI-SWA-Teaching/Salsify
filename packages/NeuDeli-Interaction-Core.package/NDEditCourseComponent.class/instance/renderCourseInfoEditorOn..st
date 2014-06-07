@@ -12,5 +12,6 @@ renderCourseInfoEditorOn: html
 							renderSemesterEditorOn: html;
 							renderWebsiteEditorOn: html;
 							renderMailinglistEditorOn: html;
-							renderTutorSelectorsContainerOn: html.].
+							renderTutorSelectorsContainerOn: html;
+							renderPrivilegedTutorSelectorsContainerOn: html.].
 			self renderPublishedEditorOn: html]

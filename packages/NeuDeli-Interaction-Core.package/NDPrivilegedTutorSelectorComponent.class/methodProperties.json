@@ -1,0 +1,21 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addNewTutor:" : "JasparMang 6/7/2014 12:17",
+		"addUserToList:" : "JasparMang 6/7/2014 12:14",
+		"course" : "JasparMang 6/7/2014 12:09",
+		"course:" : "JasparMang 6/7/2014 12:09",
+		"initialize" : "JasparMang 6/7/2014 12:09",
+		"nullUser" : "JasparMang 6/7/2014 12:09",
+		"nullUser:" : "JasparMang 6/7/2014 12:09",
+		"parent" : "JasparMang 6/7/2014 12:09",
+		"parent:" : "JasparMang 6/7/2014 12:09",
+		"removePreviouslySelectedTutor" : "JasparMang 6/7/2014 12:17",
+		"renderContentOn:" : "JasparMang 6/7/2014 12:26",
+		"resetUserList" : "JasparMang 6/7/2014 12:25",
+		"selectedUser" : "JasparMang 6/7/2014 12:09",
+		"selectedUser:" : "JasparMang 6/7/2014 12:09",
+		"userList" : "JasparMang 6/7/2014 12:09",
+		"userList:" : "JasparMang 6/7/2014 12:09",
+		"validateTutorChange:" : "JasparMang 6/7/2014 12:17" } }
