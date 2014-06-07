@@ -14,12 +14,12 @@ before_install:
 install:
    - export PROJECT_HOME="$(pwd)"
    - cd $HOME
-	 - wget http://selenium-release.storage.googleapis.com/2.42/selenium-server-standalone-2.42.2.jar
+   - wget http://selenium-release.storage.googleapis.com/2.42/selenium-server-standalone-2.42.2.jar
 #   - pip install selenium nose --use-mirrors
    - wget -q -O builderCI.zip https://github.com/SWTI2014/builderCI/zipball/master
    - unzip -q builderCI.zip
    - cd SWTI2014-builderCI*
-   - source build_env_vars
+   - source build_env_var
    - ln -s $PROJECT_HOME $GIT_PATH
    - ./build_image.sh
    
