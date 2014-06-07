@@ -2,13 +2,14 @@ language: erlang
 
 # Choose which platforms you want your builds run against (done in parallel)
 env:
-   - ST=Pharo-3.0
+   - ST=Pharo-2.0
 
 # For SqueakSSL
 before_install:
    - sudo apt-get -qq install libssl0.9.8:i386
    - export DISPLAY=:99.0
    - sh -e /etc/init.d/xvfb start
+   - sudo apt-get update
 
 # Boilerplate ... should be no reason to edit the install section
 install:
@@ -20,8 +21,7 @@ install:
    - cd SWTI2014-builderCI*
    - source build_env_vars
    - ln -s $PROJECT_HOME $GIT_PATH
-   - sudo apt-get update
-   - sudo apt-get install firefox
+   - sudo apt-get -qq install firefox
    - ./build_image.sh
    
 before_script:
@@ -29,4 +29,4 @@ before_script:
 
 # use a different script if you want to customize how travis tests are run
 # use verbose flag to dump transcript unconditionally
-script: $BUILDER_CI_HOME/testTravisCI.sh # -verbose 
+script: $BUILDER_CI_HOME/testTravisCI.sh # -verbose
