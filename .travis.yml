@@ -20,6 +20,7 @@ install:
    - cd SWTI2014-builderCI*
    - source build_env_vars
    - ln -s $PROJECT_HOME $GIT_PATH
+   - sudo apt-get update
    - sudo apt-get install firefox
    - ./build_image.sh
    
