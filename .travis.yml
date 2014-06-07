@@ -19,7 +19,7 @@ install:
    - wget -q -O builderCI.zip https://github.com/SWTI2014/builderCI/zipball/master
    - unzip -q builderCI.zip
    - cd SWTI2014-builderCI*
-   - source build_env_var
+   - source build_env_vars
    - ln -s $PROJECT_HOME $GIT_PATH
    - ./build_image.sh
    
