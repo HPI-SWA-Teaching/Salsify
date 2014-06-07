@@ -1,7 +1,7 @@
-rendering
-renderSubmissionsForAssignment: anAssignment on: html
+as yet unclassified
+renderSubmissionsForAssignment: anAssignment ofCourse: aNDCourse on: html
 	| groups |
-	groups := self course groups.
+	groups := aNDCourse groups.
 	self session user isAdmin 
 		ifFalse: [groups := groups select: [:each | each tutorsContain: (self session user)]].
 
@@ -13,4 +13,4 @@ renderSubmissionsForAssignment: anAssignment on: html
 			level: 3;
 			with: [html label: anAssignment title].
 			groups
-				do: [:eachGroup | self renderSubmissionOfGroup: eachGroup forAssignment: anAssignment on: html]]
+				do: [:each | self renderSubmissionOfGroup: each forAssignment: anAssignment on: html]]

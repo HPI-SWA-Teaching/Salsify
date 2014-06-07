@@ -1,4 +1,4 @@
-rendering
+as yet unclassified
 renderDeadlineOfAssignment: anAssignment forGroup: aGroup on: html
 	(anAssignment getDeadlineFor: aGroup) 
 		ifNotNil: [html span

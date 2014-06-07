@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"downloadFile:" : "JB 6/7/2014 11:29",
+		"renderDeadlineOfAssignment:forGroup:on:" : "JB 6/7/2014 11:45",
+		"renderFileLinksFor:on:" : "JB 6/7/2014 11:51",
+		"renderFileLinksOfAssignmentPart:fromSubmission:on:" : "JB 6/7/2014 11:50",
+		"renderGroup:on:" : "JB 6/7/2014 11:45",
+		"renderSubmissionOfGroup:forAssignment:on:" : "JB 6/7/2014 11:48",
+		"renderSubmissionsForAssignment:ofCourse:on:" : "JB 6/7/2014 11:43",
+		"renderSubmitGradingForCourse:on:" : "JB 6/7/2014 11:39",
+		"renderZipLinkForSubmission:ofAssignment:forGroup:on:" : "JB 6/7/2014 11:29" } }

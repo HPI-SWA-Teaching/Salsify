@@ -6,4 +6,4 @@ renderContentOn: html
 	self renderEnrollButtonOn: html.
 	self renderGroupAndTopicSelectorContainerOn: html.
 	self renderSubmitComponentOn: html.
-	self renderSubmissionsOn: html
+	self renderSubmitGradeComponentOn: html

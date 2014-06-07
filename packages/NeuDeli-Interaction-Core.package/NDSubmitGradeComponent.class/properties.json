@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"submitComponent",
-		"submitGradeComponent" ],
-	"name" : "NDCourseComponent",
+		 ],
+	"name" : "NDSubmitGradeComponent",
 	"pools" : [
 		 ],
-	"super" : "NDCourseAbstractComponent",
+	"super" : "WAComponent",
 	"type" : "normal" }
