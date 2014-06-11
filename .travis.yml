@@ -2,7 +2,7 @@ language: erlang
 
 # Choose which platforms you want your builds run against (done in parallel)
 env:
-   - ST=Pharo-2.0
+   - ST=Pharo-2.0 SCREENSHOT=5
 
 # For SqueakSSL
 before_install:
@@ -25,9 +25,10 @@ install:
    - ./build_image.sh
    
 before_script:
-   - "java -jar $HOME/selenium-server-standalone-2.42.2.jar &"
-   - "sleep 30"
+   - java -jar $HOME/selenium-server-standalone-2.42.2.jar &
+   - sleep 30
+   - sudo netstat -tulp
 
 # use a different script if you want to customize how travis tests are run
 # use verbose flag to dump transcript unconditionally
-script: $BUILDER_CI_HOME/testTravisCI.sh # -verbose
+script: $BUILDER_CI_HOME/testTravisCI.sh -verbose
