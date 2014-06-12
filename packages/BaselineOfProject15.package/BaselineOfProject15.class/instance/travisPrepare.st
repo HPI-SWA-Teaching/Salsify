@@ -2,8 +2,8 @@ as yet unclassified
 travisPrepare
 
 	Smalltalk at: #ZnZincServerAdaptor ifPresent: [ :cls | cls startOn: 8080 ].
-	(WAAdmin register: NDRootComponent asApplicationAt: 'salsify')
-		addLibrary: NDLibrary;
-		addLibrary: PTDevelopmentLibrary;
-		preferenceAt: #sessionClass put: NDSession;
+	((Smalltalk at: WAAdmin) register: (Smalltalk at: NDRootComponent) asApplicationAt: 'salsify')
+		addLibrary: (Smalltalk at: NDLibrary);
+		addLibrary: (Smalltalk at: PTDevelopmentLibrary);
+		preferenceAt: #sessionClass put: (Smalltalk at: NDSession);
 		yourself.
