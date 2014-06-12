@@ -13,6 +13,7 @@ before_install:
 - export DISPLAY=:99.0
 - sh -e /etc/init.d/xvfb start
 install:
+- sudo sauce_connect_setup.sh
 - export PROJECT_HOME="$(pwd)"
 - cd $HOME
 #- wget http://selenium.googlecode.com/files/selenium-server-standalone-2.32.0.jar
@@ -22,8 +23,7 @@ install:
 - source build_env_vars
 - ln -s $PROJECT_HOME $GIT_PATH
 - "./build_image.sh"
-before_script:
-- sudo "$PROJECT_HOME/sauce_connect_setup.sh"
+#before_script:
 #- java -jar $HOME/selenium-server-standalone-2.32.0.jar &
 #- sleep 5
 script:
