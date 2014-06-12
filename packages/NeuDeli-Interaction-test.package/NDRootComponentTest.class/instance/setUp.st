@@ -1,4 +1,4 @@
 running
 setUp
-	super setup.
-	BPRemoteWebDriver serverPort: 8081
+	BPRemoteWebDriver serverPort: 8081.
+	super setUp.
