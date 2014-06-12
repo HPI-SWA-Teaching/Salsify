@@ -23,7 +23,7 @@ install:
 - ln -s $PROJECT_HOME $GIT_PATH
 - "./build_image.sh"
 before_script:
-- sauce_connect_setup.sh
+- "$PROJECT_HOME/sauce_connect_setup.sh"
 #- java -jar $HOME/selenium-server-standalone-2.32.0.jar &
 #- sleep 5
 script:
