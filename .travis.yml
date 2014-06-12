@@ -7,13 +7,13 @@ env:
   - secure: auhH1BX2uUlFK6NT3dl4Ad4UEVLKiJSGOk0XohYhGokzvVExaqC02eLQ/ixMpuZCKmcA7qq7Ew7Svj8IZfbWbF5cWV3ycVPciSy2DTdGh2r2cT9JHtozOFML6sbwMAiqkvPKeiwvrlMZpDVq0wBC5iQ83zqhngCqmHS5AC8fjvM=
 addons:
   firefox: "23.0"
+  sauce_connect: true
 before_install:
 - sudo apt-get -qq update
 - sudo apt-get -qq install libssl0.9.8:i386
 - export DISPLAY=:99.0
 - sh -e /etc/init.d/xvfb start
 install:
-- sudo bash sauce_connect_setup.sh
 - export PROJECT_HOME="$(pwd)"
 - cd $HOME
 #- wget http://selenium.googlecode.com/files/selenium-server-standalone-2.32.0.jar
@@ -23,7 +23,8 @@ install:
 - source build_env_vars
 - ln -s $PROJECT_HOME $GIT_PATH
 - "./build_image.sh"
-#before_script:
+before_script:
+#- sauce_connect_setup.sh
 #- java -jar $HOME/selenium-server-standalone-2.32.0.jar &
 #- sleep 5
 script:
