@@ -28,7 +28,7 @@ baseline: spec
 				spec
 					className: 'ConfigurationOfSeaside3';
 					versionString: #stable;
-					loads: #('Base' "'Seaside-HTML5'" 'Zinc');
+					loads: #('Base' 'Scriptaculous' 'Zinc');
 					repository: 'http://smalltalkhub.com/mc/Seaside/MetacelloConfigurations/main';
 					yourself];
 			project: 'Zodiac' with: [
