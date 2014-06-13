@@ -6,20 +6,19 @@ baseline: spec
 			do: [
 		"packages"
 		spec
-			package: 'NeuDeli-Interaction-Core' with: [ spec requires: #('Seaside3' 'Zodiac')];
-			package: 'NeuDeli-Interaction-test' with: [ spec requires: #('default' 'Parasol') ];
-			package: 'NeuDeli-Data' with: [spec requires: #('core')];
-			package: 'NeuDeli-Tests'  with: [spec requires: #('default' 'Parasol')];
+			package: 'NeuDeli-Data';
+			package: 'NeuDeli-Interaction-Core' with: [ spec requires: #('NeuDeli-Data' 'Seaside3' 'Zodiac')];
+			package: 'NeuDeli-Interaction-test' with: [ spec requires: #('NeuDeli-Interaction-Core' 'Parasol') ];
+			package: 'NeuDeli-Tests'  with: [spec requires: #('NeuDeli-Interaction-Core' 'Parasol')];
 			package: 'NeuDeli-TravisSupport' with: [ 
 				spec
-					requires: #('default' 'Seaside3');
+					requires: #('NeuDeli-Interaction-Core');
 					postLoadDoIt: #travisPrepare. ];
 			yourself.
 			"package: 'Zodiac-Core'  with: [spec requires: #('default')]."
 		"groups"
 		spec
-			group: 'default' with: #('NeuDeli-Interaction-Core' 'NeuDeli-Data');
-			group: 'core' with: #('NeuDeli-Interaction-Core');
+			group: 'default' with: #('NeuDeli-Interaction-Core');
 			group: 'Tests' with: #('NeuDeli-Interaction-test' 'NeuDeli-Tests');
 			group: 'TravisCI' with: #('Tests' 'NeuDeli-TravisSupport');
 			yourself.
