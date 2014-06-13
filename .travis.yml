@@ -19,4 +19,4 @@ install:
   - "./build_image.sh"
 
 script:
-  - "$BUILDER_CI_HOME/testTravisCI.sh" -verbose
+  - "$BUILDER_CI_HOME/testTravisCI.sh -verbose"
