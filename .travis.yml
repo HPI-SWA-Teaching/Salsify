@@ -8,25 +8,15 @@ env:
 addons:
   firefox: "23.0"
   sauce_connect: true
-before_install:
-- sudo apt-get -qq update
-- sudo apt-get -qq install libssl0.9.8:i386
-- export DISPLAY=:99.0
-- sh -e /etc/init.d/xvfb start
 install:
-- export PROJECT_HOME="$(pwd)"
-- cd $HOME
-#- wget http://selenium.googlecode.com/files/selenium-server-standalone-2.32.0.jar
-- wget -q -O builderCI.zip https://github.com/SWTI2014/builderCI/zipball/master
-- unzip -q builderCI.zip
-- cd SWTI2014-builderCI*
-- source build_env_vars
-- ln -s $PROJECT_HOME $GIT_PATH
-- "./build_image.sh"
-before_script:
-#- sauce_connect_setup.sh
-#- java -jar $HOME/selenium-server-standalone-2.32.0.jar &
-#- sleep 5
+  - export PROJECT_HOME="$(pwd)"
+  - cd $HOME
+  - wget -q -O builderCI.zip https://github.com/SWTI2014/builderCI/zipball/master
+  - unzip -q builderCI.zip
+  - cd SWTI2014-builderCI*
+  - source build_env_vars
+  - ln -s $PROJECT_HOME $GIT_PATH
+  - "./build_image.sh"
+
 script:
-- sudo netstat -tulp
-- "$BUILDER_CI_HOME/testTravisCI.sh"
+  - "$BUILDER_CI_HOME/testTravisCI.sh" -verbose
