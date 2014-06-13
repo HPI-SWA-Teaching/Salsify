@@ -4,8 +4,9 @@ renderGradingOfAssignmentPart: aNDAssignmentPart on: html
 		class: 'formTable';
 		with: [ html tableRow: [
 	html tableData: [html label class:'points'; with:  'Punkte:'].
-	html tableData: [html form id: 'pointForm'; 
-			with: [html textInput
+	html tableData: [self renderViewGradingFor: aNDAssignmentPart On: html]]] 
+	
+				"html textInput
 						id: 'pointInput';
 						name: 'titleName';
 						callback: [:value | aNDAssignmentPart points: value];
@@ -13,4 +14,4 @@ renderGradingOfAssignmentPart: aNDAssignmentPart on: html
 						onChange: (
 							html scriptaculous updater
 							triggerForm: 'pointInput';
-							onStatus: 200 do: 'saveNotification(pointInput)')]]]] 
+							onStatus: 200 do: 'saveNotification(pointInput)')]]]] " 

@@ -83,5 +83,14 @@ div.submitComponent, div.submission {
 
 
  }
+
+div.submissionGrading {  
+	width: 500px;
+ }
+
+#pointInput {   
+	float: left;
+ }
+}
 '
 

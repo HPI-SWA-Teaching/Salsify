@@ -1,5 +1,6 @@
 rendering
 renderContentOn: html
+
 	html unorderedList
 		class:'submitInfoBox'; 
 		with: [	 html heading level:3; 
