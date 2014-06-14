@@ -1,3 +1,0 @@
-accessing
-aGroup
-	^ aGroup

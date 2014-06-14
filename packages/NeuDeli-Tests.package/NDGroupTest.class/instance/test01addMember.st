@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 test01addMember
 	| group user |
 	group := NDGroup new.

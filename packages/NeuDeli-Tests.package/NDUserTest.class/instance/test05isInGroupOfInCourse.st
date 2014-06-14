@@ -1,4 +1,4 @@
-testing
+tests
 test05isInGroupOfInCourse
 	| user1 user2 user1group |
 	user1 := NDUser new.

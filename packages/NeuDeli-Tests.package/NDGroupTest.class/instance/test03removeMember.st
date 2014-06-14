@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 test03removeMember
 	| group user |
 	group := NDGroup new.

@@ -1,4 +1,4 @@
-testing
+tests
 test01addAssignmentPart
 	| assignmentPart |
 	assignmentPart := NDAssignmentPart new.

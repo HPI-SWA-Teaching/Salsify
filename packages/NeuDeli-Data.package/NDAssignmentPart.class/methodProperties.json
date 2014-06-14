@@ -2,15 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addExtension:" : "lf 6/7/2014 15:30",
-		"extensionString" : "lf 6/7/2014 15:30",
+		"addExtension:" : "fm 6/26/2013 18:46",
+		"extensionString" : "fm 7/16/2013 20:53",
 		"extensions" : "fm 6/23/2013 11:53",
 		"extensions:" : "fm 6/23/2013 11:53",
 		"initialize" : "JB 6/13/2014 19:37",
-		"isEmpty" : "lf 6/7/2014 15:29",
-		"points" : "JB 6/7/2014 15:22",
+		"isEmpty" : "fm 6/23/2013 13:23",
+		"points" : "JB 6/7/2014 11:08",
 		"points:" : "JB 6/7/2014 15:23",
 		"removeEmptyExtensions" : "lf 6/7/2014 15:30",
-		"removeExtension:" : "lf 6/7/2014 15:30",
+		"removeExtension:" : "fm 6/23/2013 13:04",
 		"title" : "fm 6/20/2013 14:45",
 		"title:" : "fm 6/20/2013 14:45" } }

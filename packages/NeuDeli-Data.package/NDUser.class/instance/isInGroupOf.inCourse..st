@@ -1,4 +1,4 @@
-checking
+testing
 isInGroupOf: aUser inCourse: aCourse
 	| group |
 	group := aUser findGroupByCourse: aCourse.

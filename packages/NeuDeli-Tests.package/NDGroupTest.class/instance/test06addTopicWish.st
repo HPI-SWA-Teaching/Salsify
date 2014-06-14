@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 test06addTopicWish
 	| group |
 	group := NDGroup new.

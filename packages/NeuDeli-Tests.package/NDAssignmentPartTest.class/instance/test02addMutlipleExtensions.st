@@ -1,4 +1,4 @@
-testing
+tests
 test02addMutlipleExtensions
 	| assignmentPart |
 	assignmentPart := NDAssignmentPart new.

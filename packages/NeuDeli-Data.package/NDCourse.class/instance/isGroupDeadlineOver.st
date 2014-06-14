@@ -1,3 +1,3 @@
-as yet unclassified
+testing
 isGroupDeadlineOver
 	^(self groupDeadline < Date current)

@@ -1,4 +1,4 @@
-testing
+tests
 test04removeEmptyExtensions
 	| assignmentPart |
 	assignmentPart := NDAssignmentPart new.

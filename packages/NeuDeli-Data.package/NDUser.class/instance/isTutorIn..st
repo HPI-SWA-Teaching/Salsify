@@ -1,4 +1,4 @@
-checking
+testing
 isTutorIn: aCourse
 	aCourse tutors
 		detect: [:each | each = self]

@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 test07computeGroupName
 	| group user1 user2 |
 	group := NDGroup new.

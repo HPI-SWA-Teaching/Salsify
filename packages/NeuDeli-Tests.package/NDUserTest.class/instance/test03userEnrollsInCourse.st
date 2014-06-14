@@ -1,4 +1,4 @@
-testing
+tests
 test03userEnrollsInCourse
 	| user |
 	user := NDUser new.

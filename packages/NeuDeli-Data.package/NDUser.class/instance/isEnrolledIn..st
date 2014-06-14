@@ -1,4 +1,4 @@
-checking
+testing
 isEnrolledIn: aCourse
 	self studentIn
 		detect: [:each | each = aCourse]

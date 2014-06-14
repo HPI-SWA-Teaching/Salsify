@@ -1,4 +1,4 @@
-testing
+tests
 test01UserIsPrivilegedTutor
 	| user |
 	user := NDUser new.

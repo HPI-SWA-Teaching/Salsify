@@ -1,5 +1,5 @@
-testing
-test03removeExtensions
+tests
+test03removeExtension
 	| assignmentPart |
 	assignmentPart := NDAssignmentPart new.
 	assignmentPart addExtension: '.txt'.

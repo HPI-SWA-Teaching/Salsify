@@ -1,4 +1,4 @@
-testing
+tests
 test07isTutorForGroup
 	| tutor user group|
 	tutor := NDUser new.

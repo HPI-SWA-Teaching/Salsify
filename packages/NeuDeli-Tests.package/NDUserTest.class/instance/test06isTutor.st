@@ -1,4 +1,4 @@
-testing
+tests
 test06isTutor
 	| tutor |
 	tutor := NDUser new.

@@ -1,4 +1,4 @@
-testing
+tests
 test03removeEmptyAssignmentParts
 	
 	self assignment assignmentParts:  

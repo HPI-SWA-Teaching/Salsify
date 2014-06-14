@@ -1,3 +1,3 @@
 removing
-removeEmptyAssignments 
-	self assignments do: [:each | each title = '' ifTrue: [self removeAssignment: each]]
+removeEmptyAssignments
+	self assignments: (self assignments reject: [:each | each title = '']). 

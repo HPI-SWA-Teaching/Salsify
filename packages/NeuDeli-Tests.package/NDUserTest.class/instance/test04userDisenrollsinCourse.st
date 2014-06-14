@@ -1,4 +1,4 @@
-testing
+tests
 test04userDisenrollsinCourse
 	| user |
 	user := NDUser new.

@@ -1,4 +1,4 @@
-testing
+tests
 test02addAndRetrieveSubmission
 	| submission group|
 	submission := NDSubmission new.

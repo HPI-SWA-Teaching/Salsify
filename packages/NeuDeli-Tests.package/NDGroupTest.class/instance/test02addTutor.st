@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 test02addTutor
 	| group tutor |
 	group := NDGroup new.

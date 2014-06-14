@@ -1,4 +1,4 @@
-testing
+tests
 test02UserIsTutor
 	| user |
 	user := NDUser new.

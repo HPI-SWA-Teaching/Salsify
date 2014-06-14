@@ -1,4 +1,4 @@
-checking
+testing
 isPrivilegedTutorIn: aCourse
 	(self isTutorIn: aCourse)
 	ifTrue:[aCourse privilegedTutors
