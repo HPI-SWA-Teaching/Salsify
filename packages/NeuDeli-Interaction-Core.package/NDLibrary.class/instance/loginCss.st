@@ -40,5 +40,9 @@ loginCss
 	margin: 5mm;
 }
 
+h3.presentation {
+margin-left: 7px;
+}
+
 
 '

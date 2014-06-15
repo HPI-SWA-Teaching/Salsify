@@ -1,16 +1,12 @@
 resetting
 createFakeCourses
-	| tom klaus |
+	| tom |
 	self class clearCourses.
 	tom := NDCourse new
-			title: 'Softwarearchitektur';
-			year: 2013;
-			isInSummer: false;
-			mailinglist: 'swa13hpi.uni-potsdam.de';
-			website: 'http://www.hpi.uni-potsdam.de/studium/lehrangebot/itse/veranstaltung/software_architektur-1.html';
+			title: 'Softwaretechnik 1';
+			year: 2014;
+			isInSummer: true;
+			mailinglist: 'swa14@hpi.uni-potsdam.de';
+			website: 'http://hpi.de/studium/lehrveranstaltungen/it-systems-engineering/lehrveranstaltung/course/2014/softwaretechnik_i-1.html';
 			published: true.
 	self addCourse: tom.
-	klaus := NDCourse new title: 'Programmiertechnik I'; year: 2013; isInSummer: false;
-			mailinglist: 'pt13hpi.uni-potsdam.de';
-			published:true.
-	self addCourse: klaus

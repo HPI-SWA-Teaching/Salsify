@@ -3,4 +3,4 @@ renderDebugLoginShortcutsOn: html
 	html anchor 
 		class: 'button';
 		callback: [self loginAsRobert];
-		with: 'Als Hirschfeld (Admin) anmelden'
+		with: 'Als Pape (Admin) anmelden'

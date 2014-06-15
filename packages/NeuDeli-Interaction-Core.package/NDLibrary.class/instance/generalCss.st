@@ -56,5 +56,12 @@ td.tableHeadingRow {
 	display: block;  
  }
 
+#profilePicture {  
+	width: 7%; 
+	height: auto;
+	position: relative;
+	top: 10%;
+	right: -70%;
+ }
 
 '
