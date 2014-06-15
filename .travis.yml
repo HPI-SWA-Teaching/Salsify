@@ -1,7 +1,7 @@
 language: erlang
 env:
   matrix:
-  - ST=Pharo-2.0
+  - ST=Pharo-2.0 SCREENSHOT=30
   #global:
   #- secure: mRX49i/sLNJc7U8SlA3wKFc64BA0ejcLmN7Rn0PWtOlpzLCf33yXVTabL/z4dJU3nCNC1STWJWJVVDhEHk68sHbTbmX1tDrarSlq+lyNIAAnQC5lX5IR86XObMGnFwildcRU8KFZOYP6hkWnWwMyKK3JN2Sl8rjjYX18OYCEDmc=
   #- secure: auhH1BX2uUlFK6NT3dl4Ad4UEVLKiJSGOk0XohYhGokzvVExaqC02eLQ/ixMpuZCKmcA7qq7Ew7Svj8IZfbWbF5cWV3ycVPciSy2DTdGh2r2cT9JHtozOFML6sbwMAiqkvPKeiwvrlMZpDVq0wBC5iQ83zqhngCqmHS5AC8fjvM=
