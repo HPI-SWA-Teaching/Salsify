@@ -31,15 +31,6 @@ table {
 	width: 390px;
 }
 
-
-
-.zipDownload {
-	display: block;
-	margin-left: 5mm;
-	font-size: 10pt;
-
-}
-
 .inlineLabel {
 	display: inline!important;
 	margin: 0!important;

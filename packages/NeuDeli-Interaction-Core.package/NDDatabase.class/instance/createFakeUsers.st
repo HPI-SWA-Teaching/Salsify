@@ -78,7 +78,7 @@ self addUser: (NDUser new identity: 'https://openid.hpi.uni-potsdam.de/user/tim.
 self addUser: (NDUser new identity: 'https://openid.hpi.uni-potsdam.de/user/tobias.pape'; username: 'Tobias Pape'; email: 'tobias.pape@hpi.uni-potsdam.de').
 self addUser: (NDUser new identity: 'https://openid.hpi.uni-potsdam.de/user/tobias.pape'; username: 'Tobias Pape'; email: 'tobias.pape@hpi.uni-potsdam.de').
 self addUser: (NDUser new identity: 'https://openid.hpi.uni-potsdam.de/user/stephan.haarmann'; username: 'Klaus Haarmann'; email: 'stephan.haarmann@student.hpi.uni-potsdam.de').
-self addUser: (NDUser new identity: 'https://openid.hpi.uni-potsdam.de/user/jaspar.mang'; username: 'Jaspar Beutlin'; email: 'jaspar.mang@student.hpi.uni-potsdam.de').
-self addUser: (NDUser new identity: 'https://openid.hpi.uni-potsdam.de/user/lukas.faber'; username: 'Lulu Faber'; email: 'lukas.faber@student.hpi.uni-potsdam.de').
+self addUser: (NDUser new identity: 'https://openid.hpi.uni-potsdam.de/user/jaspar.mang'; username: 'Jaspar Mang'; email: 'jaspar.mang@student.hpi.uni-potsdam.de').
+self addUser: (NDUser new identity: 'https://openid.hpi.uni-potsdam.de/user/lukas.faber'; username: 'Lukas Faber'; email: 'lukas.faber@student.hpi.uni-potsdam.de').
 self addUser: (NDUser new identity: 'https://openid.hpi.uni-potsdam.de/user/fabian.dumke'; username: 'Fabian Dumke'; email: 'fabian.dumke@student.hpi.uni-potsdam.de').
-self addUser: (NDUser new identity: 'https://openid.hpi.uni-potsdam.de/user/janos.brauer'; username: 'Janos for PRESIDENT'; email: 'janos.brauer@student.hpi.uni-potsdam.de')
+self addUser: (NDUser new identity: 'https://openid.hpi.uni-potsdam.de/user/janos.brauer'; username: 'Janos Brauer'; email: 'janos.brauer@student.hpi.uni-potsdam.de')

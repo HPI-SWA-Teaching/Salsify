@@ -8,7 +8,7 @@
 	"instance" : {
 		"accountInfoCss" : "JB 6/4/2014 17:15",
 		"controlElementsCss" : "JB 6/3/2014 21:01",
-		"courseCss" : "JB 6/4/2014 17:14",
+		"courseCss" : "JB 6/15/2014 18:19",
 		"courseEditorCss" : "fm 6/27/2013 22:17",
 		"courseOverviewCss" : "JB 6/4/2014 17:09",
 		"disableAutocompleteJs" : "fm 7/15/2013 15:37",
@@ -26,4 +26,4 @@
 		"profilePng" : "JB 6/15/2014 12:18",
 		"saveNotificationJs" : "fm 7/15/2013 15:41",
 		"selectorsToInclude" : "JB 6/4/2014 17:15",
-		"submitCss" : "JB 6/13/2014 19:25" } }
+		"submitCss" : "JB 6/15/2014 18:37" } }

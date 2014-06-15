@@ -72,25 +72,34 @@ div.submitComponent, div.submission {
 	margin-top: 0.5cm;
 }
 
-.points {  
-	margin: 3mm 2mm;
- }
-
 #pointInput {  
 	width: 50px;
 	padding-top: 1mm;
 	font-size: 10pt; 
+	margin: 0mm 2mm;
 
 
  }
 
 div.submissionGrading {  
 	width: 500px;
+	margin: 2mm 2mm;
  }
 
 #pointInput {   
 	float: left;
  }
+
+
+.zipDownload {
+	display: block;
+	margin-left: 5mm;
+	font-size: 10pt;
+	width: 140px;
 }
+
+.points {  
+	margin-right: 2mm;
+ }
 '
 

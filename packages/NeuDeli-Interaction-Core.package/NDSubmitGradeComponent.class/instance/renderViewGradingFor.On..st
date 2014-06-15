@@ -1,7 +1,7 @@
 as yet unclassified
 renderViewGradingFor: aNDAssignmentPart On: html 
 	html div id: 'submissionGrading',  aNDAssignmentPart title; class: 'submissionGrading'; with: [  
-		html text: aNDAssignmentPart points.
+		html span class: 'points'; with:[ html text: aNDAssignmentPart points].
 		html anchor id: 'submissionGradingButton' ; 
 				class: 'button submissionGradingButton';  
 				onClick: ( html scriptaculous updater
