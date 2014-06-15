@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"lastStoredRun" : "sh 6/14/2014 18:09" },
 	"instance" : {
 		"githubTextField" : "sh 5/31/2014 12:22",
 		"setUp" : "sh 5/31/2014 11:40",

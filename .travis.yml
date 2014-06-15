@@ -1,34 +1,34 @@
 language: erlang
-
-# Choose which platforms you want your builds run against (done in parallel)
 env:
-   - ST=Pharo-2.0
-
-# For SqueakSSL
+  matrix:
+  - ST=Pharo-2.0 SCREENSHOT=30
+  #global:
+  #- secure: mRX49i/sLNJc7U8SlA3wKFc64BA0ejcLmN7Rn0PWtOlpzLCf33yXVTabL/z4dJU3nCNC1STWJWJVVDhEHk68sHbTbmX1tDrarSlq+lyNIAAnQC5lX5IR86XObMGnFwildcRU8KFZOYP6hkWnWwMyKK3JN2Sl8rjjYX18OYCEDmc=
+  #- secure: auhH1BX2uUlFK6NT3dl4Ad4UEVLKiJSGOk0XohYhGokzvVExaqC02eLQ/ixMpuZCKmcA7qq7Ew7Svj8IZfbWbF5cWV3ycVPciSy2DTdGh2r2cT9JHtozOFML6sbwMAiqkvPKeiwvrlMZpDVq0wBC5iQ83zqhngCqmHS5AC8fjvM=
+addons:
+  firefox: "23.0"
+  #sauce_connect: true
 before_install:
-   - sudo apt-get -qq install libssl0.9.8:i386
-   - export DISPLAY=:99.0
-   - sh -e /etc/init.d/xvfb start
-   - sudo apt-get update
-
-# Boilerplate ... should be no reason to edit the install section
+  - export DISPLAY=:99.0
+  - sh -e /etc/init.d/xvfb start
 install:
-   - export PROJECT_HOME="$(pwd)"
-   - cd $HOME
-   - wget http://selenium-release.storage.googleapis.com/2.42/selenium-server-standalone-2.42.2.jar
-   - wget -q -O builderCI.zip https://github.com/SWTI2014/builderCI/zipball/master
-   - unzip -q builderCI.zip
-   - cd SWTI2014-builderCI*
-   - source build_env_vars
-   - ln -s $PROJECT_HOME $GIT_PATH
-   - sudo apt-get -qq install firefox
-   - ./build_image.sh
-   
+  - export PROJECT_HOME="$(pwd)"
+  - cd $HOME
+  - wget -q -O builderCI.zip https://github.com/SWTI2014/builderCI/zipball/master
+  - wget http://selenium.googlecode.com/files/selenium-server-standalone-2.32.0.jar
+  - unzip -q builderCI.zip
+  - cd SWTI2014-builderCI*
+  - source build_env_vars
+  - ln -s $PROJECT_HOME $GIT_PATH
+  - "./build_image.sh"
+
 before_script:
-   - java -jar $HOME/selenium-server-standalone-2.42.2.jar &
-   - sleep 30
-   - sudo netstat -tulp
+  - java -jar $HOME/selenium-server-standalone-2.32.0.jar -browserSessionReuse &
+  - sleep 5
+  - sudo netstat -tulp
 
 # use a different script if you want to customize how travis tests are run
 # use verbose flag to dump transcript unconditionally
 script: $BUILDER_CI_HOME/testTravisCI.sh -verbose
+script:
+  - "$BUILDER_CI_HOME/testTravisCI.sh -verbose"
