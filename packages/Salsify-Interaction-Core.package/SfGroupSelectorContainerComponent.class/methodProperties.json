@@ -1,0 +1,20 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addGroupSelector" : "fabiandumke 6/16/2014 18:28",
+		"course" : "fm 5/29/2013 17:25:57.9",
+		"course:" : "fm 7/16/2013 20:28",
+		"groupSelectors" : "fm 5/29/2013 17:25:57.993",
+		"groupSelectors:" : "fm 5/29/2013 17:25:58.035",
+		"haveSameMembers:and:" : "fm 7/16/2013 20:35",
+		"isStateStillConsistent" : "fm 7/16/2013 21:34",
+		"oldSelectedUsers" : "fm 5/29/2013 18:56:38.818",
+		"oldSelectedUsers:" : "fm 5/29/2013 18:56:38.873",
+		"parent" : "fm 5/29/2013 17:28:34.525",
+		"parent:" : "fm 5/29/2013 17:28:34.567",
+		"renderContentOn:" : "fm 7/16/2013 20:34",
+		"renderGroupSelectorsOn:" : "fm 5/29/2013 19:27:16.657",
+		"renderHeadingOn:" : "fm 7/16/2013 20:33",
+		"resetGroupSelectors" : "fm 7/16/2013 20:30",
+		"saveOldSelectedUsers" : "fabiandumke 6/16/2014 18:16" } }

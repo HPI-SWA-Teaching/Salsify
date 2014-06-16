@@ -1,0 +1,17 @@
+{
+	"category" : "Salsify-Interaction-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"course",
+		"groupSelectors",
+		"parent",
+		"oldSelectedUsers" ],
+	"name" : "SfGroupSelectorContainerComponent",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }

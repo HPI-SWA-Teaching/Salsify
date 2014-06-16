@@ -1,0 +1,14 @@
+{
+	"category" : "Salsify-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"assignment" ],
+	"name" : "SfAssignmentTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

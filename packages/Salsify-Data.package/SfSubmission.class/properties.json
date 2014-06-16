@@ -1,0 +1,14 @@
+{
+	"category" : "Salsify-Data",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"filesByAssignmentPart" ],
+	"name" : "SfSubmission",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,19 @@
+{
+	"category" : "Salsify-Data",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"title",
+		"submissionsByGroup",
+		"assignmentParts",
+		"deadlinesByGroup",
+		"generalDeadline",
+		"groupDeadlines" ],
+	"name" : "SfAssignment",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

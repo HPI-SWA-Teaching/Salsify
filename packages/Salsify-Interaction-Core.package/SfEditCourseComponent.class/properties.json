@@ -1,0 +1,20 @@
+{
+	"category" : "Salsify-Interaction-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"course",
+		"tutorSelectors",
+		"seasonText",
+		"topicTypeText",
+		"topicPoolEditors",
+		"assignmentEditors",
+		"privilegedTutorSelectors" ],
+	"name" : "SfEditCourseComponent",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }

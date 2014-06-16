@@ -1,0 +1,15 @@
+{
+	"category" : "Salsify-Interaction-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"course",
+		"currentPageString" ],
+	"name" : "SfBreadCrumbComponent",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }

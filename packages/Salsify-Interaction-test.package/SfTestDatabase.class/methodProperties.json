@@ -1,0 +1,26 @@
+{
+	"class" : {
+		"clearCourses" : "fm 7/8/2013 18:36",
+		"clearUsers" : "fm 7/8/2013 18:36",
+		"courses" : "fm 7/8/2013 18:36",
+		"courses:" : "fm 7/8/2013 18:36",
+		"ndUsers" : "fm 7/8/2013 18:36",
+		"ndUsers:" : "fm 7/8/2013 18:36",
+		"testUploadedFile" : "fm 7/8/2013 18:36",
+		"testUploadedFile:" : "fm 7/8/2013 18:36",
+		"writeMutex" : "fm 7/8/2013 18:36" },
+	"instance" : {
+		"addCourse:" : "fm 7/8/2013 18:36",
+		"addUser:" : "fm 7/8/2013 18:36",
+		"allAdmins" : "fm 7/8/2013 18:36",
+		"allStudents" : "fm 7/16/2013 21:07",
+		"createEmptyCourse" : "fabiandumke 6/16/2014 11:56",
+		"createFakeCourses" : "fabiandumke 6/16/2014 11:56",
+		"createFakeCourses:" : "fabiandumke 6/16/2014 11:56",
+		"createFakeUsers" : "fabiandumke 6/16/2014 12:04",
+		"findUserByEmail:" : "fm 7/8/2013 18:36",
+		"findUserByIdentity:" : "fm 7/8/2013 18:36",
+		"removeCourse:" : "fm 7/8/2013 18:36",
+		"resetDatabase" : "sh 5/31/2014 16:33",
+		"saveImage" : "fm 7/8/2013 18:36",
+		"saveImageWithoutMonitor" : "fm 7/8/2013 18:36" } }

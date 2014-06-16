@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"test01addExtension" : "fabiandumke 6/16/2014 18:13",
+		"test02addMutlipleExtensions" : "fabiandumke 6/16/2014 18:14",
+		"test03removeExtension" : "fabiandumke 6/16/2014 18:14",
+		"test04removeEmptyExtensions" : "fabiandumke 6/16/2014 18:14" } }

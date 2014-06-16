@@ -1,0 +1,27 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addTutorEditor" : "fabiandumke 6/16/2014 18:29",
+		"course" : "jw 6/29/2013 14:04",
+		"course:" : "jw 6/29/2013 14:04",
+		"group" : "jw 6/29/2013 14:04",
+		"group:" : "jw 6/29/2013 14:04",
+		"parent" : "fm 7/3/2013 10:42",
+		"parent:" : "fm 7/3/2013 10:42",
+		"renderContentOn:" : "fm 7/16/2013 14:57",
+		"renderHeadingOn:" : "fm 7/16/2013 11:54",
+		"renderStudentDefinedTopicsOn:" : "fm 7/16/2013 14:56",
+		"renderTopicAssignerOn:" : "fm 7/16/2013 14:58",
+		"renderTopicAssignerSelectOn:" : "fm 7/16/2013 15:00",
+		"renderTopicOn:" : "fm 7/16/2013 14:57",
+		"renderTopicWishAt:On:" : "fm 7/16/2013 14:52",
+		"renderTopicWishesOn:" : "fm 7/16/2013 14:53",
+		"renderTutorAssignerOn:" : "fm 7/16/2013 15:26",
+		"renderTutorAssignerSelectsOn:" : "fm 7/16/2013 15:26",
+		"resetTopicList" : "fm 7/16/2013 15:00",
+		"resetTutorEditors" : "fm 7/16/2013 11:57",
+		"topicList" : "fm 7/16/2013 14:59",
+		"topicList:" : "fm 7/16/2013 14:59",
+		"tutorEditors" : "fm 7/3/2013 13:43",
+		"tutorEditors:" : "fm 7/3/2013 13:43" } }

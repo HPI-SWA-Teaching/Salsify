@@ -1,0 +1,16 @@
+{
+	"category" : "Salsify-Data",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"title",
+		"extensions",
+		"points" ],
+	"name" : "SfAssignmentPart",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

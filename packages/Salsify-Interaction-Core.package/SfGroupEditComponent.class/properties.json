@@ -1,0 +1,18 @@
+{
+	"category" : "Salsify-Interaction-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"course",
+		"group",
+		"parent",
+		"tutorEditors",
+		"topicList" ],
+	"name" : "SfGroupEditComponent",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }

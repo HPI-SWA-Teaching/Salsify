@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"componentClass" : "fabiandumke 6/16/2014 11:03",
+		"configureTestApp:" : "fabiandumke 6/16/2014 10:42",
+		"isTextPresent:" : "sh 5/31/2014 16:01",
+		"loginAsRobert" : "sh 5/31/2014 16:01",
+		"loginButton" : "sh 5/31/2014 16:02",
+		"passwordTextfield" : "sh 5/31/2014 16:02",
+		"sessionClass" : "fabiandumke 6/16/2014 16:08",
+		"setUp" : "sh 6/14/2014 15:37",
+		"tearDown" : "sh 6/12/2014 17:40",
+		"textField" : "sh 5/31/2014 16:02" } }

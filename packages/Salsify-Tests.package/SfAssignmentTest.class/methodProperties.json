@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assignment" : "jw 6/23/2013 20:23",
+		"assignment:" : "jw 6/23/2013 20:23",
+		"setUp" : "fabiandumke 6/16/2014 18:13",
+		"test01addAssignmentPart" : "fabiandumke 6/16/2014 18:14",
+		"test02addAndRetrieveSubmission" : "fabiandumke 6/16/2014 18:17",
+		"test03removeEmptyAssignmentParts" : "fabiandumke 6/16/2014 18:14" } }

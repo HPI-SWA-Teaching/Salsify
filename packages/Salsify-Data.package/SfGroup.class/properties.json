@@ -1,0 +1,19 @@
+{
+	"category" : "Salsify-Data",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"number",
+		"tutors",
+		"members",
+		"topic",
+		"topicdescription",
+		"topicWishes" ],
+	"name" : "SfGroup",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

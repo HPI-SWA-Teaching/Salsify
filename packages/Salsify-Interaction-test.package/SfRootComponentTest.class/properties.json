@@ -1,0 +1,14 @@
+{
+	"category" : "Salsify-Interaction-test",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SfRootComponentTest",
+	"pools" : [
+		 ],
+	"super" : "BPWebDriverTestCase",
+	"type" : "normal" }

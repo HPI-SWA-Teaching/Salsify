@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"course" : "JasparMang 6/7/2014 09:57",
+		"course:" : "JasparMang 6/7/2014 09:57",
+		"setUp" : "fabiandumke 6/16/2014 18:16",
+		"test01UserIsPrivilegedTutor" : "fabiandumke 6/16/2014 18:23",
+		"test02UserIsTutor" : "fabiandumke 6/16/2014 18:23",
+		"test03userEnrollsInCourse" : "fabiandumke 6/16/2014 18:23",
+		"test04userDisenrollsinCourse" : "fabiandumke 6/16/2014 18:24",
+		"test05isInGroupOfInCourse" : "fabiandumke 6/16/2014 18:24",
+		"test06isTutor" : "fabiandumke 6/16/2014 18:24",
+		"test07isTutorForGroup" : "fabiandumke 6/16/2014 18:24" } }

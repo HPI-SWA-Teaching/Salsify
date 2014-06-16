@@ -1,0 +1,16 @@
+{
+	"category" : "Salsify-Interaction-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"user",
+		"database",
+		"rootComponent" ],
+	"name" : "SfSession",
+	"pools" : [
+		 ],
+	"super" : "WASession",
+	"type" : "normal" }

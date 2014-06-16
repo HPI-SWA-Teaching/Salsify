@@ -1,0 +1,14 @@
+{
+	"category" : "Salsify-Interaction-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SfCourseOverviewItemComponent",
+	"pools" : [
+		 ],
+	"super" : "SfCourseAbstractComponent",
+	"type" : "normal" }

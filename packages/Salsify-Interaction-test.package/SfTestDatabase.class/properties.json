@@ -1,0 +1,17 @@
+{
+	"category" : "Salsify-Interaction-test",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Courses",
+		"TestUploadedFile",
+		"Users",
+		"WriteMutex" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SfTestDatabase",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

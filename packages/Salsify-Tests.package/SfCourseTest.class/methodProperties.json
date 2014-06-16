@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"test01addAndRemoveAssignment" : "fabiandumke 6/16/2014 18:18",
+		"test02addandRemoveGroup" : "fabiandumke 6/16/2014 18:16",
+		"test03addAndRemoveTutor" : "fabiandumke 6/16/2014 18:18",
+		"test04addAndRemovePrivilegedTutor" : "fabiandumke 6/16/2014 18:18",
+		"test05addAndRemoveStudent" : "fabiandumke 6/16/2014 18:18",
+		"test06StudentsAreAddedInDifferentGroups" : "fabiandumke 6/16/2014 18:18",
+		"test07addAndRemoveTopic" : "fabiandumke 6/16/2014 18:15",
+		"test08removeEmptyAssignments" : "fabiandumke 6/16/2014 18:15",
+		"test09CourseAsString" : "fabiandumke 6/16/2014 18:15",
+		"test10findGroupByUser" : "fabiandumke 6/16/2014 18:18",
+		"test11setGroupNumbers" : "fabiandumke 6/16/2014 18:19" } }

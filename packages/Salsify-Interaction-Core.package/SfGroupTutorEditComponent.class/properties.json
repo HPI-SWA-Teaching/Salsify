@@ -1,0 +1,19 @@
+{
+	"category" : "Salsify-Interaction-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"parent",
+		"course",
+		"group",
+		"selectedTutor",
+		"tutorList",
+		"nullTutor" ],
+	"name" : "SfGroupTutorEditComponent",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Salsify-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SfGroupTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

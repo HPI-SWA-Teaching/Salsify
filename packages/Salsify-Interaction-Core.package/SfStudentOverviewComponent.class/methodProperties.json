@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"withCourse:" : "sh 5/24/2014 09:58" },
+	"instance" : {
+		"course" : "sh 5/24/2014 09:58",
+		"course:" : "sh 5/24/2014 10:04",
+		"initialize" : "JB 5/30/2014 20:59",
+		"renderContentOn:" : "sh 5/24/2014 10:32",
+		"renderHeadingOn:" : "sh 5/24/2014 09:58",
+		"renderStudentOverviewTableHeadOn:" : "JB 5/30/2014 21:11",
+		"renderStudentRow:on:" : "JB 5/30/2014 20:56",
+		"rows" : "JB 5/30/2014 20:54",
+		"rows:" : "JB 5/30/2014 20:54" } }

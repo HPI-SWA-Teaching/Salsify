@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"test01addMember" : "fabiandumke 6/16/2014 18:22",
+		"test02addTutor" : "fabiandumke 6/16/2014 18:22",
+		"test03removeMember" : "fabiandumke 6/16/2014 18:22",
+		"test04removeTutor" : "fabiandumke 6/16/2014 18:22",
+		"test05removeAllMembers" : "fabiandumke 6/16/2014 18:22",
+		"test06addTopicWish" : "fabiandumke 6/16/2014 18:17",
+		"test07computeGroupName" : "fabiandumke 6/16/2014 18:22",
+		"test08computeGroupMailToLink" : "fabiandumke 6/16/2014 18:22" } }

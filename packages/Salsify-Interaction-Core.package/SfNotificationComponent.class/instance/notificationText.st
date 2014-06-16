@@ -1,0 +1,3 @@
+accessing
+notificationText
+	^ notificationText

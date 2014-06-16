@@ -1,0 +1,18 @@
+{
+	"category" : "Salsify-Gemstoneport",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"parent",
+		"assignmentPart",
+		"extensionEditors",
+		"assignmentPartEditorID",
+		"assignmentEditorID" ],
+	"name" : "SfAssignmentPartEditorComponentGEM",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }

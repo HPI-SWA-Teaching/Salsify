@@ -1,0 +1,14 @@
+{
+	"category" : "Salsify-Interaction-test",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SfTestSession",
+	"pools" : [
+		 ],
+	"super" : "SfSession",
+	"type" : "normal" }

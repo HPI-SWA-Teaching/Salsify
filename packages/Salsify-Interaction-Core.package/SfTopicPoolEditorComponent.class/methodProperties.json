@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"course" : "jw 6/20/2013 23:01",
+		"course:" : "jw 6/20/2013 23:01",
+		"initialize" : "jw 6/20/2013 23:12",
+		"parent" : "jw 6/20/2013 23:01",
+		"parent:" : "jw 6/20/2013 23:01",
+		"removePreviousTopic" : "fm 7/15/2013 18:56",
+		"renderContentOn:" : "fm 7/16/2013 15:47",
+		"topic" : "jw 6/20/2013 23:01",
+		"topic:" : "jw 6/20/2013 23:01",
+		"validateTopicChange:" : "fm 7/15/2013 18:56" } }
