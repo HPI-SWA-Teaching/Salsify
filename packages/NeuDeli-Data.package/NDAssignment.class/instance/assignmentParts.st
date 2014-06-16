@@ -1,3 +1,0 @@
-accessing
-assignmentParts
-	^ assignmentParts

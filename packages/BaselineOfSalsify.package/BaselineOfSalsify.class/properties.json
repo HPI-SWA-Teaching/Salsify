@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfSalsify",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfSalsify",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }

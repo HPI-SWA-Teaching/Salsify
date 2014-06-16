@@ -1,3 +1,0 @@
-accessing
-generalDeadline
-	^ generalDeadline

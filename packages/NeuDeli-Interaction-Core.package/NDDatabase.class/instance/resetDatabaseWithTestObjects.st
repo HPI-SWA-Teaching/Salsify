@@ -1,4 +1,0 @@
-resetting
-resetDatabaseWithTestObjects
-	self createFakeCourses.
-	self createFakeUsers

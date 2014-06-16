@@ -1,3 +1,0 @@
-accessing
-topicWishes
-	^ topicWishes

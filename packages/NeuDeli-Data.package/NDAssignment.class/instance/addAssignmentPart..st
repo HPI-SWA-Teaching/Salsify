@@ -1,3 +1,0 @@
-assignmentPartManaging
-addAssignmentPart: anAssignment
-	self assignmentParts add: anAssignment
