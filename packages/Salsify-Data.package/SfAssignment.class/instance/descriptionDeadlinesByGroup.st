@@ -5,4 +5,6 @@ descriptionDeadlinesByGroup
 		selectorAccessor: #deadlinesByGroup;
 		label: 'Gruppendeadline';
 		priority: 10;
+		default: GROrderedMultiMap new;
+		beOrdered;
 		yourself

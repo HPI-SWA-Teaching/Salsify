@@ -1,0 +1,9 @@
+magritte
+descriptionTopicWishes
+	^MAMultipleOptionDescription  new 
+		selectorAccessor: #topicWishes;
+		label: 'Themenwünsche';
+		priority: 40;
+		default: Dictionary new;
+		yourself
+		
