@@ -7,7 +7,7 @@ baseline: spec
 		"packages"
 		spec
 			package: 'Salsify-Data';
-			package: 'Salsify-Interaction-Core' with: [ spec requires: #('NeuDeli-Data' 'Seaside3' 'Zodiac')];
+			package: 'Salsify-Interaction-Core' with: [ spec requires: #('Salsify-Data' 'Seaside3' 'Zodiac')];
 			package: 'Salsify-Interaction-test' with: [ spec requires: #('Salsify-Interaction-Core' 'Parasol') ];
 			package: 'Salsify-Tests'  with: [spec requires: #('Salsify-Interaction-Core' 'Parasol')];
 			package: 'Salsify-TravisSupport' with: [ 
