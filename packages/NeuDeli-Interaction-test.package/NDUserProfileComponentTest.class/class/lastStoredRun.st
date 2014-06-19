@@ -1,3 +1,0 @@
-history
-lastStoredRun
-	^ ((Dictionary new) add: (#errors->((Set new) add: #test06SetUsername; yourself)); add: (#passed->((Set new) add: #test07SetEmail; add: #test04GithubIsEmpty; add: #test02UserNameEqualsLoginName; add: #test01TestHeading; add: #test03EMailMatchesPerson; add: #test05SetGithubName; yourself)); add: (#failures->((Set new) add: #test08TestMenuPoint; yourself)); add: (#timeStamp->(DateAndTime basicNew instVarAt: 1 put: 57995; instVarAt: 2 put: (Duration seconds: 7200 nanoSeconds: 0); instVarAt: 3 put: 2456823; instVarAt: 4 put: 743000000; yourself)); yourself)

@@ -6,4 +6,4 @@ renderDebugLoginFormOn: html
 			html textInput on: #username of: self; value: ''.
 			html label with: 'Passwort'.
 			html passwordInput callback: [:value | self password: value].
-			html submitButton callback: [self validateLogin]; text: 'Anmelden']
+			html submitButton callback: [.self validateLogin]; text: 'Anmelden']
