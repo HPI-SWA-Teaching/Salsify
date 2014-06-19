@@ -1,5 +1,5 @@
 magritte
-descriptionextensions
+descriptionExtensions
 	| extension |
 	extension := OrderedCollection new.
 	extension add: '*'.
