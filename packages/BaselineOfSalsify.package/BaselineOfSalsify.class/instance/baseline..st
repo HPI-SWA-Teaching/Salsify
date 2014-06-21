@@ -46,6 +46,6 @@ baseline: spec
 					className: 'ConfigurationOfMagritte3';
 					repository: 'http://smalltalkhub.com/mc/Magritte/Magritte3/main';
 					versionString: #stable;
-					load: 'Seaside';
+					load: #('Seaside');
 					yourself];
 			yourself].
