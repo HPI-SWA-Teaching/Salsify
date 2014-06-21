@@ -7,9 +7,9 @@ baseline: spec
 		"packages"
 		spec
 			package: 'Salsify-Data';
-			package: 'Salsify-Interaction-Core' with: [ spec requires: #('Salsify-Data' 'Seaside3' 'Zodiac')];
-			package: 'Salsify-Interaction-test' with: [ spec requires: #('Salsify-Interaction-Core' 'Parasol') ];
-			package: 'Salsify-Tests'  with: [spec requires: #('Salsify-Interaction-Core' 'Parasol')];
+			package: 'Salsify-Interaction-Core' with: [ spec requires: #('Salsify-Data' 'Seaside3' 'Zodiac' 'Magritte')];
+			package: 'Salsify-Interaction-test' with: [ spec requires: #('Salsify-Interaction-Core' 'Parasol' 'Magritte') ];
+			package: 'Salsify-Tests'  with: [spec requires: #('Salsify-Interaction-Core' 'Magritte' 'Parasol')];
 			package: 'Salsify-TravisSupport' with: [ 
 				spec
 					requires: #('Salsify-Interaction-Core');
@@ -42,5 +42,11 @@ baseline: spec
 					repository: 'http://ss3.gemtalksystems.com/ss/Parasol';
 					versionString: #development;
 					loads: #('dev');
+					yourself];
+			project: 'Magritte' with: [
+				spec
+					configuration: 'Magritte3';
+					repository: 'http://smalltalkhub.com/mc/Magritte/Magritte3/main';
+					load: 'Seaside';
 					yourself];
 			yourself].
