@@ -1,6 +1,6 @@
 magritte
 descriptionPrivilegedTutors
-
+	<magritteDescription>
 	^MAMultipleOptionDescription new
 		selectorAccessor: #privilegedTutors;
 		label: 'privligierte Tutoren';

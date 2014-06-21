@@ -1,6 +1,6 @@
 magritte
 descriptionYear
-
+	<magritteDescription>
 	^MANumberDescription new
 		selectorAccessor: #year;
 		label: 'Jahr';

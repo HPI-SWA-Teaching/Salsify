@@ -1,5 +1,6 @@
 magritte
 descriptionTopic
+	<magritteDescription>
 	^MAStringDescription new 
 		selectorAccessor: #topic;
 		label: 'Thema';

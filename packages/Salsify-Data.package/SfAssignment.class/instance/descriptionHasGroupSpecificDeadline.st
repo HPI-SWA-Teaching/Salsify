@@ -1,6 +1,6 @@
 magritte
 descriptionHasGroupSpecificDeadline
-
+	<magritteDescription>
 	^MABooleanDescription new
 		selectorAccessor: #hasGroupSpecificDeadline;
 		label: 'hat Gruppen spezifische Deadline?';

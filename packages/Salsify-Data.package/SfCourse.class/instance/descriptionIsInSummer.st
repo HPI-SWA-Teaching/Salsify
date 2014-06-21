@@ -1,6 +1,6 @@
 magritte
 descriptionIsInSummer
-
+	<magritteDescription>
 	^MABooleanDescription new
 		selectorAccessor: #isInSummer;
 		label: 'Ist im Sommer?';

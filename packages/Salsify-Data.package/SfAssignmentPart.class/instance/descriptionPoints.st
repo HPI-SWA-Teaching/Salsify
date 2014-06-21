@@ -1,6 +1,6 @@
 magritte
 descriptionPoints
-
+	<magritteDescription>
 	^MANumberDescription new
 		selectorAccessor: #points;
 		label: 'Punkte';

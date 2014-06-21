@@ -1,6 +1,6 @@
 magritte
 descriptionTitle
-
+	<magritteDescription>
 	^MAStringDescription new
 		selectorAccessor: #title;
 		label: 'Titel';

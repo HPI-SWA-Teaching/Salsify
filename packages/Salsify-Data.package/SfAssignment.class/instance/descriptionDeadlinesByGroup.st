@@ -1,6 +1,6 @@
 magritte
 descriptionDeadlinesByGroup
-
+	<magritteDescription>
 	^MADateDescription new
 		selectorAccessor: #deadlinesByGroup;
 		label: 'Gruppendeadline';

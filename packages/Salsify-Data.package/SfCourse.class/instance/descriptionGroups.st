@@ -1,6 +1,6 @@
 magritte
 descriptionGroups
-
+	<magritteDescription>
 	^MAMultipleOptionDescription new
 		selectorAccessor: #groups;
 		label: 'Gruppen';

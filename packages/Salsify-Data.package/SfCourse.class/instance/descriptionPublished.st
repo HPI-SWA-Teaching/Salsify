@@ -1,6 +1,6 @@
 magritte
 descriptionPublished
-
+	<magritteDescription>
 	^MABooleanDescription new
 		selectorAccessor: #published;
 		label: 'Veröffentlicht?';
