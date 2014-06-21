@@ -12,7 +12,8 @@
 		"selectedUser",
 		"userList",
 		"privilegedTutorSelectors",
-		"privilegedTutors" ],
+		"privilegedTutors",
+		"freeUserList" ],
 	"name" : "SfPrivilegedTutorSelectorComponent",
 	"pools" : [
 		 ],

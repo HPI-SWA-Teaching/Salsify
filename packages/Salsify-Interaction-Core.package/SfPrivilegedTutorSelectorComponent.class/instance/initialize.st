@@ -1,5 +1,6 @@
 rendering
 initialize 
 	super initialize. 
-	self privilegedTutors: OrderedCollection new. 
 	self userList: OrderedCollection new. 
+	self freeUserList: OrderedCollection new. 
+	self freeUserList add: (SfUser new username: '')
