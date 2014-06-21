@@ -4,6 +4,4 @@ renderPrivilegedTutorSelectorsContainerOn: html
 	html tableRow: [html tableData: [
 				html label: 'Priviligierte Tutoren:'].
 				html tableData: [
-					html form
-						id: 'ptutorSelectorForm';
-						with: [self renderPrivilegedTutorSelectorsOn: html]]]
+					self privilegedTutorComponent renderPrivilegedTutorSelectorsOn: html]]
