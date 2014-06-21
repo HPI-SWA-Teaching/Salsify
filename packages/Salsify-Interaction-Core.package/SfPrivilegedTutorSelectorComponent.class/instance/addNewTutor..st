@@ -1,4 +1,4 @@
 as yet unclassified
 addNewTutor: newlySelectedUser
-	newlySelectedUser = self nullUser
-	ifFalse: [self course addPrivilegedTutor: newlySelectedUser]
+	"newlySelectedUser = self nullUser"
+	self course addPrivilegedTutor: newlySelectedUser

@@ -3,5 +3,4 @@ renderUploadButtonForAssignmentPart: anAssignmentPart withFormID: aFormID ofAssi
 	html tableData
 		class: 'buttons'; 
 		with: [((anAssignment getDeadlineFor: self group) >= Date current)
-					ifTrue: [html submitButton with: 'hochladen']
-					ifFalse:[self renderGradingPointsForAssignmentPart: anAssignmentPart  withFormID: aFormID ofAssignment: anAssignment on: html]]
+					ifTrue: [html submitButton with: 'hochladen']]

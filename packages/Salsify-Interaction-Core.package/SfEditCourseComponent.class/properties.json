@@ -12,7 +12,7 @@
 		"topicTypeText",
 		"topicPoolEditors",
 		"assignmentEditors",
-		"privilegedTutorSelectors" ],
+		"privilegedTutorComponent" ],
 	"name" : "SfEditCourseComponent",
 	"pools" : [
 		 ],

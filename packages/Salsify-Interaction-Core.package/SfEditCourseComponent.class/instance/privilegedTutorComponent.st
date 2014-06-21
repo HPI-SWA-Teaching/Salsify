@@ -1,0 +1,4 @@
+accessing
+privilegedTutorComponent
+
+	^ privilegedTutorComponent

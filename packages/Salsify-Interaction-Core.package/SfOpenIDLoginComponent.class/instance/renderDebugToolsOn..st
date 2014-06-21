@@ -3,8 +3,7 @@ renderDebugToolsOn: html
 	SfLibrary debug 
 		ifTrue: [html div
 					class: 'debug loginBox';
-					with: [
+					with: [self renderDebugLoginFormOn: html.
 						self renderPresentationHeadingOn: html.
-						self renderDebugLoginFormOn: html.
 					"	self renderDebugLoginShortcutsOn: html."
-						self renderDatabaseResetButtonsOn: html]]
+					"	self renderDatabaseResetButtonsOn: html"]]

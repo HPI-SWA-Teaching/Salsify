@@ -10,7 +10,9 @@
 		"nullUser",
 		"parent",
 		"selectedUser",
-		"userList" ],
+		"userList",
+		"privilegedTutorSelectors",
+		"privilegedTutors" ],
 	"name" : "SfPrivilegedTutorSelectorComponent",
 	"pools" : [
 		 ],
