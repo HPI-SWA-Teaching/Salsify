@@ -1,0 +1,15 @@
+{
+	"category" : "NeuDeli-Interaction-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"submitComponent",
+		"submitGradeComponent" ],
+	"name" : "NDCourseComponent",
+	"pools" : [
+		 ],
+	"super" : "NDCourseAbstractComponent",
+	"type" : "normal" }

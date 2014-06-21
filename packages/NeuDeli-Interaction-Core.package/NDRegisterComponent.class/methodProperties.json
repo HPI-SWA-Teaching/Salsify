@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"email" : "fm 7/13/2013 13:58",
+		"email:" : "fm 7/13/2013 13:58",
+		"initialize" : "fm 7/13/2013 14:11",
+		"registerUser" : "fm 7/16/2013 17:28",
+		"renderContentOn:" : "fm 7/15/2013 13:47",
+		"renderExplanationOn:" : "fm 7/15/2013 13:47",
+		"renderHeadingOn:" : "fm 7/15/2013 13:46",
+		"renderRegisterFormOn:" : "fm 7/15/2013 13:48",
+		"user" : "fm 7/13/2013 13:48",
+		"user:" : "fm 7/13/2013 13:48",
+		"username" : "fm 7/13/2013 13:58",
+		"username:" : "fm 7/13/2013 13:58",
+		"validateRegistration" : "fm 7/16/2013 17:28" } }

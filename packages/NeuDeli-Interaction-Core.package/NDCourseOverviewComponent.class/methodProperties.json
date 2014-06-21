@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"createCourseAndShowEditor" : "fm 7/15/2013 11:47",
+		"renderAddCourseButtonOn:" : "fm 7/15/2013 11:51",
+		"renderContentOn:" : "fm 7/15/2013 11:51",
+		"renderCourseOverviewItemsOn:" : "fm 7/15/2013 11:52",
+		"renderHeadingOn:" : "fm 7/15/2013 11:51" } }
