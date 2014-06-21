@@ -2,6 +2,5 @@ initialization
 initialize
 	self
 		extensions: OrderedCollection new;
-		title: ''; 
-		points: 0.
+		title: ''.
 	self extensions add: '*'
