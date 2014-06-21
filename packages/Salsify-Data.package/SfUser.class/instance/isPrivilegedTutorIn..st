@@ -1,9 +1,7 @@
 testing
 isPrivilegedTutorIn: aCourse
-	(self isTutorIn: aCourse)
-	ifTrue:[aCourse privilegedTutors
+	aCourse privilegedTutors
 				detect: [:each | each = self]
 				ifNone: [^false].
-		^true].
-	^false
+		^true
 	
