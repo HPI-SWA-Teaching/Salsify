@@ -15,8 +15,6 @@ baseline: spec
 					requires: #('Salsify-Interaction-Core');
 					postLoadDoIt: #travisPrepare. ];
 			yourself.
-			"package: 'Zodiac-Core'  with: [spec requires: #('default')]."
-		"groups"
 		spec
 			group: 'default' with: #('Salsify-Interaction-Core');
 			group: 'Tests' with: #('Salsify-Interaction-test' 'Salsify-Tests');
@@ -45,8 +43,9 @@ baseline: spec
 					yourself];
 			project: 'Magritte' with: [
 				spec
-					configuration: 'Magritte3';
+					className: 'ConfigurationOfMagritte3';
 					repository: 'http://smalltalkhub.com/mc/Magritte/Magritte3/main';
+					versionString: #stable;
 					load: 'Seaside';
 					yourself];
 			yourself].
