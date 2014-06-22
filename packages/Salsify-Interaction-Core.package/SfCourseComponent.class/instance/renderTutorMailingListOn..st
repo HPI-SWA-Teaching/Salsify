@@ -1,7 +1,8 @@
 rendering
 renderTutorMailingListOn: html
 
-((self session user isAdmin) | (self session user isTutorIn: self course)) & (self course tutors isEmpty not)
+((self session user isAdmin) | (self session user isTutorIn: self course) | 
+(self session user isPrivilegedTutorIn: self course)) & (self course tutors isEmpty not)
 		ifTrue: [html anchor
 			id: 'tutormailinglist';
 				url: 'mailto:',  (self course tutors inject: '' into: [:list : each| list , each email, ',']); 

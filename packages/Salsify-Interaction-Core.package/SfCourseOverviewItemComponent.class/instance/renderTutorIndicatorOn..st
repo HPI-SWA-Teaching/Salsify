@@ -1,6 +1,6 @@
 rendering
 renderTutorIndicatorOn: html
-	self userIsTutor 
+	(self userIsTutor | self userIsPrivilegedTutor)
 		ifTrue: [html span
 					class:'courseItemStatus';
-					with: [html text: 'tutor']]
+					with: [html text: 'Tutor']]

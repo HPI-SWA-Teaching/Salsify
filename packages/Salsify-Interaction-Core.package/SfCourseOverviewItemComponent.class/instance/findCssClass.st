@@ -4,9 +4,9 @@ findCssClass
 	
 	cssClass := 'courseOverviewItem'.
 
-	self userIsEnrolled
+	(self userIsEnrolled)
 		ifTrue: [cssClass := cssClass, ' enrolled'].
-	self userIsTutor
+	(self userIsTutor | self userIsPrivilegedTutor)
 		ifTrue: [cssClass := cssClass, ' tutor'].
 	
 	^cssClass
