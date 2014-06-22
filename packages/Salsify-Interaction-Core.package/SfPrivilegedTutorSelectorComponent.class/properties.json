@@ -9,7 +9,7 @@
 		"course",
 		"nullUser",
 		"privilegedTutors",
-		"freeUserList" ],
+		"availableUserList" ],
 	"name" : "SfPrivilegedTutorSelectorComponent",
 	"pools" : [
 		 ],

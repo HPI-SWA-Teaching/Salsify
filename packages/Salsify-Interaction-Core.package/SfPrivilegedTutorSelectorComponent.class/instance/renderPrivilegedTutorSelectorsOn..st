@@ -2,7 +2,7 @@ rendering
 renderPrivilegedTutorSelectorsOn: html	
 	|idex| 
 	idex := 0. 
-	self createFreeUserList. 
+	self createAvailableUserList. 
 	self course privilegedTutors do: [ :each | idex:= idex + 1. 
 	html div 
 		class: 'privilegedTutors'; 
@@ -25,7 +25,7 @@ renderPrivilegedTutorSelectorsOn: html
 	html form id: 'selectedTutorForm'; 
 	with: [ html select
 			class: 'pgroupselect select';
-			list: self freeUserList ; 
+			list: self availableUserList ; 
 			callback: [: value | self addPrivilegedTutor: value];
 			onChange: (html scriptaculous updater
 							id: 'privilegedTutorInfo';
