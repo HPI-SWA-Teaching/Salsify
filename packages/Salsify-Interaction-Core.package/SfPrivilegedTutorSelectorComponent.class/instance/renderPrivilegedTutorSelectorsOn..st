@@ -1,25 +1,35 @@
 rendering
 renderPrivilegedTutorSelectorsOn: html	
-	self createUserList. 
-	self course privilegedTutors do: [ :each |
-	html select
-			class: 'groupselect select';
-			list: self userList ;
-			callback: [: value | self validateTutorChange: value. self course addPrivilegedTutor: value];
-			onChange: (html scriptaculous updater
-									id: 'ptutorSelectorForm';
-									callback: [:r | self renderPrivilegedTutorSelectorsOn: r];
-									triggerForm: 'ptutorSelectorForm';
-									onStatus: 200 do: 'saveNotification("ptutorSelectorForm")'); 
-				selected: each.].
-	self createFreeUserList. 					
-	html select
+	|idex| 
+	idex := 0. 
+	self createFreeUserList. 
+	self course privilegedTutors do: [ :each | idex:= idex + 1. 
+	html div 
+		class: 'privilegedTutors'; 
+		with: [ html span
+				class: 'priviligedTutorName'; 
+				with: [ html text: each]. 
+			    html 
+				form id: 'privilegedTutor', idex ; 
+				with: [ html hiddenInput 
+					 	name: 'privilegedTutor';
+						callback: [:value | self removePrivilegedTutor: value]; 
+						value: each.
+					    html anchor id: 'submitSubmissionGradingButton' ; 
+						class: 'button submissionGradingButton';  
+						onClick: ( html scriptaculous updater
+							id: 'privilegedTutorInfo'; 
+							triggerForm: ('privilegedTutor',  idex);
+							callback: [ :ajaxHtml | self renderContentOn: ajaxHtml ]); 
+						with: [html text: 'Löschen']]]].				
+	html form id: 'selectedTutorForm'; 
+	with: [ html select
 			class: 'pgroupselect select';
 			list: self freeUserList ; 
-			callback: [: value | self validateTutorChange: value. self course addPrivilegedTutor: value.	];
+			callback: [: value | self addPrivilegedTutor: value];
 			onChange: (html scriptaculous updater
-									id: 'ptutorSelectorForm';
-									callback: [:r | self renderPrivilegedTutorSelectorsOn: r];
-									triggerForm: 'ptutorSelectorForm';
-									onStatus: 200 do: 'saveNotification("ptutorSelectorForm")');
-			selected: ''
+							id: 'privilegedTutorInfo';
+							callback: [:r | self renderContentOn: r];
+							triggerForm: 'selectedTutorForm';
+							onStatus: 200 do: 'saveNotification("ptutorSelectorForm")');
+			selected: '' ]

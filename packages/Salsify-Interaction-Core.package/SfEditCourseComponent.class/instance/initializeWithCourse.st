@@ -3,8 +3,6 @@ initializeWithCourse
 	self initializeRadioButtonTexts.
 	
 	self resetTutorSelectors.
-	"self resetPrivilegedTutorSelectors."
-	self privilegedTutorComponent: SfPrivilegedTutorSelectorComponent new. 
-	self privilegedTutorComponent course: self course. 
+	self privilegedTutorComponent: (SfPrivilegedTutorSelectorComponent newWithCourse: self course).
 	self resetTopicPoolEditors.
 	self resetAssignmentEditors

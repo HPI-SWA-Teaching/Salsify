@@ -1,6 +1,6 @@
 rendering
 initialize 
 	super initialize. 
-	self userList: OrderedCollection new. 
+      self nullUser: (SfUser new username: '').
 	self freeUserList: OrderedCollection new. 
-	self freeUserList add: (SfUser new username: '')
+	self freeUserList add: self nullUser.

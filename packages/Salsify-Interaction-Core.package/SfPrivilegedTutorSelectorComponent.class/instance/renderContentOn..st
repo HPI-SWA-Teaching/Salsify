@@ -1,3 +1,3 @@
 rendering
 renderContentOn:html 
-	html form id: 'ptutorSelectorForm'; with: [ self renderPrivilegedTutorSelectorsOn: html ]
+	html div id: 'privilegedTutorInfo'; with: [ self renderPrivilegedTutorSelectorsOn: html ]
