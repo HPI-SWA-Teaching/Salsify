@@ -41,4 +41,21 @@ width: 30px;
 height: auto;
 position: absolute;
 } 
+																
+span.priviligedTutorName {
+float: left;
+}
+
+div.priviligedTutors {
+margin-bottom: 3mm;
+}
+
+select.pgroupselect.select {
+min-width: 15em;
+padding: 2mm;
+}
+
+div#privilegedTutorInfo {
+margin: 3mm 2mm;
+}
 '

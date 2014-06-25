@@ -5,8 +5,9 @@ renderPrivilegedTutorSelectorsOn: html
 	self createAvailableUserList. 
 	self course privilegedTutors do: [ :each | idex:= idex + 1. 
 	html div 
-		class: 'privilegedTutors'; 
-		with: [ html span
+			class: 'priviligedTutors'; 
+			with: [  
+			 html span
 				class: 'priviligedTutorName'; 
 				with: [ html text: each]. 
 			    html 
@@ -29,7 +30,7 @@ renderPrivilegedTutorSelectorsOn: html
 			callback: [: value | self addPrivilegedTutor: value];
 			onChange: (html scriptaculous updater
 							id: 'privilegedTutorInfo';
-							callback: [:r | self renderContentOn: r];
+							callback: [:r | self renderPrivilegedTutorSelectorsOn: r];
 							triggerForm: 'selectedTutorForm';
 							onStatus: 200 do: 'saveNotification("ptutorSelectorForm")');
 			selected: '' ]

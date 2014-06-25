@@ -1,4 +1,4 @@
-as yet unclassified
+removing
 removePrivilegedTutor: aUsername 
 	|aUser| 
 	aUser := self privilegedTutors removeKey:  aUsername asSymbol ifAbsent: [self nullUser].
