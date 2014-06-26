@@ -1,3 +1,0 @@
-accessing
-topicList
-	^ topicList
