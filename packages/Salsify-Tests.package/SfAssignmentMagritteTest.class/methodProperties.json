@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"componentClass" : "sh 6/22/2014 10:22",
+		"setUp" : "sh 6/22/2014 10:22",
+		"tearDown" : "sh 6/22/2014 10:22",
+		"test01Running" : "sh 6/22/2014 10:21",
+		"test02GenerelleDeadlineIsPresent" : "sh 6/22/2014 12:10",
+		"test03TitelIsPresent" : "sh 6/22/2014 12:11",
+		"test04GruppendeadlinesIsPresent" : "sh 6/22/2014 12:11",
+		"test05HatGruppenspezifischeDeadlineIsPresent" : "sh 6/22/2014 12:12",
+		"test06AbgabeEinerGruppeIsPresent" : "sh 6/22/2014 12:12",
+		"test07AufgabenteileIsPresent" : "sh 6/22/2014 12:13" } }

@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"componentClass" : "sh 6/22/2014 10:19",
+		"setUp" : "sh 6/22/2014 09:08",
+		"tearDown" : "sh 6/22/2014 09:08",
+		"test01Running" : "sh 6/22/2014 09:08",
+		"test02PunkteIsPresent" : "sh 6/22/2014 09:56",
+		"test03TitelIsPresent" : "sh 6/22/2014 09:56",
+		"test04EndungenIsPresent" : "sh 6/22/2014 10:20" } }

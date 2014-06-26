@@ -1,0 +1,14 @@
+{
+	"category" : "Salsify-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"modelClass" ],
+	"name" : "SfRootTestComponent",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }
