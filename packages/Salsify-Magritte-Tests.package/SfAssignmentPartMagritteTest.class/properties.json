@@ -1,0 +1,14 @@
+{
+	"category" : "Salsify-Magritte-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SfAssignmentPartMagritteTest",
+	"pools" : [
+		 ],
+	"super" : "BPWebDriverTestCase",
+	"type" : "normal" }

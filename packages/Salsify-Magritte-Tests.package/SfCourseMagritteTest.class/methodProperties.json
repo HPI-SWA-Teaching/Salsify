@@ -1,0 +1,20 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"componentClass" : "sh 6/22/2014 11:56",
+		"setUp" : "sh 6/22/2014 11:55",
+		"tearDown" : "sh 6/22/2014 11:56",
+		"test01Running" : "sh 6/22/2014 11:55",
+		"test02TitelIsPresent" : "sh 6/22/2014 11:57",
+		"test03MailinglisteIsPresent" : "sh 6/22/2014 11:57",
+		"test04IstImSommerIsPresent" : "sh 6/22/2014 11:57",
+		"test05WebseiteIsPresent" : "sh 6/22/2014 11:58",
+		"test06VeroeffentlichtIsPresent" : "sh 6/22/2014 11:59",
+		"test07GruppenIsPresent" : "sh 6/22/2014 11:59",
+		"test08ThemenpoolIsPresent" : "sh 6/22/2014 12:01",
+		"test09TutorenIsPresent" : "sh 6/22/2014 12:00",
+		"test10PriviligierteTutorenIsPresent" : "sh 6/22/2014 12:04",
+		"test12JahrIsPresent" : "sh 6/22/2014 12:01",
+		"test13MaximaleGruppengroessenIsPresent" : "sh 6/22/2014 12:02",
+		"test14MaximaleGruppendeadlinePresent" : "sh 6/22/2014 12:02" } }
