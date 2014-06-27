@@ -1,6 +1,6 @@
 magritte
 descriptionEmail
-
+	<magritteDescription>
 	^MAStringDescription new 
 		selectorAccessor: #email;
 		label: 'E-Mail';

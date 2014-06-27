@@ -1,6 +1,6 @@
 magritte
 descriptionGitHubName
-
+	<magritteDescription>
 	^MAStringDescription new 
 		selectorAccessor: #gitHubName;
 		label: 'GitHubName';

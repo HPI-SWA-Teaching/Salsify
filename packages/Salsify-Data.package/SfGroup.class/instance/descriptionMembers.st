@@ -1,5 +1,6 @@
 magritte
 descriptionMembers
+	<magritteDescription>
 	^MAMultipleOptionDescription  new 
 		selectorAccessor: #members;
 		label: 'Gruppenmitglieder';

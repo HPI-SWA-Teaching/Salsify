@@ -9,7 +9,7 @@ baseline: spec
 			package: 'Salsify-Data' with: [ spec requires: #('Magritte')];
 			package: 'Salsify-Interaction-Core' with: [ spec requires: #('Salsify-Data' 'Seaside3' 'Zodiac')];
 			package: 'Salsify-Interaction-test' with: [ spec requires: #('Salsify-Interaction-Core' 'Parasol') ];
-			package: 'Salsify-Tests'  with: [spec requires: #('Salsify-Interaction-Core' 'Parasol')];
+			package: 'Salsify-Tests'  with: [spec requires: #('Salsify-Interaction-Core')];
 			package: 'Salsify-Magritte-Tests' with: [spec requires: #('Salsify-Data' 'Seaside3' 'Parasol')];
 			package: 'Salsify-TravisSupport' with: [ 
 				spec

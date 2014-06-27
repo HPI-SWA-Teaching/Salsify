@@ -1,5 +1,6 @@
 magritte
 descriptionNumber
+	<magritteDescription>
 	^MANumberDescription new 
 		selectorAccessor: #number;
 		label: 'Gruppennummer';
