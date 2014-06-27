@@ -3,7 +3,7 @@ renderSubmissionsForAssignment: anAssignment ofCourse: aSfCourse on: html
 	| groups |
 	groups := aSfCourse groups.
 	(self session user isAdmin  |
-	(self session user isPrivilegedTutorIn: self course))
+	(self session user isPrivilegedTutorIn: aSfCourse))
 		ifFalse: [groups := groups select: [:each | each tutors includes: (self session user)]].
 
 	anAssignment removeEmptyAssignmentParts.
