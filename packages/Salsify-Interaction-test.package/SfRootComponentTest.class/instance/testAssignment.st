@@ -1,7 +1,7 @@
 tests
 testAssignment
 
-self loginAsStudent.
+self loginAsJulia.
 self assertLoginSuccessful.
 self assert: (self isTextPresent: 'belegen').
 self enrollLink click.
