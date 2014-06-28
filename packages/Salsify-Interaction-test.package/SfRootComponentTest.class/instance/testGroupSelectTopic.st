@@ -7,7 +7,7 @@ testGroupSelectTopic
 	self selectTextfield sendKeys: 'Tetris'.
 	self logoutLink click.
 	
-	self loginAsStudent.
+	self loginAsJulia.
 	self assertLoginSuccessful.
 	self assert: (self isTextPresent: 'belegen').
 	self enrollLink click.
