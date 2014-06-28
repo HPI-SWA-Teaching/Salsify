@@ -4,7 +4,7 @@ descriptionTopic
 	^MAStringDescription new 
 		selectorAccessor: #topic;
 		label: 'Thema';
-		priority: 10;
+		priority: 90;
 		default: '';
 		yourself
 		

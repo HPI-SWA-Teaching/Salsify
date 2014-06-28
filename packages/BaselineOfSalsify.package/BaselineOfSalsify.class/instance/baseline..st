@@ -8,9 +8,10 @@ baseline: spec
 		spec
 			package: 'Salsify-Data' with: [ spec requires: #('Magritte')];
 			package: 'Salsify-Interaction-Core' with: [ spec requires: #('Salsify-Data' 'Seaside3' 'Zodiac')];
-			package: 'Salsify-Interaction-test' with: [ spec requires: #('Salsify-Interaction-Core' 'Parasol') ];
+			package: 'Salsify-Interaction-test' with: [ spec requires: #('Salsify-Interaction-Core') ];
 			package: 'Salsify-Tests'  with: [spec requires: #('Salsify-Interaction-Core')];
-			package: 'Salsify-Magritte-Tests' with: [spec requires: #('Salsify-Data' 'Seaside3' 'Parasol')];
+			package: 'Salsify-Magritte-Tests' with: [spec requires: #('Salsify-Data' 'Seaside3' 'Magritte')];
+			package: 'Salsify-Gemstoneport';
 			package: 'Salsify-TravisSupport' with: [ 
 				spec
 					requires: #('Salsify-Interaction-Core');
@@ -18,7 +19,7 @@ baseline: spec
 			yourself.
 		spec
 			group: 'default' with: #('Salsify-Interaction-Core');
-			group: 'Tests' with: #('Salsify-Interaction-test' 'Salsify-Tests' 'Salsify-Magritte-Tests');
+			group: 'Tests' with: #('Salsify-Tests');
 			group: 'TravisCI' with: #('Tests' 'Salsify-TravisSupport');
 			yourself.
 		"external projects"
@@ -35,13 +36,6 @@ baseline: spec
 				versionString: #stable;
 				repository: 'http://www.squeaksource.com/MetacelloRepository';
 				yourself];
-			project: 'Parasol' with: [
-				spec
-					className: 'ConfigurationOfParasol';
-					repository: 'http://ss3.gemtalksystems.com/ss/Parasol';
-					versionString: #development;
-					loads: #('dev');
-					yourself];
 			project: 'Magritte' with: [
 				spec
 					className: 'ConfigurationOfMagritte3';

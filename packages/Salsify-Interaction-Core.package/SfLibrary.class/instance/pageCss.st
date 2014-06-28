@@ -39,6 +39,16 @@ h1 img {
 	right: 2cm;
 }
 
+.report {
+	border-spacing: 3px;
+}
 
+.odd { 
+	background-color: rgb(216, 216, 216);
+}
+
+.even {
+	background-color: rgb(245, 245, 245);
+}
 
 '

@@ -1,8 +1,11 @@
 {
 	"class" : {
-		 },
+		"newWith:" : "sh 6/28/2014 08:00" },
 	"instance" : {
-		"initialize" : "fabiandumke 6/16/2014 18:33",
+		"groupReport" : "sh 6/28/2014 07:42",
+		"groupReport:" : "sh 6/28/2014 07:42",
+		"initialize" : "sh 6/28/2014 08:00",
+		"initializeGroupReport" : "sh 6/28/2014 11:05",
 		"renderAllTutorsOfCourseOn:" : "JasparMang 6/22/2014 10:53",
 		"renderContentOn:" : "JB 6/7/2014 11:20",
 		"renderCourseInfoBoxOn:" : "JB 6/4/2014 17:04",
@@ -10,7 +13,7 @@
 		"renderEnrollButtonOn:" : "JasparMang 6/22/2014 09:27",
 		"renderFreeTopicSelectorOn:" : "fm 7/16/2013 19:13",
 		"renderGroupAndTopicSelectorContainerOn:" : "JasparMang 6/22/2014 10:14",
-		"renderGroupInfosOn:" : "JasparMang 6/22/2014 10:14",
+		"renderGroupInfosOn:" : "sh 6/28/2014 07:48",
 		"renderGroupSelectorContainerOn:" : "fabiandumke 6/16/2014 18:28",
 		"renderHeadingOn:" : "fm 7/16/2013 17:56",
 		"renderMailinglistLinkOn:" : "fm 7/16/2013 18:02",
