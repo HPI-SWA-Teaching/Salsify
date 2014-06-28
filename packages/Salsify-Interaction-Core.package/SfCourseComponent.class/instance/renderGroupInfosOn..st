@@ -3,8 +3,7 @@ renderGroupInfosOn: html
 	(self session user isAdmin | 
 	(self session user isPrivilegedTutorIn: self course))
 		ifTrue: [	html listItem with: [html anchor 
-										callback: ["self session rootComponent showGroupOverviewComponentwith: self course"
-													 self session rootComponent showGroupOverviewComponentwith: self groupReport]; 
+										callback: [self session rootComponent showGroupOverviewComponentWith: self groupReport and: course]; 
 										with: [html text: 'Gruppenübersicht']].
 			html listItem with: [html anchor
 										callback: [self session rootComponent showAllGroupEditComponentwith: (self course)];

@@ -19,7 +19,7 @@ baseline: spec
 			yourself.
 		spec
 			group: 'default' with: #('Salsify-Interaction-Core');
-			group: 'Tests' with: #('Salsify-Tests');
+			group: 'Tests' with: #('Salsify-Tests' 'Salsify-Interaction-test' 'Salsify-Magritte-Tests');
 			group: 'TravisCI' with: #('Tests' 'Salsify-TravisSupport');
 			yourself.
 		"external projects"
