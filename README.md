@@ -86,5 +86,5 @@ newHPIProvider
 The easiest way to configure and start the webserver (port 8080) is by executing the following Script:
 
 ```Smalltalk
-BaselineOfSalsify travisPrepare.
+BaselineOfSalsify new travisPrepare.
 ```
