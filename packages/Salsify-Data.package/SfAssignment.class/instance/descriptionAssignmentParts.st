@@ -1,6 +1,6 @@
 magritte
 descriptionAssignmentParts
-
+	<magritteDescription>
 	^MAMultipleOptionDescription new
 		selectorAccessor: #assignmentParts;
 		label: 'Aufgabenteile';

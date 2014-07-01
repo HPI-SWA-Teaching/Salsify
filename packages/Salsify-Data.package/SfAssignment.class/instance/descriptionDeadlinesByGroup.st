@@ -1,10 +1,9 @@
 magritte
 descriptionDeadlinesByGroup
-
-	^MADateDescription new
+	<magritteDescription>
+	^MADateAndTimeDescription new
 		selectorAccessor: #deadlinesByGroup;
-		label: 'Gruppendeadline';
+		label: 'Gruppendeadlines';
 		priority: 10;
-		default: GROrderedMultiMap new;
-		beOrdered;
+		default: Date current;
 		yourself

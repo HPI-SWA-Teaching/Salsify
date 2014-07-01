@@ -1,5 +1,6 @@
 magritte
 descriptionTopicdescription
+	<magritteDescription>
 	^MAMemoDescription new 
 		selectorAccessor: #topicdescription;
 		label: 'Themenbeschreibung';

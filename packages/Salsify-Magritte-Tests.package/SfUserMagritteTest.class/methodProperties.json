@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"componentClass" : "sh 6/22/2014 10:16",
+		"setUp" : "sh 6/21/2014 13:57",
+		"tearDown" : "sh 6/21/2014 13:14",
+		"test01assertRunning" : "sh 6/21/2014 13:18",
+		"test02UsernameIsPresent" : "sh 6/22/2014 10:16",
+		"test03EmailIsPresent" : "sh 6/22/2014 10:17",
+		"test04GitHubNameIsPresent" : "sh 6/22/2014 09:55" } }

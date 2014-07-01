@@ -1,6 +1,6 @@
 magritte
 descriptionMailinglist
-
+	<magritteDescription>
 	^MAStringDescription new
 		selectorAccessor: #mailinglist;
 		label: 'Mailingliste';

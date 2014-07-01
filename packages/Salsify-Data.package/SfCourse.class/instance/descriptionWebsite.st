@@ -1,6 +1,6 @@
 magritte
 descriptionWebsite
-
+	<magritteDescription>
 	^MAStringDescription new
 		selectorAccessor: #website;
 		label: 'Webseite';

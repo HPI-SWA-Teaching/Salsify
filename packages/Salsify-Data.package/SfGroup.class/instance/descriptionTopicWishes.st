@@ -1,5 +1,6 @@
 magritte
 descriptionTopicWishes
+	<magritteDescription>
 	^MAMultipleOptionDescription  new 
 		selectorAccessor: #topicWishes;
 		label: 'Themenwünsche';

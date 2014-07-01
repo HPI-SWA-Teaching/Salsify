@@ -1,6 +1,6 @@
 magritte
 descriptionGenerallDeadline
-
+	<magritteDescription>
 	^MADateDescription new
 		selectorAccessor: #generalDeadline;
 		label: 'Generelle Deadline';

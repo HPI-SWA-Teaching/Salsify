@@ -1,5 +1,6 @@
-rendering
+initialization
 initialize 
 	super initialize. 
-	self privilegedTutors: OrderedCollection new. 
-	self userList: OrderedCollection new. 
+      self nullUser: (SfUser new username: '').
+	self availableUserList: OrderedCollection new. 
+	self availableUserList add: self nullUser.

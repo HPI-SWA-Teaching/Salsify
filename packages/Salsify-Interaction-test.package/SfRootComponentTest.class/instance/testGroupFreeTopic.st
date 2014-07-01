@@ -7,12 +7,12 @@ testGroupFreeTopic
 	self radioFreeBox click.
 	self logoutLink click.
 	
-	self loginAsStudent.
+	self loginAsJulia.
 	self assertLoginSuccessful.
 	self assert: (self isTextPresent: 'belegen').
 	self enrollLink click.
 	self assert: (self isTextPresent: 'belegt als Student.').
-	self courseLink click  .
+	self courseLink click.
 	self assert: (self isTextPresent: 'Themenwahl').
 	self textField sendKeys: 'Tetris'.
 	self textArea sendKeys: 'Ein tolles Spiel'.

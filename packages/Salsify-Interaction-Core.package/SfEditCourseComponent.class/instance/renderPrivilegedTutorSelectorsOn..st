@@ -1,3 +1,0 @@
-rendering
-renderPrivilegedTutorSelectorsOn: html
-	self privilegedTutorComponent renderPrivilegedTutorSelectorsOn: html

@@ -1,8 +1,9 @@
 as yet unclassified
-renderSubmissionsForAssignment: anAssignment ofCourse: aNDCourse on: html
+renderSubmissionsForAssignment: anAssignment ofCourse: aSfCourse on: html
 	| groups |
-	groups := aNDCourse groups.
-	self session user isAdmin 
+	groups := aSfCourse groups.
+	(self session user isAdmin  |
+	(self session user isPrivilegedTutorIn: aSfCourse))
 		ifFalse: [groups := groups select: [:each | each tutors includes: (self session user)]].
 
 	anAssignment removeEmptyAssignmentParts.

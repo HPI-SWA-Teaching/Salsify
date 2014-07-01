@@ -11,6 +11,7 @@ selectorsToInclude
 	#(courseEditorCss),
 	#(accountInfoCss),
 	#(submitCss),
+	#(materialCss),
 	
 	#(saveNotificationJs),
 	#(disableAutocompleteJs),

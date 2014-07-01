@@ -1,6 +1,6 @@
 magritte
 descriptionMaximumGroupSize
-
+	<magritteDescription>
 	^MANumberDescription new
 		selectorAccessor: #maximumGroupSize;
 		label: 'Maximale Gruppengrößen';

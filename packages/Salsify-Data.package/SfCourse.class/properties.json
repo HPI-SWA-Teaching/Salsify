@@ -20,7 +20,9 @@
 		"groupDeadline",
 		"maximumGroupSize",
 		"assignments",
-		"privilegedTutors" ],
+		"privilegedTutors",
+		"material",
+		"materialTitle" ],
 	"name" : "SfCourse",
 	"pools" : [
 		 ],

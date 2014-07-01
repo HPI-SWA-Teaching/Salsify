@@ -9,6 +9,7 @@ initialize
 		mailinglist: '';
 		tutors: OrderedCollection new;
 		privilegedTutors: OrderedCollection new;
+		material: Dictionary new; 
 		groups: OrderedCollection new;
 		maximumGroupSize: 4;
 		groupDeadline: Date tomorrow;

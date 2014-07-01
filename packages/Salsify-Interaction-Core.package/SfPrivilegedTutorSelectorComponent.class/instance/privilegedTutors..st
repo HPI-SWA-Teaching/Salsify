@@ -1,4 +1,3 @@
 accessing
-privilegedTutors: anObject
-
-	privilegedTutors := anObject
+privilegedTutors: anIdentityDictionary
+	privilegedTutors := anIdentityDictionary 

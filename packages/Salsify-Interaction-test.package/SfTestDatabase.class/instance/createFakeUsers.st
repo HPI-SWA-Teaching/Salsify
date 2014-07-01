@@ -3,6 +3,10 @@ createFakeUsers
 	| tempUser tutors |
 	tutors := OrderedCollection new.
 	self class clearUsers.
+	tempUser := SfUser new email: 'jaspar.mang'; identity: 'https://openid.hpi.uni-potsdam.de/user/jaspar.mang'; username: 'Jaspar Mang'.
+	self addUser: tempUser.
+	tempUser := SfUser new email: 'stephan.haarmann'; identity: 'https://openid.hpi.uni-potsdam.de/user/stephan.haarmann'; username: 'Stephan Haarmann'.
+	self addUser: tempUser.
 	tempUser := SfUser new email: 'florian.meinel'; identity: 'https://openid.hpi.uni-potsdam.de/user/florian.meinel'; username: 'Florian Meinel'.
 	self addUser: tempUser.
 	tutors add: tempUser.

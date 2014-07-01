@@ -1,5 +1,6 @@
 magritte
 descriptionTutors
+	<magritteDescription>
 	^MAMultipleOptionDescription  new 
 		selectorAccessor: #tutors;
 		label: 'Tutoren';

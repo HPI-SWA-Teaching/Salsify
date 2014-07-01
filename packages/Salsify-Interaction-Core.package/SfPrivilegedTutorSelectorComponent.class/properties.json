@@ -8,11 +8,8 @@
 	"instvars" : [
 		"course",
 		"nullUser",
-		"parent",
-		"selectedUser",
-		"userList",
-		"privilegedTutorSelectors",
-		"privilegedTutors" ],
+		"privilegedTutors",
+		"availableUserList" ],
 	"name" : "SfPrivilegedTutorSelectorComponent",
 	"pools" : [
 		 ],

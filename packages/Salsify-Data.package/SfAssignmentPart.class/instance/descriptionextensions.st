@@ -1,5 +1,6 @@
 magritte
 descriptionextensions
+	<magritteDescription>
 	| extension |
 	extension := OrderedCollection new.
 	extension add: '*'.

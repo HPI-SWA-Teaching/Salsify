@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"courseLink" : "sh 6/28/2014 14:32",
+		"groupLink" : "sh 6/28/2014 14:33",
+		"setUp" : "sh 6/28/2014 14:35",
+		"test01studentsArePresent" : "sh 6/28/2014 14:35",
+		"test02topicsArePresent" : "sh 6/28/2014 14:35" } }

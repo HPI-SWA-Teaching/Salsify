@@ -1,6 +1,6 @@
 magritte
 descriptionTopicPool
-
+	<magritteDescription>
 	^MAMultipleOptionDescription new
 		selectorAccessor: #topicPool;
 		label: 'Themenpool';

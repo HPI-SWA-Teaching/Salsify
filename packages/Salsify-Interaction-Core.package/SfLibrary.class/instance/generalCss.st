@@ -63,5 +63,21 @@ td.tableHeadingRow {
 	top: 10%;
 	right: -70%;
  }
+#plusButton {
+width: 3%;
+height: auto;
+}
+
+
+#closeButton {  
+width: 3%; 
+height: auto; 
+ }
+
+
+.title {
+	padding: 0px;
+	width: 6cm;
+}
 
 '
