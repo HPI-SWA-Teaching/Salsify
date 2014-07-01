@@ -1,0 +1,14 @@
+{
+	"category" : "Salsify-Data",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"title" ],
+	"name" : "SfMaterial",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
