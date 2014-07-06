@@ -1,3 +1,3 @@
-as yet unclassified
+displaying
 showLoginComponent
 	self contentComponent: SfOpenIDLoginComponent new

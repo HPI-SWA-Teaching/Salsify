@@ -1,4 +1,4 @@
-as yet unclassified
+creation
 createCourseAndShowEditor
 	| aCourse |
 	aCourse := self session database createEmptyCourse.
