@@ -1,11 +1,12 @@
 {
 	"class" : {
-		"newWith:" : "sh 6/28/2014 08:00" },
+		"newWith:" : "sh 7/6/2014 09:53" },
 	"instance" : {
 		"groupReport" : "sh 6/28/2014 07:42",
 		"groupReport:" : "sh 6/28/2014 07:42",
 		"initialize" : "sh 6/28/2014 08:00",
 		"initializeGroupReport" : "sh 6/28/2014 11:05",
+		"initializeStudentOverviewReport" : "sh 6/28/2014 15:03:54.655",
 		"renderAllTutorsOfCourseOn:" : "JasparMang 6/22/2014 10:53",
 		"renderContentOn:" : "JB 6/7/2014 11:20",
 		"renderCourseInfoBoxOn:" : "JB 6/4/2014 17:04",
@@ -19,7 +20,7 @@
 		"renderMailinglistLinkOn:" : "fm 7/16/2013 18:02",
 		"renderPickerTopicSelectorOn:" : "fm 7/16/2013 19:19",
 		"renderPickerTopicSelectorsContainerOn:" : "MalteMues 7/7/2013 00:06",
-		"renderStudentInfosOn:" : "JasparMang 6/22/2014 10:14",
+		"renderStudentInfosOn:" : "sh 7/6/2014 09:49",
 		"renderSubmitComponentOn:" : "JasparMang 6/22/2014 10:15",
 		"renderSubmitGradeComponentOn:" : "JasparMang 6/22/2014 09:30",
 		"renderTopicPoolOn:" : "fm 7/16/2013 18:19",
@@ -29,6 +30,8 @@
 		"renderTutorsOn:" : "JasparMang 6/22/2014 09:28",
 		"renderWebsiteLinkOn:" : "fm 7/16/2013 17:58",
 		"renderWishSelectorForWish:on:" : "fabiandumke 6/16/2014 18:32",
+		"studentReport" : "sh 6/28/2014 15:03:54.655",
+		"studentReport:" : "sh 6/28/2014 15:03:54.655",
 		"submitComponent" : "JB 6/7/2014 11:27",
 		"submitComponent:" : "JB 6/7/2014 11:27",
 		"submitGradeComponent" : "JB 6/7/2014 11:27",
