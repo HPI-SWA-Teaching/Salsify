@@ -1,0 +1,14 @@
+{
+	"category" : "Salsify-Interaction-test",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SfUploadMaterialComponentTest",
+	"pools" : [
+		 ],
+	"super" : "SfTestClass",
+	"type" : "normal" }

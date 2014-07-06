@@ -1,5 +1,5 @@
 as yet unclassified
-renderMaterialUploadsOn: html
+renderMaterialUploadsPrivilegedViewOn: html
 	|idex| 
 	idex := 0. 
 	html tableRow 
@@ -19,6 +19,5 @@ renderMaterialUploadsOn: html
 						with: [ html hiddenInput 
 				 		name: 'titleMaterial';
 						callback: [:val | self course removeMaterial: val]; 
-						value: key. 
-					((self session user isAdmin) | (self session user isPrivilegedTutorIn: self course))  ifTrue: [  
-					html tableData class: 'buttons'; with: [ html submitButton: 'Löschen' ]]]]]]
+						value: key.  
+					html tableData class: 'buttons'; with: [ html submitButton: 'Löschen' ]]]]]

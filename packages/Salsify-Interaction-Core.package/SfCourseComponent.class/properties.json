@@ -8,7 +8,9 @@
 	"instvars" : [
 		"submitComponent",
 		"submitGradeComponent",
-		"uploadMaterialComponent" ],
+		"groupReport",
+		"uploadMaterialComponent",
+		"studentReport" ],
 	"name" : "SfCourseComponent",
 	"pools" : [
 		 ],

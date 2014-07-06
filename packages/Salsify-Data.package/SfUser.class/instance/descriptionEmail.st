@@ -6,6 +6,6 @@ descriptionEmail
 		label: 'E-Mail';
 		priority: 20;
 		beRequired;
-		addCondition: [ :value |  value includes: '@']
+		addCondition: [ :value |  value includesSubstring: '@']
 		labelled: 'Die e-Mail ist ungültig.';
 		yourself

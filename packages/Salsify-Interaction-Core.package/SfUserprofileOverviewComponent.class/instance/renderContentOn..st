@@ -1,6 +1,6 @@
 rendering
 renderContentOn: html
-	self renderHeadingOn: html.
+	"self renderHeadingOn: html.
 	html 
 		div
 		class: 'courseInfoBox'; 
@@ -9,4 +9,4 @@ renderContentOn: html
 				with: [ self 
 						renderNameEditorOn: html;
 						renderEmailEditorOn: html;
-						renderGitHubEditorOn: html]] 
+						renderGitHubEditorOn: html]] " 
