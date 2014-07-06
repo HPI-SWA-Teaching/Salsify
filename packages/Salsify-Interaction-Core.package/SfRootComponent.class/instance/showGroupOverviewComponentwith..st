@@ -1,5 +1,5 @@
 as yet unclassified
-showGroupOverviewComponentWith: aMAReport and: aCourse
-	self contentComponent: aMAReport.
+showGroupOverviewComponentwith: aCourse
+	self contentComponent: (SfGroupOverviewComponent withCourse:  aCourse).
 	self breadCrumbComponent course: aCourse.
 	self breadCrumbComponent currentPageString: 'Gruppenübersicht'

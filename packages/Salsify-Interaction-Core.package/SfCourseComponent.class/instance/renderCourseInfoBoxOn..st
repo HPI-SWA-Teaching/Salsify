@@ -8,5 +8,6 @@ renderCourseInfoBoxOn: html
 				self renderTutorsOn: html.
 				self renderTopicPoolOn: html.
 				self renderGroupInfosOn: html.
-				self renderStudentInfosOn: html]
+				self renderStudentInfosOn: html.
+				self renderMaterialUploadOn: html. 																																																																																																																				]
 		

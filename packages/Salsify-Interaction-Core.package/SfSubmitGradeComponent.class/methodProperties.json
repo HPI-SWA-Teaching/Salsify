@@ -2,6 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
+		"course" : "JB 6/27/2014 18:26",
+		"course:" : "JB 6/27/2014 18:26",
 		"downloadFile:" : "JB 6/7/2014 11:29",
 		"renderCancelButtonFor:On:" : "JB 6/13/2014 18:46",
 		"renderDeadlineOfAssignment:forGroup:on:" : "JB 6/7/2014 11:45",

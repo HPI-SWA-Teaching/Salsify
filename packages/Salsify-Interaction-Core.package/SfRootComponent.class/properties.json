@@ -10,7 +10,8 @@
 		"logoutComponent",
 		"notificationComponent",
 		"breadCrumbComponent",
-		"userProfileComponent" ],
+		"userProfileComponent",
+		"uploadMaterialComponent" ],
 	"name" : "SfRootComponent",
 	"pools" : [
 		 ],
