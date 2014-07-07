@@ -1,7 +1,9 @@
 rendering
 renderAddCourseButtonOn: html
+	| course |
 	self session user isAdmin
 		ifTrue: [html anchor
-					callback: [self createCourseAndShowEditor];
+					callback: [course := self call: SfCourse new asComponent addValidatedForm.
+						course ifNotNil:[self session database addCourse: course]];
 					class: 'button bigButton';
-					with: 'Neue Lehrveranstaltung hinzufügen'.].
+					with: 'Neue Lehrveranstaltung hinzufügen'.]
