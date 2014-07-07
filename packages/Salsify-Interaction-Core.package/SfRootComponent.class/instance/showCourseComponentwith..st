@@ -1,4 +1,4 @@
-as yet unclassified
+displaying
 showCourseComponentwith: aCourse
 	self contentComponent: (SfCourseComponent newWith: aCourse).
 	self breadCrumbComponent course: aCourse.
