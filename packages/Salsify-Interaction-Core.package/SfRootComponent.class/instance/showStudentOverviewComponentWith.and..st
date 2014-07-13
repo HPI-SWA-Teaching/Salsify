@@ -1,4 +1,4 @@
-as yet unclassified
+displaying
 showStudentOverviewComponentWith: aMaReport and: aCourse
 	self session isLoggedIn 
 		ifTrue: [self contentComponent: aMaReport.

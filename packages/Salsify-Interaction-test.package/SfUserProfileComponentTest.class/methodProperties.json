@@ -2,15 +2,16 @@
 	"class" : {
 		"lastStoredRun" : "sh 6/14/2014 18:09" },
 	"instance" : {
-		"githubTextField" : "sh 5/31/2014 12:22",
-		"setUp" : "sh 5/31/2014 11:40",
-		"test01TestHeading" : "sh 5/31/2014 12:08",
-		"test02UserNameEqualsLoginName" : "sh 5/31/2014 12:08",
-		"test03EMailMatchesPerson" : "sh 5/31/2014 12:08",
+		"githubTextField" : "StephanHaarmann 7/13/2014 11:01",
+		"saveButton" : "StephanHaarmann 7/13/2014 11:02",
+		"setUp" : "StephanHaarmann 7/13/2014 11:16",
+		"test01TestHeading" : "StephanHaarmann 7/13/2014 10:46",
+		"test02UserNameEqualsLoginName" : "StephanHaarmann 7/13/2014 11:16",
+		"test03EMailMatchesPerson" : "StephanHaarmann 7/13/2014 11:17",
 		"test04GithubIsEmpty" : "sh 5/31/2014 12:24",
-		"test05SetGithubName" : "sh 5/31/2014 12:46",
-		"test06SetUsername" : "sh 5/31/2014 12:47",
-		"test07SetEmail" : "sh 5/31/2014 12:46",
+		"test05SetGithubName" : "StephanHaarmann 7/13/2014 11:17",
+		"test06SetUsername" : "StephanHaarmann 7/13/2014 11:17",
+		"test07SetEmail" : "StephanHaarmann 7/13/2014 11:18",
 		"test08TestMenuPoint" : "sh 6/28/2014 14:05",
-		"userEmailTextField" : "sh 5/31/2014 12:10",
-		"userNameTextField" : "sh 5/31/2014 12:10" } }
+		"userEmailTextField" : "StephanHaarmann 7/13/2014 11:00",
+		"userNameTextField" : "StephanHaarmann 7/13/2014 10:58" } }

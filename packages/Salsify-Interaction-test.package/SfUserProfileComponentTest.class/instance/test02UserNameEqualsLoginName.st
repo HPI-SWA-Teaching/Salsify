@@ -1,3 +1,3 @@
 testing
 test02UserNameEqualsLoginName
-	self assert: ((self userNameTextField getAttribute: 'value') = 'Robert Hirschfeld').
+	self assert: ((self userNameTextField getAttribute: 'value') = 'Tobias Pape').

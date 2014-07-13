@@ -1,4 +1,4 @@
-as yet unclassified
+displaying
 showCourseOverviewComponent
 	self session isLoggedIn 
 		ifTrue: [self contentComponent: SfCourseOverviewComponent new.

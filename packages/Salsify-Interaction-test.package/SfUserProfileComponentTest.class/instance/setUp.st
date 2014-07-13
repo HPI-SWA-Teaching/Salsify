@@ -1,5 +1,5 @@
 running
 setUp
 	super setUp.
-	self loginAsRobert.
+	self loginAsTobias.
 	(driver findElementByLinkText: 'Benutzerprofil anzeigen') click

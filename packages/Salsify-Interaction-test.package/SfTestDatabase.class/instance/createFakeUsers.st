@@ -21,5 +21,7 @@ createFakeUsers
 	self addUser: tempUser.
 	tempUser := SfUser new email: 'robert.hirschfeld'; identity: 'https://openid.hpi.uni-potsdam.de/user/robert.hirschfeld'; username: 'Robert Hirschfeld'.
 	self addUser: tempUser.
+	tempUser := SfUser new email: 'tobias.pape@hpi.uni-potsdam.de'; identity: 'https://openid.hpi.uni-potsdam.de/user/tobias.pape'; username: 'Tobias Pape'.
+	self addUser: tempUser.
 	^tutors
 	 

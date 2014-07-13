@@ -1,4 +1,4 @@
-as yet unclassified
+displaying
 showGroupOverviewComponentWith: aMAReport and: aCourse
 	self contentComponent: aMAReport.
 	self breadCrumbComponent course: aCourse.

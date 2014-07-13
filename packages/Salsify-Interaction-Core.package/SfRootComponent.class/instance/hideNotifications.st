@@ -1,3 +1,3 @@
-as yet unclassified
+state
 hideNotifications
 	self notificationComponent: nil

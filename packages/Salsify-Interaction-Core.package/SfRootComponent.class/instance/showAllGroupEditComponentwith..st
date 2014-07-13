@@ -1,4 +1,4 @@
-as yet unclassified
+displaying
 showAllGroupEditComponentwith: aCourse
 	self contentComponent: (SfAllGroupEditComponent new course: aCourse).
 	self breadCrumbComponent course: aCourse.

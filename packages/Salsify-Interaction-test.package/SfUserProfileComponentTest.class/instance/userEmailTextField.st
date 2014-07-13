@@ -1,3 +1,5 @@
 htmlElement-accessing
 userEmailTextField
-	^driver findElementByXPath: '//input[@id="emailInput"]'
+	| userEmailTextFieldID |
+	userEmailTextFieldID := (driver findElementByXPath: '//label[text()="E-Mail:"]') getAttribute: 'for'.
+	^driver findElementByXPath: '//input[@id="', userEmailTextFieldID, '"]'

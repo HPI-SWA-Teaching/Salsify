@@ -1,3 +1,5 @@
 htmlElement-accessing
 githubTextField
-	^driver findElementByXPath: '//input[@Id="gitHubNameInput"]'
+	| githubTextFieldID |
+	githubTextFieldID := (driver findElementByXPath: '//label[text()="GitHubName:"]') getAttribute: 'for'.
+	^driver findElementByXPath: '//input[@id="', githubTextFieldID, '"]'

@@ -1,3 +1,5 @@
 htmlElement-accessing
 userNameTextField
-	^driver findElementByXPath: '//input[@id="usernameInput"]'
+	| userNameTestFieldID |
+	userNameTestFieldID := (driver findElementByXPath: '//label[text()="Benutzername:"]') getAttribute: 'for'.
+	^driver findElementByXPath: '//input[@id="', userNameTestFieldID, '"]'

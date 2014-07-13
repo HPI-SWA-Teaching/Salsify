@@ -1,4 +1,4 @@
 testing
 test03EMailMatchesPerson
 	self assert: ((self userEmailTextField getAttribute: 'value') asLowercase
-				= 'robert.hirschfeld').
+				= 'tobias.pape@hpi.uni-potsdam.de').
