@@ -1,15 +1,15 @@
 {
 	"class" : {
-		"newWith:" : "sh 6/28/2014 08:00" },
+		"newWith:" : "JB 7/6/2014 12:14" },
 	"instance" : {
 		"groupReport" : "sh 6/28/2014 07:42",
 		"groupReport:" : "sh 6/28/2014 07:42",
 		"initialize" : "JB 7/6/2014 12:15",
 		"initializeGroupReport" : "StephanHaarmann 7/6/2014 13:08",
-		"initializeStudentOverviewReport" : "fabiandumke 7/6/2014 13:20",
+		"initializeStudentOverviewReport" : "StephanHaarmann 7/13/2014 09:29",
 		"renderAllTutorsOfCourseOn:" : "JasparMang 6/22/2014 10:53",
 		"renderContentOn:" : "JB 6/7/2014 11:20",
-		"renderCourseInfoBoxOn:" : "JB 6/4/2014 17:04",
+		"renderCourseInfoBoxOn:" : "JB 6/28/2014 10:38",
 		"renderEditCourseButtonOn:" : "JasparMang 6/22/2014 10:13",
 		"renderEnrollButtonOn:" : "JasparMang 6/22/2014 09:27",
 		"renderFreeTopicSelectorOn:" : "fm 7/16/2013 19:13",
@@ -18,7 +18,7 @@
 		"renderGroupSelectorContainerOn:" : "fabiandumke 6/16/2014 18:28",
 		"renderHeadingOn:" : "fm 7/16/2013 17:56",
 		"renderMailinglistLinkOn:" : "fm 7/16/2013 18:02",
-		"renderMaterialUploadOn:" : "sh 7/6/2014 10:01:08.247",
+		"renderMaterialUploadOn:" : "JB 6/28/2014 10:58",
 		"renderPickerTopicSelectorOn:" : "fm 7/16/2013 19:19",
 		"renderPickerTopicSelectorsContainerOn:" : "MalteMues 7/7/2013 00:06",
 		"renderStudentInfosOn:" : "JB 7/6/2014 12:18",
@@ -31,11 +31,11 @@
 		"renderTutorsOn:" : "JasparMang 6/22/2014 09:28",
 		"renderWebsiteLinkOn:" : "fm 7/16/2013 17:58",
 		"renderWishSelectorForWish:on:" : "fabiandumke 6/16/2014 18:32",
-		"studentReport" : "sh 6/28/2014 15:03:54.655",
-		"studentReport:" : "sh 6/28/2014 15:03:54.655",
+		"studentReport" : "sh 6/28/2014 12:33:04.953",
+		"studentReport:" : "sh 6/28/2014 12:33:04.953",
 		"submitComponent" : "JB 6/7/2014 11:27",
 		"submitComponent:" : "JB 6/7/2014 11:27",
 		"submitGradeComponent" : "JB 6/7/2014 11:27",
 		"submitGradeComponent:" : "JB 6/7/2014 11:27",
-		"uploadMaterialComponent" : "sh 7/6/2014 10:01:08.247",
-		"uploadMaterialComponent:" : "sh 7/6/2014 10:01:08.247" } }
+		"uploadMaterialComponent" : "JB 6/28/2014 10:40",
+		"uploadMaterialComponent:" : "JB 6/28/2014 10:40" } }
