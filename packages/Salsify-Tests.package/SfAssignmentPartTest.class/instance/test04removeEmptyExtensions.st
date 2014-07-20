@@ -5,6 +5,6 @@ test04removeEmptyExtensions
 	assignmentPart addExtension: ''.
 	assignmentPart addExtension: ''.
 	assignmentPart addExtension: 'a'.
-	self assert: (assignmentPart extensions size = 4).
+	self assert: (assignmentPart extensions size = 3).
 	assignmentPart removeEmptyExtensions.
-	self assert: (assignmentPart extensions = #('*' 'a') asOrderedCollection)
+	self assert: (assignmentPart extensions = #('a') asOrderedCollection)

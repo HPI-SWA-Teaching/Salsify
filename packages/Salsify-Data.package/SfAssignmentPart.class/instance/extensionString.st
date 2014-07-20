@@ -1,14 +1,5 @@
 extensionManaging
 extensionString
-	| nonEmptyExtensions extensionString |
-	
-	nonEmptyExtensions := (self extensions select: [:each | each ~= '']).
-	(nonEmptyExtensions isEmpty | nonEmptyExtensions includes: '*')
-		ifTrue: [^''].
-
-	extensionString := ''.
-	nonEmptyExtensions
-		do: [:each | extensionString := extensionString, each]
-		separatedBy: [extensionString := extensionString, ', '].
-	
-	^' (nur ', extensionString, ')'
+	(self extensions reject: [ :each | each = '']) isEmpty
+		ifTrue: [ ^'' ]
+		ifFalse: [ ^ self extensions inject: 'nur: ' into: [:string :each | string , ' ' , each ] ].

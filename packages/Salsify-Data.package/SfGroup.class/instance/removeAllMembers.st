@@ -1,3 +1,3 @@
 removing
 removeAllMembers
-	self members: OrderedCollection new
+	self members removeAll

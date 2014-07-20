@@ -5,7 +5,6 @@ renderSubmissionOfGroup: aGroup forAssignment: anAssignment on: html
 	
 	self renderGroup: aGroup on: html.
 	self renderDeadlineOfAssignment: anAssignment forGroup: aGroup on: html.
-	
 	submission 
 		ifNotNil: [submission isEmpty 
 					ifFalse: [self renderZipLinkForSubmission: submission ofAssignment: anAssignment forGroup: aGroup on: html]].
@@ -13,5 +12,5 @@ renderSubmissionOfGroup: aGroup forAssignment: anAssignment on: html
 				with: [anAssignment assignmentParts 
 							do: [: each | html listItem: [self renderFileLinksOfAssignmentPart: each fromSubmission: submission on: html. 
 						((anAssignment getDeadlineFor: aGroup) < Date current)
-	ifTrue: [ 
-								self renderGradingOfAssignmentPart: each on: html ]]]]
+	ifTrue: [ self renderGradingOfAssignmentPart: each andGroup: aGroup number andSubmission: submission on: html  ]																																						
+																																							]]]

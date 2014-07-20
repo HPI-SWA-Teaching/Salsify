@@ -1,3 +1,3 @@
 accessing
-extensions: anObject
-	extensions := anObject
+extensions: anOrderedCollection
+	extensions := anOrderedCollection

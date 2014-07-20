@@ -1,4 +1,4 @@
-magritte
+description
 descriptionMailinglist
 	<magritteDescription>
 	^MAStringDescription new

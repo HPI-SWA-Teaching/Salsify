@@ -1,4 +1,4 @@
-magritte
+description
 descriptionPrivilegedTutors
 	<magritteDescription>
 	^MAMultipleOptionDescription new

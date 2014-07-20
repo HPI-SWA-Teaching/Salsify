@@ -1,3 +1,3 @@
 accessing
-tutors: anObject
-	tutors := anObject
+tutors: anOrderedCollection
+	tutors := anOrderedCollection

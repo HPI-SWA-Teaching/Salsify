@@ -1,3 +1,3 @@
 accessing
-notificationComponent: anObject
-	notificationComponent := anObject
+notificationComponent: aWAComponent
+	notificationComponent := aWAComponent

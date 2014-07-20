@@ -1,4 +1,3 @@
 accessing
-uploadMaterialComponent: anObject
-
-	uploadMaterialComponent := anObject
+uploadMaterialComponent: aWAComponent
+	uploadMaterialComponent := aWAComponent

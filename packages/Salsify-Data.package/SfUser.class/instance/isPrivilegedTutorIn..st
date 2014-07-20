@@ -1,7 +1,3 @@
 testing
 isPrivilegedTutorIn: aCourse
-	aCourse privilegedTutors
-				detect: [:each | each = self]
-				ifNone: [^false].
-		^true
-	
+	^ aCourse privilegedTutors includes: self

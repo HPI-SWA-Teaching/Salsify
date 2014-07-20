@@ -1,3 +1,3 @@
 accessing
-deadlinesByGroup: anObject
-	deadlinesByGroup := anObject
+deadlinesByGroup: aGROrderedMultiMap
+	deadlinesByGroup := aGROrderedMultiMap

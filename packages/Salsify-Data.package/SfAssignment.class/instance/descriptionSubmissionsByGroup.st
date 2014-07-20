@@ -1,4 +1,4 @@
-magritte
+description
 descriptionSubmissionsByGroup
 	<magritteDescription>
 	^MAMultipleOptionDescription new

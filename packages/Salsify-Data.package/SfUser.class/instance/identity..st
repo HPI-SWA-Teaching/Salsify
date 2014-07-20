@@ -1,3 +1,3 @@
 accessing
-identity: anObject
-	identity := anObject
+identity: aString
+	identity := aString

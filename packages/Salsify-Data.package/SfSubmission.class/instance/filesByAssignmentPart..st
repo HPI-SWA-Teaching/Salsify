@@ -1,3 +1,3 @@
 accessing
-filesByAssignmentPart: anObject
-	filesByAssignmentPart := anObject
+filesByAssignmentPart: aGROrderedMultiMap
+	filesByAssignmentPart := aGROrderedMultiMap

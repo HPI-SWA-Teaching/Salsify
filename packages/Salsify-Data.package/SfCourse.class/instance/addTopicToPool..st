@@ -1,4 +1,4 @@
 adding
-addTopicToPool: aTopicString
-	self topicPool detect: [:each | each = aTopicString]
-					ifNone: [self topicPool add: aTopicString]
+addTopicToPool: aString
+	(self topicPool includes: aString) not
+		ifTrue: [self topicPool add: aString]

@@ -1,4 +1,4 @@
-as yet unclassified
+displaying
 showGroupOverviewComponentwith: aCourse
 	self contentComponent: (SfGroupOverviewComponent withCourse:  aCourse).
 	self breadCrumbComponent course: aCourse.

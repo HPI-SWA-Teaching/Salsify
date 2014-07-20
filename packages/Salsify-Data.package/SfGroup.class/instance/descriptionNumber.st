@@ -1,4 +1,4 @@
-magritte
+description
 descriptionNumber
 	<magritteDescription>
 	^MANumberDescription new 

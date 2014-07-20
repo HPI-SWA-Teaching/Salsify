@@ -1,4 +1,4 @@
 adding
-addTutor: aUser
-	(aUser isTutorIn: self)
-		ifFalse: [self tutors add: aUser]
+addTutor: aSfUser
+	(aSfUser isTutorIn: self) not
+		ifTrue: [self tutors add: aSfUser]

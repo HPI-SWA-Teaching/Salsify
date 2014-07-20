@@ -1,3 +1,3 @@
 accessing
-userProfileComponent: anObject
-	userProfileComponent := anObject
+userProfileComponent: aWAComponent
+	userProfileComponent := aWAComponent

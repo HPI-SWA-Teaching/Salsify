@@ -1,4 +1,4 @@
-magritte
+description
 descriptionWebsite
 	<magritteDescription>
 	^MAStringDescription new

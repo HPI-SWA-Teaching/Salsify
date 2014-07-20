@@ -1,4 +1,4 @@
-magritte
+description
 descriptionTopicWishes
 	<magritteDescription>
 	^MAMultipleOptionDescription  new 

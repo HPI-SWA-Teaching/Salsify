@@ -1,3 +1,3 @@
 accessing
-assignments: anObject
-	assignments := anObject
+assignments: aSfAssignment
+	assignments := aSfAssignment

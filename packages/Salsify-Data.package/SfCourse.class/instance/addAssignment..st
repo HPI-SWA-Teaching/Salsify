@@ -1,3 +1,3 @@
 adding
-addAssignment: anAssignment
-	self assignments add: anAssignment
+addAssignment: aSfAssignment
+	self assignments add: aSfAssignment

@@ -2,12 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addGroupEditorForGroup:" : "fabiandumke 6/16/2014 18:27",
+		"addGroupEditorForGroup:" : "StephanHaarmann 7/20/2014 11:30",
 		"course" : "jw 6/29/2013 13:48",
-		"course:" : "jw 6/29/2013 13:48",
+		"course:" : "StephanHaarmann 7/20/2014 11:30",
 		"groupEditors" : "jw 6/29/2013 13:48",
 		"groupEditors:" : "jw 6/29/2013 13:48",
 		"renderContentOn:" : "fm 7/16/2013 14:37",
 		"renderGroupEditorsOn:" : "fm 7/16/2013 14:37",
-		"renderHeadingOn:" : "fm 7/16/2013 14:37",
+		"renderHeadingOn:" : "StephanHaarmann 7/20/2014 11:33",
 		"resetGroupEditors" : "fm 7/15/2013 12:02" } }

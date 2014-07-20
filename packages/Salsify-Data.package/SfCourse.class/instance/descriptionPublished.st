@@ -1,4 +1,4 @@
-magritte
+description
 descriptionPublished
 	<magritteDescription>
 	^MABooleanDescription new

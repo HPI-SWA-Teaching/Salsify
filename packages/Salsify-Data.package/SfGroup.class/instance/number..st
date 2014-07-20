@@ -1,3 +1,3 @@
 accessing
-number: anObject
-	number := anObject
+number: anInteger
+	number := anInteger

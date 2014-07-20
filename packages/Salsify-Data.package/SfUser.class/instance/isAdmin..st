@@ -1,3 +1,3 @@
 accessing
-isAdmin: anObject
-	isAdmin := anObject
+isAdmin: aBoolean
+	isAdmin := aBoolean

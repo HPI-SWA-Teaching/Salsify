@@ -1,4 +1,4 @@
-magritte
+description
 descriptionUsername
 	<magritteDescription>
 	^MAStringDescription new 

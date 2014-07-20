@@ -1,3 +1,3 @@
 accessing
-studentIn: anObject
-	studentIn := anObject
+studentIn: aBag
+	studentIn := aBag

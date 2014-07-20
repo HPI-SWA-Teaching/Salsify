@@ -1,3 +1,3 @@
 accessing
-contentComponent: anObject
-	contentComponent := anObject
+contentComponent: aWAComponent
+	contentComponent := aWAComponent

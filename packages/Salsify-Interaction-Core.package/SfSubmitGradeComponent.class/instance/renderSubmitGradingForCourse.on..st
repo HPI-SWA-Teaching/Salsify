@@ -1,6 +1,5 @@
 as yet unclassified
-renderSubmitGradingForCourse: aNDCourse on: html.
-	
+renderSubmitGradingForCourse: aNDCourse on: html
 	aNDCourse removeEmptyAssignments.
 	(aNDCourse assignments isEmpty)
 		ifFalse: [

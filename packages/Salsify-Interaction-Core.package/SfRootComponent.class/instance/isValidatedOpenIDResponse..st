@@ -1,7 +1,7 @@
 openID
 isValidatedOpenIDResponse: aRequest
 "to be continued..."
-	| fields responseMessage |
+	| fields |
 	fields := aRequest url queryFields.
 	(fields at: 'openid.mode'
 		ifAbsent: [^false]) = 'check_authentication'

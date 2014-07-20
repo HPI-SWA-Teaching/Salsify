@@ -1,3 +1,3 @@
 accessing
-isInSummer: anObject
-	isInSummer := anObject
+isInSummer: aBoolean
+	isInSummer := aBoolean

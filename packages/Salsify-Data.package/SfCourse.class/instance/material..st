@@ -1,4 +1,3 @@
 accessing
-material: anObject
-
-	material := anObject
+material: aDictionary
+	material := aDictionary

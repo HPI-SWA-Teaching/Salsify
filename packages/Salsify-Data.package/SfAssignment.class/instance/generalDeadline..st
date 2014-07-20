@@ -1,3 +1,3 @@
 accessing
-generalDeadline: anObject
-	generalDeadline := anObject
+generalDeadline: aDate
+	generalDeadline := aDate
