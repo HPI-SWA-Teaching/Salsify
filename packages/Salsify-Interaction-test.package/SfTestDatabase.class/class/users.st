@@ -1,3 +1,3 @@
 as yet unclassified
-ndUsers
+users
 	^ Users ifNil: [Users := OrderedCollection new]

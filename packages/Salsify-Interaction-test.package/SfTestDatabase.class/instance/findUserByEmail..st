@@ -1,5 +1,5 @@
 as yet unclassified
 findUserByEmail: anEmail
-	^ self class ndUsers
+	^ self class users
 		detect: [:each | each email = anEmail]
 		ifNone: [nil]

@@ -1,3 +1,3 @@
 as yet unclassified
-ndUsers: anObject
+users: anObject
 	Users := anObject
