@@ -15,7 +15,7 @@ renderMaterialUploadsOn: html
 							callback: [self downloadFile: value];
 							with: [html text: value fileName]]. 
 					 html 
-						form id: 'uploadedMaterial', idex ; 
+						form id: 'uploadedMaterial', idex asString ; 
 						with: [ html hiddenInput 
 				 		name: 'titleMaterial';
 						callback: [:val | self course removeMaterial: val]; 
