@@ -1,3 +1,3 @@
 accessing
-groups: anObject
-	groups := anObject
+groups: anOrderedCollection
+	groups := anOrderedCollection

@@ -1,3 +1,3 @@
 accessing
-maximumGroupSize: anObject
-	maximumGroupSize := anObject
+maximumGroupSize: anInteger
+	maximumGroupSize := anInteger

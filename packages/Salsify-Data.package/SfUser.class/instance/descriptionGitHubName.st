@@ -1,4 +1,4 @@
-magritte
+description
 descriptionGitHubName
 	<magritteDescription>
 	^MAStringDescription new 

@@ -1,3 +1,3 @@
 accessing
-members: anObject
-	members := anObject
+members: aSfUser 
+	members := aSfUser

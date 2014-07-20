@@ -1,3 +1,3 @@
 accessing
-topicdescription: anObject
-	topicdescription := anObject
+topicdescription: aString
+	topicdescription := aString

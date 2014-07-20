@@ -4,4 +4,4 @@ test03removeExtension
 	assignmentPart := SfAssignmentPart new.
 	assignmentPart addExtension: '.txt'.
 	assignmentPart removeExtension: '.txt'.
-	self assert: (assignmentPart extensions = #('*') asOrderedCollection)
+	self assert: (assignmentPart extensions isEmpty)

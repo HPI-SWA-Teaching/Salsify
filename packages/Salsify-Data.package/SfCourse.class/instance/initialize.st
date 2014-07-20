@@ -1,5 +1,6 @@
 initialization
 initialize
+	super initialize.
 	 self 
 		title: 'Neue Lehrveranstaltung';
 		year: Year current year;
@@ -11,7 +12,7 @@ initialize
 		privilegedTutors: OrderedCollection new;
 		material: Dictionary new; 
 		groups: OrderedCollection new;
-		maximumGroupSize: 4;
+		maximumGroupSize: 5;
 		groupDeadline: Date tomorrow;
 		hasTopicpool: false;
 		hasTopics: false;

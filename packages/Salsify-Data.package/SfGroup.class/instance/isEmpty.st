@@ -1,3 +1,3 @@
-accessing
+testing
 isEmpty
 	^self members isEmpty

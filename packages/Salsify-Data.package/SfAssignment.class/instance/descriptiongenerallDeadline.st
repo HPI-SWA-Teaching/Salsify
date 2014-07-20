@@ -1,4 +1,4 @@
-magritte
+description
 descriptionGenerallDeadline
 	<magritteDescription>
 	^MADateDescription new

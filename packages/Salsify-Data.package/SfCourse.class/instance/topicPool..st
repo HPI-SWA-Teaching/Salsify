@@ -1,3 +1,3 @@
 accessing
-topicPool: anObject
-	topicPool := anObject
+topicPool: anOrderedCollection
+	topicPool := anOrderedCollection

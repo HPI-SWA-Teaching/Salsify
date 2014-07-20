@@ -1,4 +1,4 @@
-magritte
+description
 descriptionMaximumGroupSize
 	<magritteDescription>
 	^MANumberDescription new

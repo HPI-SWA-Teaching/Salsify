@@ -1,4 +1,3 @@
 accessing
-privilegedTutors: anObject
-
-	privilegedTutors := anObject
+privilegedTutors: anOrderedCollection
+	privilegedTutors := anOrderedCollection

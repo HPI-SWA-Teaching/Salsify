@@ -1,5 +1,6 @@
 initialization
 initialize
+	super initialize.
 	self
 		title: '';
 		submissionsByGroup: GROrderedMultiMap new;

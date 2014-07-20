@@ -1,3 +1,3 @@
 assignmentPartManaging
-addAssignmentPart: anAssignment
-	self assignmentParts add: anAssignment
+addAssignmentPart: aSfAssignment
+	self assignmentParts add: aSfAssignment

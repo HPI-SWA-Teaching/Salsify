@@ -1,7 +1,3 @@
 testing
 isInGroupOf: aUser inCourse: aCourse
-	| group |
-	group := aUser findGroupByCourse: aCourse.
-	group members detect: [:each | each = self]
-		ifNone: [^false].
-	^true
+	^ (self findGroupByCourse: aCourse) members includes: aUser

@@ -1,3 +1,3 @@
 accessing
-hasGroupSpecificDeadlines: anObject
-	groupDeadlines := anObject
+hasGroupSpecificDeadlines: aBoolean
+	groupDeadlines := aBoolean

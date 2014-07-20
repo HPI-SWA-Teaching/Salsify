@@ -1,3 +1,3 @@
 accessing
-submissionsByGroup: anObject
-	submissionsByGroup := anObject
+submissionsByGroup: aGROrderedMultiMap
+	submissionsByGroup := aGROrderedMultiMap

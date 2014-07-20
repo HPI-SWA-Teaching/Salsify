@@ -1,3 +1,3 @@
 accessing
-published: anObject
-	published := anObject
+published: aBoolean
+	published := aBoolean

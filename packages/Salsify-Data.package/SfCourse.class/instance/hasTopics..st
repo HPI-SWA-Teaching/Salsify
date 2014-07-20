@@ -1,3 +1,3 @@
 accessing
-hasTopics: anObject
-	hasTopics := anObject
+hasTopics: aBoolean
+	hasTopics := aBoolean

@@ -1,5 +1,5 @@
-magritte
-descriptionTopicdescription
+description
+descriptionTopicDescription
 	<magritteDescription>
 	^MAMemoDescription new 
 		selectorAccessor: #topicdescription;

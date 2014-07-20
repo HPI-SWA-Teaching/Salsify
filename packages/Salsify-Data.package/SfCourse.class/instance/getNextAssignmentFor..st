@@ -1,14 +1,6 @@
 searching
 getNextAssignmentFor: aGroup
-	| minDate minAssignment |
-	
-	minDate := Date fromString: '9999-01-01'.
-	self removeEmptyAssignments.
-	self assignments 
-		do: [:each | | deadline |
-					deadline := each getDeadlineFor: aGroup.
-					deadline 
-						ifNotNil: [((deadline  < minDate) & (deadline >= Date current)) 
-									ifTrue: [minDate := deadline. 
-											minAssignment := each]]].
-	^minAssignment
+	| nextDate |
+	nextDate := ((self assignments select: [:each | each getDeadlineFor: aGroup >= Date current])
+		 collect: [ :each | each getDeadlineFor: aGroup ]) min.
+	^ self assignments detect: [ :each | each = nextDate ]
