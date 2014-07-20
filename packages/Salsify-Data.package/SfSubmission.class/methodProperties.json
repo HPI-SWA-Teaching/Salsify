@@ -9,5 +9,9 @@
 		"getAllAsZipArchive" : "JB 5/30/2014 20:06",
 		"getFilesByAssignmentPart:" : "fm 6/26/2013 17:42",
 		"getMostRecentFileByAssignmentPart:" : "fm 7/15/2013 15:20",
-		"initialize" : "MalteMues 7/10/2013 23:40",
-		"isEmpty" : "fm 6/30/2013 10:07" } }
+		"getPointsByAssignmentPart:" : "JB 7/20/2014 13:35",
+		"initialize" : "JB 7/20/2014 13:50",
+		"isEmpty" : "fm 6/30/2013 10:07",
+		"pointsByAssignmentPart" : "JB 7/20/2014 13:32",
+		"pointsByAssignmentPart:" : "JB 7/20/2014 13:32",
+		"savePoints:ForAssignmentPart:" : "JB 7/20/2014 13:35" } }
