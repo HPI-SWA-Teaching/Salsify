@@ -6,12 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"number",
 		"tutors",
 		"members",
 		"topic",
 		"topicdescription",
-		"topicWishes" ],
+		"topicWishes",
+		"number" ],
 	"name" : "SfGroup",
 	"pools" : [
 		 ],

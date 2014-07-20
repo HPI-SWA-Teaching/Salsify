@@ -1,3 +1,3 @@
 accessing
-website: anObject
-	website := anObject
+website: aString
+	website := aString

@@ -1,4 +1,4 @@
 adding
 addTutor: aTutor
-	self tutors detect: [:each | each = aTutor] 
-		ifNone: [self tutors add: aTutor]
+	(self tutors includes: aTutor) not
+		ifTrue: [ self tutors add: aTutor ]

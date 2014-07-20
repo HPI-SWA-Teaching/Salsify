@@ -1,4 +1,4 @@
-magritte
+description
 descriptionHasGroupSpecificDeadlines
 	<magritteDescription>
 	^MABooleanDescription new

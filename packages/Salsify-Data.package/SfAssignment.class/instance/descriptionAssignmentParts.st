@@ -1,4 +1,4 @@
-magritte
+description
 descriptionAssignmentParts
 	<magritteDescription>
 	^MAMultipleOptionDescription new

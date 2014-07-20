@@ -1,3 +1,3 @@
 accessing
-mailinglist: anObject
-	mailinglist := anObject
+mailinglist: aString
+	mailinglist := aString

@@ -4,7 +4,7 @@
 	"instance" : {
 		"test01addAndRemoveAssignment" : "fabiandumke 6/16/2014 18:18",
 		"test02addandRemoveGroup" : "fabiandumke 6/16/2014 18:16",
-		"test03addAndRemoveTutor" : "fabiandumke 6/16/2014 18:18",
+		"test03addAndRemoveTutor" : "lf 7/20/2014 12:46",
 		"test04addAndRemovePrivilegedTutor" : "sh 6/27/2014 21:19",
 		"test05addAndRemoveStudent" : "fabiandumke 6/16/2014 18:18",
 		"test06StudentsAreAddedInDifferentGroups" : "fabiandumke 6/16/2014 18:18",

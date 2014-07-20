@@ -4,4 +4,4 @@ test02addMutlipleExtensions
 	assignmentPart := SfAssignmentPart new.
 	assignmentPart addExtension: '.txt'.
 	assignmentPart addExtension: '.zip'.
-	self assert: (assignmentPart extensions asBag = #('*' '.txt' '.zip') asBag)
+	self assert: (assignmentPart extensions = #('.txt' '.zip') asOrderedCollection)

@@ -1,3 +1,3 @@
 accessing
-topicWishes: anObject
-	topicWishes := anObject
+topicWishes: aDictionary
+	topicWishes := aDictionary

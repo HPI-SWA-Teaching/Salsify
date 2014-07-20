@@ -1,4 +1,4 @@
-magritte
+description
 descriptionTopic
 	<magritteDescription>
 	^MAStringDescription new 

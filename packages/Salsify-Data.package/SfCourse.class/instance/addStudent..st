@@ -1,3 +1,3 @@
 adding
-addStudent: aUser
-	self addGroup: (SfGroup new addMember: aUser)
+addStudent: aSfUser
+	self addGroup: (SfGroup new addMember: aSfUser)

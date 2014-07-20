@@ -1,3 +1,3 @@
 submissionManaging
-getSubmissionByGroup: aGroup
-	^self submissionsByGroup at: aGroup ifAbsent: [nil]
+getSubmissionByGroup: aSfGroup
+	^self submissionsByGroup at: aSfGroup ifAbsent: [nil]

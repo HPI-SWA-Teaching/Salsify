@@ -1,4 +1,4 @@
 adding
-addGroup: aGroup
-	self groups add: aGroup.
+addGroup: aSfGroup
+	self groups add: aSfGroup.
 	self setGroupNumbers

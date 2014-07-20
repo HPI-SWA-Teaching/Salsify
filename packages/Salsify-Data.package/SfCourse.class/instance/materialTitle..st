@@ -1,4 +1,3 @@
 accessing
-materialTitle: anObject
-
-	materialTitle := anObject
+materialTitle: aString
+	materialTitle := aString

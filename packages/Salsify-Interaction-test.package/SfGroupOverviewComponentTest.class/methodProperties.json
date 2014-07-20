@@ -6,4 +6,5 @@
 		"groupLink" : "sh 6/28/2014 14:33",
 		"setUp" : "sh 6/28/2014 14:35",
 		"test01studentsArePresent" : "sh 6/28/2014 14:35",
-		"test02topicsArePresent" : "sh 6/28/2014 14:35" } }
+		"test02topicsArePresent" : "sh 6/28/2014 14:35",
+		"test03mailtoLinksArePresent" : "StephanHaarmann 7/20/2014 13:10" } }

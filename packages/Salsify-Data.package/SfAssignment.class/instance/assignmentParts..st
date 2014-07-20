@@ -1,3 +1,3 @@
 accessing
-assignmentParts: anObject
-	assignmentParts := anObject
+assignmentParts: anOrderedCollection
+	assignmentParts := anOrderedCollection

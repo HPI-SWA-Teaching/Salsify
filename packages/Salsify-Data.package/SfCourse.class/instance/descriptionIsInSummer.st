@@ -1,4 +1,4 @@
-magritte
+description
 descriptionIsInSummer
 	<magritteDescription>
 	^MABooleanDescription new

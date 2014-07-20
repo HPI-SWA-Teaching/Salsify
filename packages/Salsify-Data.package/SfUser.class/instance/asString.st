@@ -1,3 +1,3 @@
 accessing
 asString 
-	^self username
+	^ self username

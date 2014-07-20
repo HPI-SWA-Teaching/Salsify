@@ -1,4 +1,4 @@
-magritte
+description
 descriptionMembers
 	<magritteDescription>
 	^MAMultipleOptionDescription  new 

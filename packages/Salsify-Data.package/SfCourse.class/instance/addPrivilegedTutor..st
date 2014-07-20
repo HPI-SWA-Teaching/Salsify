@@ -1,4 +1,4 @@
 adding
-addPrivilegedTutor: aUser
-	(aUser isPrivilegedTutorIn: self) 
-	ifFalse: [self privilegedTutors add: aUser]
+addPrivilegedTutor: aSfUser
+	(aSfUser isPrivilegedTutorIn: self) not
+		ifTrue: [self privilegedTutors add: aSfUser]

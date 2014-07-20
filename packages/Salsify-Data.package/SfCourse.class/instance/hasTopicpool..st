@@ -1,3 +1,3 @@
 accessing
-hasTopicpool: anObject
-	hasTopicpool := anObject
+hasTopicpool: aBoolean
+	hasTopicpool := aBoolean
