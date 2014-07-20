@@ -3,4 +3,5 @@ addGroupEditorForGroup: aGroup
 	self groupEditors add: (SfGroupEditComponent new  
 								group: aGroup;
 								course: self course;
-								parent: self)
+								parent: self;
+								yourself)

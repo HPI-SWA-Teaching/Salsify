@@ -1,3 +1,3 @@
 accessing
-breadCrumbComponent: anObject
-	breadCrumbComponent := anObject
+breadCrumbComponent: aWACompnent
+	breadCrumbComponent := aWACompnent

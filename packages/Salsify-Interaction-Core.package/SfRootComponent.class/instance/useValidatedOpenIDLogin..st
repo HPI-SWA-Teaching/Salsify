@@ -1,6 +1,6 @@
 openID
 useValidatedOpenIDLogin: aRequest
-	| user queryFields authenticationResponse|
+	| user queryFields authenticationResponse |
 	queryFields := aRequest url queryFields.
 	
 	authenticationResponse := ZnOpenIDAuthResponse newFromDictionary: queryFields.

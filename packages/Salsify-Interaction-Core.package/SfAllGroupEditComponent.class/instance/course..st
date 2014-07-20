@@ -1,3 +1,3 @@
 accessing
-course: anObject
-	course := anObject
+course: aCourse
+	course := aCourse

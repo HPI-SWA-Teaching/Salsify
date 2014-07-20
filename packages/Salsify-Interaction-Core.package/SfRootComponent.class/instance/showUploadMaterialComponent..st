@@ -1,4 +1,4 @@
-as yet unclassified
+displaying
 showUploadMaterialComponent: aSfCourse
 	self contentComponent: SfUploadMaterialComponent new. 
 	self contentComponent course: aSfCourse.

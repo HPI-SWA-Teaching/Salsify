@@ -1,3 +1,3 @@
 accessing
-logoutComponent: anObject
-	logoutComponent := anObject
+logoutComponent: aWAComponent
+	logoutComponent := aWAComponent
