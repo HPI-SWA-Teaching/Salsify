@@ -1,3 +1,3 @@
 as yet unclassified
 allStudents
-	^self class ndUsers select: [:each | each isAdmin not]
+	^self class users select: [:each | each isAdmin not]
