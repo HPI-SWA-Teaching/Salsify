@@ -88,3 +88,16 @@ The easiest way to configure and start the webserver (port 8080) is by executing
 ```Smalltalk
 BaselineOfSalsify new travisPrepare.
 ```
+
+Committed changes to previous release:
+- userprofile overview: you can see and edit your personal data, such as your e-mail address, name and github account
+- material upload: you as an instructor can now share your class material, so that the students can see and download it
+- grading of submissions: you as an instructor or tutor can grade uploaded submissions for the assignments of the students.
+- privileged tutor: introduced a new user role privileged tutor, who as the same rights as the instructor for one specific course
+- student list: you as an instructor can see a list of all students inrolled in your course
+- deletion of submissions: you as student can delete your uploaded submissions
+- magritte: added descriptions, reports and some forms
+- tests: added unit tests (57% test coverage) and acceptance tests
+- travis: most of the tests pass on travis
+- failures: fixed some defects
+- ported from pharo 1.3 to pharo 2.0
