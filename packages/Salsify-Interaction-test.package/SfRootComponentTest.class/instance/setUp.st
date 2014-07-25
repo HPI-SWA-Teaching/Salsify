@@ -1,4 +1,6 @@
 running
 setUp
-	"BPRemoteWebDriver serverPort: 8081."
-	super setUp.
+	SfOpenIDLoginComponent debug: true.
+	super setUp
+	
+	

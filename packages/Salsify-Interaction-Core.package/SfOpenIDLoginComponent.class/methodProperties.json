@@ -1,12 +1,13 @@
 {
 	"class" : {
-		 },
+		"debug:" : "StephanHaarmann 7/25/2014 16:16",
+		"isDebug" : "StephanHaarmann 7/25/2014 16:18" },
 	"instance" : {
 		"loginAsRobert" : "JB 6/15/2014 11:18",
-		"openIDLogin:" : "fm 7/17/2013 16:32",
+		"openIDLogin:" : "StephanHaarmann 7/25/2014 16:04",
 		"password" : "fm 7/16/2013 17:25",
 		"password:" : "fm 7/16/2013 17:25",
-		"renderContentOn:" : "fm 7/16/2013 17:25",
+		"renderContentOn:" : "StephanHaarmann 7/25/2014 16:16",
 		"renderDatabaseResetButtonsOn:" : "fm 7/15/2013 14:25",
 		"renderDebugLoginFormOn:" : "sh 6/16/2014 20:56",
 		"renderDebugLoginShortcutsOn:" : "JB 6/15/2014 11:17",

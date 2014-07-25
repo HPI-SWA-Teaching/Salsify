@@ -1,13 +1,14 @@
 {
 	"category" : "Salsify-Interaction-Core",
 	"classinstvars" : [
-		 ],
+		"debug" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
 		"username",
-		"password" ],
+		"password",
+		"debug" ],
 	"name" : "SfOpenIDLoginComponent",
 	"pools" : [
 		 ],

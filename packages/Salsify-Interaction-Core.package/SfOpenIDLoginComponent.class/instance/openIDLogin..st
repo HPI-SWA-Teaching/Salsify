@@ -14,8 +14,8 @@ openIDLogin: html
 										 request ns: request class nsOpenId2;
 										 claimedId: request class selectId;
 										 identity: request class selectId.
-										 request realm: NDLibrary domainString.
+										 request realm: SfLibrary domainString.
 										 request axRequestNamesAndEmail.
-										 request returnTo: NDLibrary pathString]);
+										 request returnTo: SfLibrary pathString]);
 		respond
 		"(the response from openID goes to our RootComponent)"
