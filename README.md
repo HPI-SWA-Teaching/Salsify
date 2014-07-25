@@ -96,6 +96,7 @@ BaselineOfSalsify new travisPrepare.
 - privileged tutor: introduced a new user role privileged tutor, who as the same rights as the instructor for one specific course
 - student list: you as an instructor can see a list of all students inrolled in your course
 - deletion of submissions: you as student can delete your uploaded submissions
+- e-mail link to all tutors: you as an instrcutor have an e-mail link to all tutors
 - magritte: added descriptions, reports and some forms
 - tests: added unit tests (57% test coverage) and acceptance tests
 - travis: most of the tests pass on travis
