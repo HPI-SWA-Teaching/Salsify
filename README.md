@@ -89,7 +89,7 @@ The easiest way to configure and start the webserver (port 8080) is by executing
 BaselineOfSalsify new travisPrepare.
 ```
 
-Committed changes to previous release:
+## Committed changes to previous release:
 - userprofile overview: you can see and edit your personal data, such as your e-mail address, name and github account
 - material upload: you as an instructor can now share your class material, so that the students can see and download it
 - grading of submissions: you as an instructor or tutor can grade uploaded submissions for the assignments of the students.
