@@ -4,5 +4,6 @@ resetDatabase
 	tutors := self createFakeUsers.
 	self createFakeCourses: tutors.
 	self createFakeOccupancy.
-	self createFakeTopics
+	self createFakeTopics.
+	self createFakeSubmission
 	

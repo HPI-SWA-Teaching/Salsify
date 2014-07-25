@@ -16,12 +16,13 @@ createFakeCourses
 	self addCourse: aCourse.
 	aCourse := SfCourse new
 			title: 'Softwaretechnik';
-			year: 2013;
+			year: 2014;
 			isInSummer: true;
-			mailinglist: 'swt13hpi.uni-potsdam.de';
-			website: 'http://www.hpi.uni-potsdam.de/studium/lehrangebot/itse/veranstaltung/software_architektur-1.html';
+			mailinglist: 'swt14hpi.uni-potsdam.de';
+			website: 'http://www.hpi.uni-potsdam.de/studium/lehrangebot/itse/veranstaltung/software_technik-1.html';
 			published: true;
-			addTutor: (self users detect: [ :each | each username = 'Lukas Faber' ]).
+			addTutor: (self class users detect: [:each | each username = 'Lukas Faber']).
 	self createFakeAssignment: aCourse.
-	aCourse groups do: [ :groups | groups addTutor: (aCourse tutors detect: [ :each | each username = 'Lukas Faber' ]) ].
+	aCourse groups do: [ :groups | groups addTutor: (aCourse tutors detect: [:each | each username = 'Lukas Faber' ])].
+	aCourse groupDeadline: Date yesterday.
 	self addCourse: aCourse.

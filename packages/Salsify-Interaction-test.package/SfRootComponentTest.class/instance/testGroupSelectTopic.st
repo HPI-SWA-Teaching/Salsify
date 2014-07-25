@@ -12,7 +12,7 @@ testGroupSelectTopic
 	self assert: (self isTextPresent: 'belegen').
 	self enrollLink click.
 	self assert: (self isTextPresent: 'belegt als Student.').
-	self courseLink click  .
+	self courseLink click.
 	self assert: (self isTextPresent: 'Themenwahl').
 	self groupSelector click. 
 	self topicOption click.
