@@ -101,4 +101,5 @@ BaselineOfSalsify new travisPrepare.
 - travis: most of the tests pass on travis
 - failures: fixed some defects
 - wrote a docummentation of the system describing its architectual concepts
+- wrote an installation guideline
 - ported from pharo 1.3 to pharo 2.0
