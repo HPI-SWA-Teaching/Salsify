@@ -100,4 +100,5 @@ BaselineOfSalsify new travisPrepare.
 - tests: added unit tests (57% test coverage) and acceptance tests
 - travis: most of the tests pass on travis
 - failures: fixed some defects
+- wrote a docummentation of the system describing its architectual concepts
 - ported from pharo 1.3 to pharo 2.0
