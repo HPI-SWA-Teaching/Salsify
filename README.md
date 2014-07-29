@@ -1,6 +1,6 @@
-*An open source Course Mangement System based on Seaside.*
+*An open source Course Management System based on Seaside.*
 
-# Salsify - SWTI2014-Project-15
+# Salsify
 [![Build Status](https://travis-ci.org/SWTI2014/SWTI2014-Project-15.svg)](https://travis-ci.org/SWTI2014/SWTI2014-Project-15)
 
 ## Installation
