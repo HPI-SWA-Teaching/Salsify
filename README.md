@@ -1,7 +1,7 @@
 *An open source Course Management System based on Seaside.*
 
 # Salsify
-[![Build Status](https://travis-ci.org/SWTI2014/Salsify.svg)](https://travis-ci.org/SWTI2014/Salsify)
+[![Build Status](https://travis-ci.org/HPI-SWA-Teaching/Salsify.svg)](https://travis-ci.org/HPI-SWA-Teaching/Salsify)
 
 ## Installation
 ### The Environment
