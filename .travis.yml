@@ -1,7 +1,7 @@
 language: erlang
 env:
   matrix:
-  - ST=Pharo-2.0 SCREENSHOT=30
+  - ST=Pharo-2.0 # SCREENSHOT=60
   #global:
   #- secure: mRX49i/sLNJc7U8SlA3wKFc64BA0ejcLmN7Rn0PWtOlpzLCf33yXVTabL/z4dJU3nCNC1STWJWJVVDhEHk68sHbTbmX1tDrarSlq+lyNIAAnQC5lX5IR86XObMGnFwildcRU8KFZOYP6hkWnWwMyKK3JN2Sl8rjjYX18OYCEDmc=
   #- secure: auhH1BX2uUlFK6NT3dl4Ad4UEVLKiJSGOk0XohYhGokzvVExaqC02eLQ/ixMpuZCKmcA7qq7Ew7Svj8IZfbWbF5cWV3ycVPciSy2DTdGh2r2cT9JHtozOFML6sbwMAiqkvPKeiwvrlMZpDVq0wBC5iQ83zqhngCqmHS5AC8fjvM=
@@ -14,10 +14,10 @@ before_install:
 install:
   - export PROJECT_HOME="$(pwd)"
   - cd $HOME
-  - wget -q -O builderCI.zip https://github.com/SWTI2014/builderCI/zipball/master
+  - wget -q -O builderCI.zip https://github.com/dalehenrich/builderCI/archive/v1.0.0.zip
   - wget http://selenium.googlecode.com/files/selenium-server-standalone-2.32.0.jar
   - unzip -q builderCI.zip
-  - cd SWTI2014-builderCI*
+  - cd builderCI-*
   - source build_env_vars
   - ln -s $PROJECT_HOME $GIT_PATH
   - "./build_image.sh"
@@ -29,6 +29,4 @@ before_script:
 
 # use a different script if you want to customize how travis tests are run
 # use verbose flag to dump transcript unconditionally
-script: $BUILDER_CI_HOME/testTravisCI.sh -verbose
-script:
-  - "$BUILDER_CI_HOME/testTravisCI.sh -verbose"
+script: $BUILDER_CI_HOME/testTravisCI.sh -verbose 
